@@ -18,3 +18,29 @@ This project is a work in progress and I welcome any help. Check out the phases 
 
 All contributions will require a pull request. Please be respectful of everyone and don't submit spammy PRs. This is a translation app, but we don't just want Google translate - we can get that from Google. We need to accurately be able to tranlate dietary requirements and allergies so that people don't get sick, or worse. Google translate does a  good job, but it's not perfect.
 
+## Project stages
+
+The project will run in a few stages. Any help along the way is appreciated.
+
+### Phase 1 - Building the Database
+
+Firstly, to get this underway I need to build the database.
+
+It will consist of the dietary groups such as "dairy, gluten, vegan, vegetarian" etc. The database will also include individual foods, such as pistachio, cashews, banana, mango, potato, etc. I am also wanting to including things like "also known as"; for example, rockmelon and cantelope. The database should also include groups such as tree nuts, meat, etc. which can be assigned to each of the individual foods.
+
+Once the basic database is there, we need people with authority (ie. people who know the language) to translate it into other languages.
+
+### Phase 2 - Translate
+
+Now we'll need to build the app capability to actual translate the database. Users should be able to submit their data in two ways:
+
+- tick boxes (ie. gluten free)
+- text dump
+
+Once the user has submitted the data, they should get a result back in their desired language. This can be shown on the screen as text.
+
+### Phase 3 - Beautify and export
+
+People will want to be able to export their translations into cute cards. There should be a blank card as well as a couple of basic artistic styles to choose from. Users should be able to change the font colour and size and finally export their image as a *.png, *.jpeg, *.pdf.
+
+I'll also take any other crazy ideas too - put them in the issue (to be opened)
