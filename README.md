@@ -16,6 +16,8 @@ I have a lot of dietary restrictions, and EVERY time I travel, I get into situat
 
 After talking (mostly constructively complaining) about this issue, I discovered I wasn't alone. So we came up with this idea to help us all while we travel. I wanted to name it something cool, but everyone said "go with Mish Friendly Food". This stuck, especially since most of my community already call the food I eat "Mish-friendly". At one conference in particular, one of the organisers even thought "Mish friendly" was actually a dietary type, in the same way "vegan friendly" or "coealic friendly" is. This prompted us to have a website to cater to the "Mish friendly" search criteria, but also help all those people who - like me - struggle when I go travelling.
 
+![tea large](https://user-images.githubusercontent.com/36594527/195094366-2ddb3c86-3dac-45fd-aa16-aedcc67b75fb.png)
+
 ### Contribution Guidelines
 
 This project is a work in progress and I welcome any help. Check out the phases below and see how you might like to be involved.
