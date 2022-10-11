@@ -1,6 +1,6 @@
 name: This is a bug
 description: Tell me your bugs
-title: "[Bug]: "
+title: ":bug: [Bug]: <ADD YOUR BUG TITLE HERE>"
 labels: [bug, triage]
 assignees:
   - mishmanners
@@ -15,6 +15,6 @@ body:
       label: What happened?
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: 
+      value:
     validations:
       required: true
