@@ -20,7 +20,7 @@ After talking (mostly constructively complaining) about this issue, I discovered
 
 This project is a work in progress and I welcome any help. Check out the phases below and see how you might like to be involved.
 
-All contributions will require a pull request. Please be respectful of everyone and don't submit spammy PRs. This is a translation app, but we don't just want Google translate - we can get that from Google. We need to accurately be able to tranlate dietary requirements and allergies so that people don't get sick, or worse. Google translate does a  good job, but it's not perfect.
+All contributions will require a pull request. Please be respectful of everyone, and don't submit spammy PRs. This is a translation app, but we don't just want Google translate - we can get that from Google. We need to accurately be able to translate dietary requirements and allergies so that people don't get sick, or worse. Google translate does a  good job, but it's not perfect.
 
 ## Project stages
 
