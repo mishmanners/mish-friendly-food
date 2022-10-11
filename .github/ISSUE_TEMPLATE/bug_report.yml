@@ -1,14 +1,13 @@
 name: This is a bug
 description: Tell me your bugs
-title: "[Bug]: "
+title: ":bug: [Bug]: <ADD TITLE HERE>"
 labels: [bug, triage]
 assignees:
   - mishmanners
 body:
   - type: markdown
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      value: 
   - type: textarea
     id: what-happened
     attributes:
