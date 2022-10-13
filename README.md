@@ -51,4 +51,8 @@ Once the user has submitted the data, they should get a result back in their des
 
 People will want to be able to export their translations into cute cards. There should be a blank card as well as a couple of basic artistic styles to choose from. Users should be able to change the font colour and size and finally export their image as a *.png, *.jpeg, *.pdf.
 
+### Phase 4 - Twilio integration
+
+Not everyone wants to export their translation or dietary as text or as cute cards. Some might want to have it as an SMS. Setup Twilio so users can press a button and have their result text messaged to them.
+
 I'll also take any other crazy ideas too - put them in the issue (to be opened)
