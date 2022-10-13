@@ -1,15 +1,40 @@
 {
+  "dietary_restrictions": {
+    "vegetarian": ["meat", "fish"],
+    "vegan": ["meat", "fish", "dairy", "eggs", "honey"],
+    "gluten_free": ["gluten", "wheat", "barley", "rye", "oats"],
+    "lactose_intolerant": ["dairy", "milk", "cheese", "yogurt", "ice cream"],
+    "dairy_free": ["dairy", "milk", "cheese", "yogurt", "ice cream"],
+    "nut_allergy": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"],
+    "shellfish_allergy": ["shellfish", "crustaceans", "crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
+    "egg_allergy": ["eggs", "egg whites", "egg yolks"],
+    "soy_allergy": ["soy", "soybeans", "soy sauce", "soy milk", "soy lecithin", "soy protein", "soy flour"],
+    "fish_allergy": ["fish", "fish sauce", "fish oil", "fish stock", "fish paste", "anchovies", "bass", "catfish", "cod", "flounder", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "salmon", "sardines", "sea bass", "sea bream", "sole", "swordfish", "trout", "tuna", "turbot", "whiting"],
+    "pestacatrian": ["meat"]
+  },
+
+
   "categories": {
     "meat": ["chicken", "beef", "lamb", "duck", "pork"],
-    "dairy": ["cheese", "milk"]
+    "dairy": ["cheese", "milk, yogurt, yoghurt, butter, cream, ice cream"],
+    "white meat": ["chicken", "duck"],
+    "red meat": ["beef", "lamb", "pork"],
+    "protein": ["chicken", "beef", "lamb", "duck", "pork", "cheese", "milk"],
+    "fish": ["salmon", "tuna", "trout", "cod", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "sea bass", "sea bream", "sole", "swordfish", "turbot", "whiting"],
+    "shellfish": ["crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
+    "eggs": ["eggs", "egg whites", "egg yolks"],
+    "nuts": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"],
+
   },
-  
-  "synonyms":{
-  },
-  "foods": {
+
+  "translations": {
     "chicken": {
       "en": ["chicken", "poultry"],
       "es": ["pollo"]
+    },
+    "kale": {
+      "en": ["kale"],
+      "es": ["col", "repollo"]
     }
   }
 }
