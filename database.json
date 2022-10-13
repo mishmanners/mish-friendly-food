@@ -1,11 +1,14 @@
 {
   "categories": {
-    "meat": ["chicken", "beef"],
+    "meat": ["chicken", "beef", "lamb", "duck", "pork"],
     "dairy": ["cheese", "milk"]
+  },
+  
+  "synonyms":{
   },
   "foods": {
     "chicken": {
-      "en": ["chicken", "poulty"],
+      "en": ["chicken", "poultry"],
       "es": ["pollo"]
     }
   }
