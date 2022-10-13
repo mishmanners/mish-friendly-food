@@ -1,0 +1,23 @@
+{
+  "name": "mish-friendly-food",
+  "version": "1.0.0",
+  "description": "Do you have dietary requirements or allergies? Love to travel? :airplane: Then you'll :heart: this app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishmanners/mish-friendly-food.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishmanners/mish-friendly-food/issues"
+  },
+  "homepage": "https://github.com/mishmanners/mish-friendly-food#readme",
+  "dependencies": {
+    "astro": "^1.4.7"
+  }
+}

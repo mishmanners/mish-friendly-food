@@ -1,0 +1,5 @@
+[33m@astrojs/prism:build: [0mcache hit, replaying output [2m672af86e7725063c[0m
+[33m@astrojs/prism:build: [0m
+[33m@astrojs/prism:build: [0m> @astrojs/prism@1.0.1 build /home/runner/work/astro/astro/packages/astro-prism
+[33m@astrojs/prism:build: [0m> astro-scripts build "src/**/*.ts" && tsc
+[33m@astrojs/prism:build: [0m
