@@ -16,7 +16,6 @@
     "fish_allergy": ["fish", "fish sauce", "fish oil", "fish stock", "fish paste", "anchovies", "bass", "catfish", "cod", "flounder", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "salmon", "sardines", "sea bass", "sea bream", "sole", "swordfish", "trout", "tuna", "turbot", "whiting"]
   },
 
-
   "categories": {
     "meat": ["chicken", "beef", "lamb", "duck", "pork"],
     "dairy": ["cheese", "milk, yogurt, yoghurt, butter, cream, ice cream"],
