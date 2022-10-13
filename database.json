@@ -3,14 +3,17 @@
     "vegetarian": ["meat", "fish"],
     "vegan": ["meat", "fish", "dairy", "eggs", "honey"],
     "gluten_free": ["gluten", "wheat", "barley", "rye", "oats"],
-    "lactose_intolerant": ["dairy", "milk", "cheese", "yogurt", "ice cream"],
+    "lactose_free": ["dairy", "milk", "cheese", "yogurt", "butter"],
+    "nut_free": ["nuts", "peanuts", "almonds", "cashews", "pecans", "walnuts", "hazelnuts", "macadamia", "pistachios", "coconuts"],
+    "soy_free": ["soy", "soybeans", "soymilk", "soy sauce", "tofu", "tempeh", "edamame", "soy lecithin"],
+    "paleo": ["grains", "legumes", "dairy", "processed sugar", "potatoes", "corn", "soy", "cane sugar", "refined vegetable oils", "artificial sweeteners", "artificial flavors", "artificial colors", "preservatives"],
+    "pescatarian": ["meat"],
     "dairy_free": ["dairy", "milk", "cheese", "yogurt", "ice cream"],
     "nut_allergy": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"],
     "shellfish_allergy": ["shellfish", "crustaceans", "crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
     "egg_allergy": ["eggs", "egg whites", "egg yolks"],
     "soy_allergy": ["soy", "soybeans", "soy sauce", "soy milk", "soy lecithin", "soy protein", "soy flour"],
-    "fish_allergy": ["fish", "fish sauce", "fish oil", "fish stock", "fish paste", "anchovies", "bass", "catfish", "cod", "flounder", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "salmon", "sardines", "sea bass", "sea bream", "sole", "swordfish", "trout", "tuna", "turbot", "whiting"],
-    "pestacatrian": ["meat"]
+    "fish_allergy": ["fish", "fish sauce", "fish oil", "fish stock", "fish paste", "anchovies", "bass", "catfish", "cod", "flounder", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "salmon", "sardines", "sea bass", "sea bream", "sole", "swordfish", "trout", "tuna", "turbot", "whiting"]
   },
 
 
