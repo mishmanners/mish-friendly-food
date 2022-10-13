@@ -1,0 +1,12 @@
+{
+  "categories": {
+    "meat": ["chicken", "beef"],
+    "dairy": ["cheese", "milk"]
+  },
+  "foods": {
+    "chicken": {
+      "en": ["chicken", "poulty"],
+      "es": ["pollo"]
+    }
+  }
+}
