@@ -56,3 +56,18 @@ People will want to be able to export their translations into cute cards. There 
 Not everyone wants to export their translation or dietary as text or as cute cards. Some might want to have it as an SMS. Setup Twilio so users can press a button and have their result text messaged to them.
 
 I'll also take any other crazy ideas too - put them in the issue (to be opened)
+
+## Running the Site
+
+This site is built using [Astro](https://astro.build/) which is JavaScript based static site generator. If you'd like to setup and run the site locally, run the following commands:
+
+- Install the node modules
+```
+npm install
+```
+- Start the development site
+```
+npm start
+```
+
+Once started the site should be accessible at `http://localhost:3000`, unless the console tells you another port to use.
