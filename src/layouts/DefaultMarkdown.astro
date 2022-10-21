@@ -6,13 +6,18 @@ import Layout from "../components/layout.astro";
 import "../styles/global.css";
 
 const meta = {
-	...Astro.props.meta,
+	...Astro.props.frontmatter,
 };
+
+const pageTitle = meta?.pageTitle || meta?.title;
+
+console.log({ props: Astro.props });
 ---
 
 <Layout {meta}>
 	<Header />
 	<main>
+		<h1>{pageTitle}</h1>
 		<slot />
 	</main>
 	<Footer />

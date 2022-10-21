@@ -71,3 +71,45 @@ npm start
 ```
 
 Once started the site should be accessible at `http://localhost:3000`, unless the console tells you another port to use.
+
+### Add New Pages
+
+Astro is really great at adding new pages, this site is setup to either take an Astro file (eg. `src/pages/about.astro`) or a markdown file (eg. `src/pages/contributing.md`). If it's a simple content page, markdown works fine, if there's a bit more to it or you want to add styles to it then an Astro file is the best option.
+
+### Styling
+
+This site uses out of the box Astro styling which is "inline" CSS using CSS Modules and Post CSS. There's a couple of PostCSS plugins to make things nicer, but for the most part you can write CSS styling next to your HTML part and it'll work. Either classes or HTML tags work fine for CSS selectors, as it generates class names and scopes styles automagically for you.
+
+```html
+<style>
+	footer {
+		text-align: center;
+	}
+</style>
+
+<footer>
+	<p>Made with gluten-free, dairy-free love.</p>
+</footer>
+
+```
+
+### Meta Info
+
+Because meta info is super important for sharing stuff on socials, it's easy to edit the meta info of each page. In the frontmatter of the page, you can create a variable of the meta info (eg. title, description, etc) and pass it to the layout component. This then passes it down to the page itself.
+
+```astro
+---
+import DefaultLayout from "../layouts/Default.astro";
+
+const meta = {
+	title: "Page title",
+	description: "About this page",
+};
+---
+
+<DefaultLayout {meta}>
+  <!-- Content Here -->
+</DefaultLayout>
+```
+
+If you don't give a page any meta info, it'll use the default stuff anyway.
