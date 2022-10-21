@@ -22,5 +22,9 @@
   "homepage": "https://github.com/mishmanners/mish-friendly-food#readme",
   "dependencies": {
     "astro": "^1.5.2"
+  },
+  "devDependencies": {
+    "postcss-import": "^15.0.0",
+    "postcss-nesting": "^10.2.0"
   }
 }
