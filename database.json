@@ -494,6 +494,118 @@
       "bn": ["স্ট্র্বেবেরি"],
       "hr": ["jagoda"]
     }
+    
+    "chick-peas": {
+      "en": ["chick-peas", "chickpeas", "chick peas"],
+      "es": ["garbanzos"],
+      "fr": ["pois chiches"],
+      "de": ["Kichererbsen"],
+      "it": ["cicerchie"],
+      "pt": ["feijão"],
+      "ru": ["чечевица"],
+      "ja": ["チキンペッパー"],
+      "zh": ["鸡豆"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "kidney beans": {
+      "en": ["kidney beans"],
+      "es": ["frijoles"],
+      "fr": ["haricots rouges"],
+      "de": ["Kidneybohnen"],
+      "it": ["fagioli"],
+      "pt": ["feijão"],
+      "ru": ["фасоль"],
+      "ja": ["キャベツ"],
+      "zh": ["腰豆"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "pistachios": {
+      "en": ["pistachios"],
+      "es": ["pistachos"],
+      "fr": ["pistaches"],
+      "de": ["Pistazien"],
+      "it": ["pistacchi"],
+      "pt": ["pistache"],
+      "ru": ["фисташки"],
+      "ja": ["ピスタチオ"],
+      "zh": ["开心果"],
+      "ar": ["فستق"],
+      "hi": ["मूंगफली"],
+      "bn": ["পিস্তাচিয়ো"]
+    },
+    "cashews": {
+      "en": ["cashews", "cashew", "cashew nut"],
+      "es": ["cacahuetes"],
+      "fr": ["cacahuètes"],
+      "de": ["Cashewnüsse"],
+      "it": ["cacahuè"],
+      "pt": ["castanha"],
+      "ru": ["каштан"],
+      "ja": ["カシューナッツ"],
+      "zh": ["腰果"],
+      "ar": ["كاجو"],
+      "hi": ["मूंगफली"],
+      "bn": ["কাশু"]
+    },
+    "brazil nut": {
+      "en": ["brazil nut", "brazil nuts"],
+      "es": ["nuez de Brasil"],
+      "fr": ["noix de Brésil"],
+      "de": ["Brazilnuss"],
+      "it": ["noce di Brazil"],
+      "pt": ["noz do Brasil"],
+      "ru": ["бразильский орех"],
+      "ja": ["ブラジルナッツ"],
+      "zh": ["巴西坚果"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "almonds": {
+      "en": ["almonds", "almond"],
+      "es": ["almendras"],
+      "fr": ["amandes"],
+      "de": ["Mandeln"],
+      "it": ["mandorle"],
+      "pt": ["amêndoas"],
+      "ru": ["миндаль"],
+      "ja": ["アーモンド"],
+      "zh": ["杏仁"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "eggplant": {
+      "en": ["eggplant", "aubergine"],
+      "es": ["berenjena"],
+      "fr": ["aubergine"],
+      "de": ["Eggplant"],
+      "it": ["melanzana"],
+      "pt": ["berinjela"],
+      "ru": ["баклажан"],
+      "ja": ["ナス"],
+      "zh": ["茄子"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "cabbage": {
+      "en": ["cabbage"],
+      "es": ["col"],
+      "fr": ["chou"],
+      "de": ["Kohl"],
+      "it": ["cavolo"],
+      "pt": ["couve"],
+      "ru": ["капуста"],
+      "ja": ["キャベツ"],
+      "zh": ["白菜"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
 
   }
 }
