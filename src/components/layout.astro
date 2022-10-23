@@ -1,3 +1,18 @@
+---
+const defaultMeta = {
+	title: "Mish Friendly Food",
+	description:
+		"Mish Friendly Food will translate your dietary requirements/allergies into any language. Once you have your translation, you can get it printed on a cute card. Next time you travel to foreign country, you can",
+};
+
+const meta = {
+	...defaultMeta,
+	...Astro.props.meta,
+};
+
+const { title, description } = meta;
+---
+
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -6,28 +21,11 @@
 			name="viewport"
 			content="width=device-width,initial-scale=1,shrink-to-fit=no"
 		/>
-		<title>Mish Friendly Food</title>
-		<meta
-			name="description"
-			content="Mish Friendly Food will translate your dietary requirements/allergies into any language. Once you have your translation, you can get it printed on a cute card. Next time you travel to foreign country, you can pull out your physical or digital card and rest assured that your waiter, host, or chef, will know how to cater for you."
-		/>
+		<title>{title}</title>
+		<meta name="description" content={description} />
 	</head>
 
 	<body>
-		<header>
-			<p>Mish Friendly Food</p>
-		</header>
-		<main>
-			<slot />
-		</main>
-		<footer>
-			<p>Made with gluten-free, dairy-free love.</p>
-			<p>
-				Want to help? Contribute on <a
-					href="https://github.com/mishmanners/mish-friendly-food"
-					target="_blank">GitHub</a
-				>.
-			</p>
-		</footer>
+		<slot />
 	</body>
 </html>
