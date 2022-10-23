@@ -25,7 +25,8 @@
     "fish": ["salmon", "tuna", "trout", "cod", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "sea bass", "sea bream", "sole", "swordfish", "turbot", "whiting"],
     "shellfish": ["crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
     "eggs": ["eggs", "egg whites", "egg yolks"],
-    "nuts": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"]
+    "nuts": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"],
+    "nightshades": ["tomatoes", "peppers", "pepper", "chilli", "bell pepper", "capsicum"]
   },
 
   "translations": {
@@ -606,6 +607,8 @@
       "ar": ["فول الصويا"],
       "hi": ["चना"],
       "bn": ["চিকপি"]
+    },
+
 
   }
 }
