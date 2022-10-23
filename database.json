@@ -4,7 +4,7 @@
     "vegan": ["meat", "fish", "dairy", "eggs", "honey"],
     "gluten_free": ["gluten", "wheat", "barley", "rye", "oats"],
     "lactose_free": ["dairy", "milk", "cheese", "yogurt", "butter"],
-    "nut_free": ["nuts", "peanuts", "almonds", "cashews", "pecans", "walnuts", "hazelnuts", "macadamia", "pistachios", "coconuts"],
+    "nut_free": ["nuts", "peanuts", "almonds", "cashews", "pecans", "walnuts", "hazelnuts", "macadamia", "pistachios"],
     "soy_free": ["soy", "soybeans", "soymilk", "soy sauce", "tofu", "tempeh", "edamame", "soy lecithin"],
     "paleo": ["grains", "legumes", "dairy", "processed sugar", "potatoes", "corn", "soy", "cane sugar", "refined vegetable oils", "artificial sweeteners", "artificial flavors", "artificial colors", "preservatives"],
     "pescatarian": ["meat"],
@@ -19,8 +19,9 @@
   "categories": {
     "meat": ["chicken", "beef", "lamb", "duck", "pork"],
     "dairy": ["cheese", "milk, yogurt, yoghurt, butter, cream, ice cream"],
-    "white meat": ["chicken", "duck"],
-    "red meat": ["beef", "lamb", "pork"],
+    "white meat": ["chicken", "turkey"],
+    "other meat" : ["duck", "pork"],
+    "red meat": ["beef", "lamb"],
     "protein": ["chicken", "beef", "lamb", "duck", "pork", "cheese", "milk"],
     "fish": ["salmon", "tuna", "trout", "cod", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "sea bass", "sea bream", "sole", "swordfish", "turbot", "whiting"],
     "shellfish": ["crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
@@ -31,7 +32,7 @@
 
   "translations": {
     "chicken": {
-      "en": ["chicken", "poultry"],
+      "en": ["chicken", "poultry", "white meat"],
       "es": ["pollo"],
       "fr": ["poulet"],
       "de": ["Huhn"],
@@ -46,7 +47,7 @@
       "hr": ["piletina"]
     },
     "beef": {
-      "en": ["beef", "meat", "red meat"],
+      "en": ["beef", "meat", "red meat", "veal"],
       "es": ["carne de res"],
       "fr": ["boeuf"],
       "de": ["Rindfleisch"],
@@ -61,7 +62,7 @@
       "hr": ["govedina"]
     },
     "lamb": {
-      "en": ["lamb", "meat", "red meat"],
+      "en": ["lamb", "meat", "red meat", "hoggate"],
       "es": ["carne de cordero"],
       "fr": ["agneau"],
       "de": ["Lammfleisch"],
@@ -608,7 +609,117 @@
       "hi": ["चना"],
       "bn": ["চিকপি"]
     },
-
-
+    "cauliflower": {
+      "en": ["cauliflower"],
+      "es": ["coliflor"],
+      "fr": ["chou-fleur"],
+      "de": ["Blumenkohl"],
+      "it": ["cavolfiore"],
+      "pt": ["couve-flor"],
+      "ru": ["цветная капуста"],
+      "ja": ["キャベツ"],
+      "zh": ["花椰菜"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "broccoli": {
+      "en": ["broccoli", "broccolli"],
+      "es": ["brócoli"],
+      "fr": ["brocoli"],
+      "de": ["Brokkoli"],
+      "it": ["broccoli"],
+      "pt": ["brócolis"],
+      "ru": ["брокколи"],
+      "ja": ["キャベツ"],
+      "zh": ["西兰花"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "spinach": {
+      "en": ["spinach"],
+      "es": ["espinacas"],
+      "fr": ["épinards"],
+      "de": ["Spinat"],
+      "it": ["spinaci"],
+      "pt": ["espinafre"],
+      "ru": ["шпинат"],
+      "ja": ["キャベツ"],
+      "zh": ["菠菜"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "lettuce": {
+      "en": ["lettuce"],
+      "es": ["lechuga"],
+      "fr": ["laitue"],
+      "de": ["Salat"],
+      "it": ["lattuga"],
+      "pt": ["alface"],
+      "ru": ["салат"],
+      "ja": ["キャベツ"],
+      "zh": ["生菜"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "cucumber": {
+      "en": ["cucumber"],
+      "es": ["pepino"],
+      "fr": ["concombre"],
+      "de": ["Gurke"],
+      "it": ["cetriolo"],
+      "pt": ["pepino"],
+      "ru": ["огурец"],
+      "ja": ["キャベツ"],
+      "zh": ["黄瓜"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "mango": {
+      "en": ["mango", "mangoes"],
+      "es": ["mango"],
+      "fr": ["mangue"],
+      "de": ["Mango"],
+      "it": ["mango"],
+      "pt": ["manga"],
+      "ru": ["манго"],
+      "ja": ["キャベツ"],
+      "zh": ["芒果"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "peas": {
+      "en": ["peas", "pea"],
+      "es": ["guisantes"],
+      "fr": ["pois"],
+      "de": ["Erbsen"],
+      "it": ["piselli"],
+      "pt": ["ervilhas"],
+      "ru": ["горох"],
+      "ja": ["キャベツ"],
+      "zh": ["豌豆"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    },
+    "carrot": {
+      "en": ["carrot"],
+      "es": ["zanahoria"],
+      "fr": ["carotte"],
+      "de": ["Karotte"],
+      "it": ["carota"],
+      "pt": ["cenoura"],
+      "ru": ["морковь"],
+      "ja": ["キャベツ"],
+      "zh": ["胡萝卜"],
+      "ar": ["فول الصويا"],
+      "hi": ["चना"],
+      "bn": ["চিকপি"]
+    }
   }
 }
