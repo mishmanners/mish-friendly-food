@@ -93,7 +93,7 @@
     },
     "pork": {
       "en": ["pork", "meat"],
-      "es": ["cerdo"],
+      "es": ["cerdo", "marrano"],
       "fr": ["porc"],
       "de": ["Schweinefleisch"],
       "it": ["maiale"],
@@ -228,7 +228,7 @@
     },
     "potato": {
       "en": ["potato", "potatoes", "potatoe", "potatoe"],
-      "es": ["patata"],
+      "es": ["patata", "papa"],
       "fr": ["pomme de terre"],
       "de": ["Kartoffel"],
       "it": ["patata"],
@@ -393,7 +393,7 @@
     },
     "banana": {
       "en": ["banana", "bananas"],
-      "es": ["plátano"],
+      "es": ["plátano", "banano"],
       "fr": ["banane"],
       "de": ["Banane"],
       "it": ["banana"],
@@ -597,7 +597,7 @@
     },
     "cabbage": {
       "en": ["cabbage"],
-      "es": ["col"],
+      "es": ["col", "repollo"],
       "fr": ["chou"],
       "de": ["Kohl"],
       "it": ["cavolo"],
@@ -695,7 +695,7 @@
     },
     "peas": {
       "en": ["peas", "pea"],
-      "es": ["guisantes"],
+      "es": ["guisantes", "arverjas"],
       "fr": ["pois"],
       "de": ["Erbsen"],
       "it": ["piselli"],
