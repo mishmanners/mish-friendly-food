@@ -166,7 +166,7 @@
       "de": ["Butter"],
       "it": ["burro"],
       "pt": ["manteiga"],
-      "ru": ["масло"],
+      "ru": ["сливочное масло"],
       "ja": ["バター"],
       "zh": ["黄油"],
       "ar": ["زبدة"],
@@ -526,8 +526,7 @@
       "bn": ["স্ট্র্বেবেরি"],
       "hr": ["jagoda"],
       "da": ["jordbær"]
-    }
-    
+    },
     "chick-peas": {
       "en": ["chick-peas", "chickpeas", "chick peas"],
       "es": ["garbanzos"],
@@ -542,6 +541,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["kikærter"]
+      "hr": ["slanutak"]
     },
     "kidney beans": {
       "en": ["kidney beans"],
@@ -557,6 +557,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["røde bønner"]
+      "hr": ["grah"]
     },
     "pistachios": {
       "en": ["pistachios"],
@@ -572,6 +573,7 @@
       "hi": ["मूंगफली"],
       "bn": ["পিস্তাচিয়ো"],
       "da": ["pistacienødder"]
+      "hr": ["pistacije"]
     },
     "cashews": {
       "en": ["cashews", "cashew", "cashew nut"],
@@ -580,13 +582,14 @@
       "de": ["Cashewnüsse"],
       "it": ["cacahuè"],
       "pt": ["castanha"],
-      "ru": ["каштан"],
+      "ru": ["кешью"],
       "ja": ["カシューナッツ"],
       "zh": ["腰果"],
       "ar": ["كاجو"],
       "hi": ["मूंगफली"],
       "bn": ["কাশু"],
       "da": ["cashewnødder"]
+      "hr": ["indijski oraščići"]
     },
     "brazil nut": {
       "en": ["brazil nut", "brazil nuts"],
@@ -602,6 +605,8 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["paranødder"]
+=======
+      "hr": ["brazilski oraščić"]
     },
     "almonds": {
       "en": ["almonds", "almond"],
@@ -617,6 +622,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["mandler"]
+      "hr": ["bademi"]
     },
     "eggplant": {
       "en": ["eggplant", "aubergine"],
@@ -632,6 +638,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["aubergine"]
+      "hr": ["patlidžan"]
     },
     "cabbage": {
       "en": ["cabbage"],
@@ -647,6 +654,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["kål"]
+      "hr": ["kupus"]
     },
     "cauliflower": {
       "en": ["cauliflower"],
@@ -662,6 +670,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["blomkål"]
+      "hr": ["karfiol"]
     },
     "broccoli": {
       "en": ["broccoli", "broccolli"],
@@ -677,6 +686,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["brokkoli", "brokkoli"]
+      "hr": ["brokula"]
     },
     "spinach": {
       "en": ["spinach"],
@@ -692,6 +702,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["spinat"]
+      "hr": ["špinat"]
     },
     "lettuce": {
       "en": ["lettuce"],
@@ -707,6 +718,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["salat"]
+      "hr": ["zelena salata"]
     },
     "cucumber": {
       "en": ["cucumber"],
@@ -722,6 +734,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["agurk"]
+      "hr": ["krastavac"]
     },
     "mango": {
       "en": ["mango", "mangoes"],
@@ -737,6 +750,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["mango"]
+      "hr": ["mango"]
     },
     "peas": {
       "en": ["peas", "pea"],
@@ -752,6 +766,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["ærter"]
+      "hr": ["grašak"]
     },
     "carrot": {
       "en": ["carrot"],
@@ -767,6 +782,7 @@
       "hi": ["चना"],
       "bn": ["চিকপি"],
       "da": ["gulerod", "gulerødder"]
+      "hr": ["mrkva"]
     }
   }
 }
