@@ -44,7 +44,8 @@
       "ar": ["دجاج"],
       "hi": ["मुर्गी"],
       "bn": ["মুরগি"],
-      "hr": ["piletina"]
+      "hr": ["piletina"],
+      "da": ["kylling"]
     },
     "beef": {
       "en": ["beef", "meat", "red meat", "veal"],
@@ -59,7 +60,8 @@
       "ar": ["لحم البقر"],
       "hi": ["गाय का मांस"],
       "bn": ["গরুর মাংস"],
-      "hr": ["govedina"]
+      "hr": ["govedina"],
+      "da": ["oksekød", "bøf"]
     },
     "lamb": {
       "en": ["lamb", "meat", "red meat", "hoggate"],
@@ -74,7 +76,8 @@
       "ar": ["لحم الخروف"],
       "hi": ["बकरी का मांस"],
       "bn": ["বাকরির মাংস"],
-      "hr": ["janjetina"]
+      "hr": ["janjetina"],
+      "da": ["lam", "lammekød"]
     },
     "duck": {
       "en": ["duck", "poultry"],
@@ -89,7 +92,8 @@
       "ar": ["بطة"],
       "hi": ["बकरी"],
       "bn": ["বাকরি"],
-      "hr": ["patka"]
+      "hr": ["patka"],
+      "da": ["and"]
     },
     "pork": {
       "en": ["pork", "meat"],
@@ -104,7 +108,8 @@
       "ar": ["لحم الخنزير"],
       "hi": ["सूअर"],
       "bn": ["শুঁইর"],
-      "hr": ["svinjetina"]
+      "hr": ["svinjetina"],
+      "da": ["svin", "svinekød"]
     },
     "cheese": {
       "en": ["cheese", "dairy"],
@@ -119,7 +124,8 @@
       "ar": ["جبن"],
       "hi": ["चीज"],
       "bn": ["চিজ"],
-      "hr": ["sir"]
+      "hr": ["sir"],
+      "da": ["ost"]
     },
     "milk": {
       "en": ["milk", "dairy"],
@@ -134,7 +140,8 @@
       "ar": ["حليب"],
       "hi": ["दूध"],
       "bn": ["দুধ"],
-      "hr": ["mlijeko"]
+      "hr": ["mlijeko"],
+      "da": ["mælk"]
     },
     "yogurt": {
       "en": ["yogurt", "yoghurt", "dairy"],
@@ -149,7 +156,8 @@
       "ar": ["يوغورت"],
       "hi": ["योगर्ट"],
       "bn": ["যোগুর্ট"],
-      "hr": ["jogurt"]
+      "hr": ["jogurt"],
+      "da": ["youghurt"]
     },
     "butter": {
       "en": ["butter", "dairy"],
@@ -164,7 +172,8 @@
       "ar": ["زبدة"],
       "hi": ["मक्खन"],
       "bn": ["মাখন"],
-      "hr": ["maslac"]
+      "hr": ["maslac"],
+      "da": ["smør"]
     },
     "egg": {
       "en": ["egg", "eggs", "egg whites", "egg yolks"],
@@ -179,7 +188,8 @@
       "ar": ["بيضة"],
       "hi": ["अंडा"],
       "bn": ["ডিম"],
-      "hr": ["jaje"]
+      "hr": ["jaje"],
+      "da": ["æg"]
     },
     "bread": {
       "en": ["bread", "bread roll", "bread rolls", "rolls", "roll", "bun", "buns", "bun roll", "bun rolls"],
@@ -194,7 +204,8 @@
       "ar": ["خبز"],
       "hi": ["ब्रेड"],
       "bn": ["ব্রেড"],
-      "hr": ["kruh"]
+      "hr": ["kruh"],
+      "da": ["brød"]
     },
     "rice": {
       "en": ["rice", "rice grain", "rice grains"],
@@ -209,7 +220,8 @@
       "ar": ["أرز"],
       "hi": ["चावल"],
       "bn": ["ভাত"],
-      "hr": ["riža"]
+      "hr": ["riža"],
+      "da": ["ris"]
     },
     "pasta": {
       "en": ["pasta"],
@@ -224,7 +236,8 @@
       "ar": ["معكرونة"],
       "hi": ["पास्ता"],
       "bn": ["পাস্তা"],
-      "hr": ["tjestenina"]
+      "hr": ["tjestenina"],
+      "da": ["pasta"]
     },
     "potato": {
       "en": ["potato", "potatoes", "potatoe", "potatoe"],
@@ -239,7 +252,8 @@
       "ar": ["بطاطس"],
       "hi": ["आलू"],
       "bn": ["আলু"],
-      "hr": ["krumpir"]
+      "hr": ["krumpir"],
+      "da": ["kartoffel"]
     },
     "tomato": {
       "en": ["tomato", "tomatoes"],
@@ -254,7 +268,8 @@
       "ar": ["طماطم"],
       "hi": ["टमाटर"],
       "bn": ["টমেটো"],
-      "hr": ["rajčica"]
+      "hr": ["rajčica"],
+      "da": ["tomat"]
     },
     "onion": {
       "en": ["onion", "onions"],
@@ -269,7 +284,8 @@
       "ar": ["بصل"],
       "hi": ["प्याज"],
       "bn": ["পুদিনা"],
-      "hr": ["luk"]
+      "hr": ["luk"],
+      "da": ["løg"]
     },
     "garlic": {
       "en": ["garlic", "garlic clove", "garlic cloves"],
@@ -284,7 +300,8 @@
       "ar": ["ثوم"],
       "hi": ["लहसुन"],
       "bn": ["লসন"],
-      "hr": ["češnjak"]
+      "hr": ["češnjak"],
+      "da": ["hvidløg"]
     },
     "chili": {
       "en": ["chili", "chili pepper", "chili peppers", "chilli", "chilli pepper", "chilli peppers", "chilies", "chilies pepper", "chilies peppers"],
@@ -299,7 +316,8 @@
       "ar": ["فلفل"],
       "hi": ["चिली"],
       "bn": ["মরিচ"],
-      "hr": ["čili paprika"]
+      "hr": ["čili paprika"],
+      "da": ["chili"]
     },
     "pepper": {
       "en": ["pepper"],
@@ -314,7 +332,8 @@
       "ar": ["فلفل"],
       "hi": ["मिर्च"],
       "bn": ["মরিচ"],
-      "hr": ["papar"]
+      "hr": ["papar"],
+      "da": ["peber"]
     },
     "salt": {
       "en": ["salt"],
@@ -329,7 +348,8 @@
       "ar": ["ملح"],
       "hi": ["नमक"],
       "bn": ["নমক"],
-      "hr": ["sol"]
+      "hr": ["sol"],
+      "da": ["salt"]
     },
     "sugar": {
       "en": ["sugar"],
@@ -344,7 +364,8 @@
       "ar": ["سكر"],
       "hi": ["चीनी"],
       "bn": ["চিনি"],
-      "hr": ["šećer"]
+      "hr": ["šećer"],
+      "da": ["sukker"]
     },
     "oil": {
       "en": ["oil"],
@@ -359,7 +380,8 @@
       "ar": ["زيت"],
       "hi": ["तेल"],
       "bn": ["তেল"],
-      "hr": ["ulje"]
+      "hr": ["ulje"],
+      "da": ["olie"]
     },
     "vinegar": {
       "en": ["vinegar"],
@@ -374,7 +396,8 @@
       "ar": ["خل"],
       "hi": ["शहद"],
       "bn": ["শাহদ"],
-      "hr": ["ocat"]
+      "hr": ["ocat"],
+      "da": ["eddike"]
     },
     "water": {
       "en": ["water"],
@@ -389,7 +412,8 @@
       "ar": ["ماء"],
       "hi": ["पानी"],
       "bn": ["পানি"],
-      "hr": ["voda"]
+      "hr": ["voda"],
+      "da": ["vand"]
     },
     "banana": {
       "en": ["banana", "bananas"],
@@ -404,7 +428,8 @@
       "ar": ["موز"],
       "hi": ["केला"],
       "bn": ["কেলা"],
-      "hr": ["banana"]
+      "hr": ["banana"],
+      "da": ["banan"]
     },
     "apple": {
       "en": ["apple", "apples"],
@@ -419,7 +444,8 @@
       "ar": ["تفاح"],
       "hi": ["सेब"],
       "bn": ["আপেল"],
-      "hr": ["jabuka"]
+      "hr": ["jabuka"],
+      "da": ["æble"]
     },
     "orange": {
       "en": ["orange", "oranges", "citrus"],
@@ -434,7 +460,8 @@
       "ar": ["برتقال"],
       "hi": ["नारंगी"],
       "bn": ["কমলা"],
-      "hr": ["naranča"]
+      "hr": ["naranča"],
+      "da": ["appelsin"]
     },
     "lemon": {
       "en": ["lemon", "lemons", "citrus"],
@@ -449,7 +476,8 @@
       "ar": ["ليمون"],
       "hi": ["नींबू"],
       "bn": ["নাইমবুজ"],
-      "hr": ["limun"]
+      "hr": ["limun"],
+      "da": ["citron"]
     },
     "grapefruit": {
       "en": ["grapefruit", "grapefruits", "citrus"],
@@ -464,7 +492,8 @@
       "ar": ["برتقالي"],
       "hi": ["अंगूर"],
       "bn": ["আঙ্গুর"],
-      "hr": ["grejp"]
+      "hr": ["grejp"],
+      "da": ["grapefrugt"]
     },
     "pineapple": {
       "en": ["pineapple", "pineapples"],
@@ -479,7 +508,8 @@
       "ar": ["أناناس"],
       "hi": ["अनानास"],
       "bn": ["আনানাস"],
-      "hr": ["ananas"]
+      "hr": ["ananas"],
+      "da": ["ananas"]
     },
     "strawberry": {
       "en": ["strawberry", "strawberries"],
@@ -494,7 +524,8 @@
       "ar": ["فراولة"],
       "hi": ["स्ट्रॉबेरी"],
       "bn": ["স্ট্র্বেবেরি"],
-      "hr": ["jagoda"]
+      "hr": ["jagoda"],
+      "da": ["jordbær"]
     }
     
     "chick-peas": {
@@ -509,7 +540,8 @@
       "zh": ["鸡豆"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["kikærter"]
     },
     "kidney beans": {
       "en": ["kidney beans"],
@@ -523,7 +555,8 @@
       "zh": ["腰豆"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["røde bønner"]
     },
     "pistachios": {
       "en": ["pistachios"],
@@ -537,7 +570,8 @@
       "zh": ["开心果"],
       "ar": ["فستق"],
       "hi": ["मूंगफली"],
-      "bn": ["পিস্তাচিয়ো"]
+      "bn": ["পিস্তাচিয়ো"],
+      "da": ["pistacienødder"]
     },
     "cashews": {
       "en": ["cashews", "cashew", "cashew nut"],
@@ -551,7 +585,8 @@
       "zh": ["腰果"],
       "ar": ["كاجو"],
       "hi": ["मूंगफली"],
-      "bn": ["কাশু"]
+      "bn": ["কাশু"],
+      "da": ["cashewnødder"]
     },
     "brazil nut": {
       "en": ["brazil nut", "brazil nuts"],
@@ -565,7 +600,8 @@
       "zh": ["巴西坚果"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["paranødder"]
     },
     "almonds": {
       "en": ["almonds", "almond"],
@@ -579,7 +615,8 @@
       "zh": ["杏仁"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["mandler"]
     },
     "eggplant": {
       "en": ["eggplant", "aubergine"],
@@ -593,7 +630,8 @@
       "zh": ["茄子"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["aubergine"]
     },
     "cabbage": {
       "en": ["cabbage"],
@@ -607,7 +645,8 @@
       "zh": ["白菜"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["kål"]
     },
     "cauliflower": {
       "en": ["cauliflower"],
@@ -621,7 +660,8 @@
       "zh": ["花椰菜"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["blomkål"]
     },
     "broccoli": {
       "en": ["broccoli", "broccolli"],
@@ -635,7 +675,8 @@
       "zh": ["西兰花"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["brokkoli", "brokkoli"]
     },
     "spinach": {
       "en": ["spinach"],
@@ -649,7 +690,8 @@
       "zh": ["菠菜"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["spinat"]
     },
     "lettuce": {
       "en": ["lettuce"],
@@ -663,7 +705,8 @@
       "zh": ["生菜"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["salat"]
     },
     "cucumber": {
       "en": ["cucumber"],
@@ -677,7 +720,8 @@
       "zh": ["黄瓜"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["agurk"]
     },
     "mango": {
       "en": ["mango", "mangoes"],
@@ -691,7 +735,8 @@
       "zh": ["芒果"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["mango"]
     },
     "peas": {
       "en": ["peas", "pea"],
@@ -705,7 +750,8 @@
       "zh": ["豌豆"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["ærter"]
     },
     "carrot": {
       "en": ["carrot"],
@@ -719,7 +765,8 @@
       "zh": ["胡萝卜"],
       "ar": ["فول الصويا"],
       "hi": ["चना"],
-      "bn": ["চিকপি"]
+      "bn": ["চিকপি"],
+      "da": ["gulerod", "gulerødder"]
     }
   }
 }
