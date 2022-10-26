@@ -23,7 +23,7 @@ After talking (mostly constructively complaining) about this issue, I discovered
 
 This project is a work in progress and I welcome any help. Check out the phases below and see how you might like to be involved.
 
-All contributions will require a pull request. Please be respectful of everyone, and don't submit spammy PRs. This is a translation app, but we don't just want Google translate - we can get that from Google. We need to accurately be able to translate dietary requirements and allergies so that people don't get sick, or worse. Google translate does a  good job, but it's not perfect.
+All contributions will require a pull request. Please be respectful of everyone, and don't submit spammy PRs. This is a translation app, but we don't just want Google translate - we can get that from Google. We need to accurately be able to translate dietary requirements and allergies so that people don't get sick, or worse. Google translate does a  good job, but it's not perfect. If you do review or add a new language, can you please ensure it's added to the [list of supported languages](https://github.com/mishmanners/mish-friendly-food#supported-languages) as part of your pull request.
 
 As for the database itself; categories are being used for when people group multiple things together. Translation is used for individual words being translated and includes synonyms. For example, "dairy" is translated to "lactose" in some countries, but not in others. So we need to be able to translate both "dairy" and "lactose" to the same word in the other language. The dietary_restrictions section is for the actual dietary restrictions and allergies. This is needed so we can translate the words accurately.
 
@@ -57,6 +57,18 @@ People will want to be able to export their translations into cute cards. There 
 Not everyone wants to export their translation or dietary as text or as cute cards. Some might want to have it as an SMS. Setup Twilio so users can press a button and have their result text messaged to them.
 
 I'll also take any other crazy ideas too - put them in the issue (to be opened)
+
+## Supported Languages
+
+Thanks to a bunch of contributions, these are the currently supported languages:
+- English
+- Spanish
+- Portuguese
+- Russian
+- Japansese
+- Danish
+
+This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute, please do so.
 
 ## Running the Site
 
@@ -114,3 +126,12 @@ const meta = {
 ```
 
 If you don't give a page any meta info, it'll use the default stuff anyway.
+
+## Thank yous
+
+![LOVE_112px_TWITCH](https://user-images.githubusercontent.com/36594527/197941418-51f34871-5968-4bb2-8813-52e276ed4735.gif)
+
+To EVERYONE who contributed to the project, you're amazing. To all those who've had to put up with my dietary requirements while travelling - you're all life-long friends, and hopefully this will make things better. To those who were with me at NDC in Oslo when we came up with this idea around the breakfast table - Amy, Damo, (and me :wink: )
+
+Thanks to <a href="https://unsplash.com/@wistomsin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Barrett</a> via <a href="https://unsplash.com/s/photos/travel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> to the epic photo of the plane that we're using for the social card.
+  
