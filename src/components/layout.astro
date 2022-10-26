@@ -1,0 +1,31 @@
+---
+const defaultMeta = {
+	title: "Mish Friendly Food",
+	description:
+		"Mish Friendly Food will translate your dietary requirements/allergies into any language. Once you have your translation, you can get it printed on a cute card. Next time you travel to foreign country, you can",
+};
+
+const meta = {
+	...defaultMeta,
+	...Astro.props.meta,
+};
+
+const { title, description } = meta;
+---
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width,initial-scale=1,shrink-to-fit=no"
+		/>
+		<title>{title}</title>
+		<meta name="description" content={description} />
+	</head>
+
+	<body>
+		<slot />
+	</body>
+</html>

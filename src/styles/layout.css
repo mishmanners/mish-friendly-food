@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+}
+
+main,
+header,
+footer {
+	padding: 20px;
+}
+
+
+@media(min-width: 50em) {
+
+	main,
+	header,
+	footer {
+		padding: 20px 5vw;
+	}
+}
+
+@media(min-width: 60em) {
+
+	main,
+	header,
+	footer {
+		padding: 40px 0;
+		width: 90vw;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
