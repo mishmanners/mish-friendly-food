@@ -64,7 +64,7 @@
     },
     "vegan": {
       "en": ["Vegan"],
-      "fr": ["Végan"],
+      "fr": ["Végétalienne", "Végétalien", "Végan"],
       "de": ["Vegan"],
       "es": ["Vegano"],
       "it": ["Vegano"],
@@ -95,7 +95,7 @@
     },
     "paleo": {
       "en": ["Paleo"],
-      "fr": ["Paleo"],
+      "fr": ["Paléo"],
       "de": ["Paleo"],
       "es": ["Paleo"],
       "it": ["Paleo"],
@@ -157,7 +157,7 @@
     },
     "dairy_free": {
       "en": ["Dairy-free", "dairy free", "DF", "dairy friendly"],
-      "fr": ["Sans lactose"],
+      "fr": ["Sans lactose", "Sans produits laitiers"],
       "de": ["Milchfrei"],
       "es": ["Sin lactosa"],
       "it": ["Senza lattosio"],
@@ -250,7 +250,7 @@
     },
     "soy_allergy": {
       "en": ["Soy-free", "soy free", "soy allergy"],
-      "fr": ["Sans soja"],
+      "fr": ["Sans soja", "allergie au soja"],
       "de": ["Sojafrei"],
       "es": ["Sin soya"],
       "it": ["Senza soia"],
@@ -282,7 +282,7 @@
 
     "nut_allergy": {
       "en": ["Nut-free", "nut free", "nut allergy", "NF"],
-      "fr": ["Sans noix"],
+      "fr": ["Sans noix", "allergie aux noix"],
       "de": ["Nussfrei"],
       "es": ["Sin nuez"],
       "it": ["Senza noci"],
@@ -313,7 +313,7 @@
     },
     "pescatarian": {
       "en": ["Pescatarian", "pescatarian"],
-      "fr": ["Pescatarian"],
+      "fr": ["Pescatarien"],
       "de": ["Pescatarian"],
       "es": ["Pescatarian"],
       "it": ["Pescatarian"],
@@ -344,7 +344,7 @@
     },
     "shellfish": {
       "en": ["Shellfish-free", "shellfish free", "shellfish allergy"],
-      "fr": ["Sans fruits de mer"],
+      "fr": ["Sans fruits de mer", "allergie aux crustacés"],
       "de": ["Schalentierallergie"],
       "es": ["Sin mariscos"],
       "it": ["Senza frutti di mare"],
@@ -375,7 +375,7 @@
     },
     "fish_allergy": {
       "en": ["Fish-free", "fish free", "fish allergy"],
-      "fr": ["Sans poisson"],
+      "fr": ["Sans poisson", "allergie au poisson"],
       "de": ["Fischfrei"],
       "es": ["Sin pescado"],
       "it": ["Senza pesce"],
@@ -404,11 +404,10 @@
       "ja": ["魚フリー"],
       "ko": ["생선 프리"]
     },
-
     "chicken": {
       "en": ["chicken", "poultry", "white meat"],
       "es": ["pollo"],
-      "fr": ["poulet"],
+      "fr": ["poulet", "volaille", "viande blanche"],
       "de": ["Huhn"],
       "it": ["pollo"],
       "pt": ["frango"],
@@ -424,7 +423,7 @@
     "beef": {
       "en": ["beef", "meat", "red meat", "veal"],
       "es": ["carne de res"],
-      "fr": ["boeuf"],
+      "fr": ["boeuf", "viande rouge", "veau"],
       "de": ["Rindfleisch"],
       "it": ["manzo"],
       "pt": ["carne"],
@@ -440,7 +439,7 @@
     "lamb": {
       "en": ["lamb", "meat", "red meat", "hoggate"],
       "es": ["carne de cordero"],
-      "fr": ["agneau"],
+      "fr": ["agneau", "viande rouge"],
       "de": ["Lammfleisch"],
       "it": ["agnello"],
       "pt": ["cordeiro"],
@@ -456,7 +455,7 @@
     "duck": {
       "en": ["duck", "poultry"],
       "es": ["pato"],
-      "fr": ["canard"],
+      "fr": ["canard", "volaille"],
       "de": ["Ente"],
       "it": ["anatra"],
       "pt": ["pato"],
@@ -488,7 +487,7 @@
     "cheese": {
       "en": ["cheese", "dairy"],
       "es": ["queso"],
-      "fr": ["fromage"],
+      "fr": ["fromage", "produit laitier"],
       "de": ["Käse"],
       "it": ["formaggio"],
       "pt": ["queijo"],
@@ -504,7 +503,7 @@
     "milk": {
       "en": ["milk", "dairy"],
       "es": ["leche"],
-      "fr": ["lait"],
+      "fr": ["lait", "produit laitier"],
       "de": ["Milch"],
       "it": ["latte"],
       "pt": ["leite"],
@@ -520,7 +519,7 @@
     "yogurt": {
       "en": ["yogurt", "yoghurt", "dairy"],
       "es": ["yogur"],
-      "fr": ["yaourt"],
+      "fr": ["yaourt", "yoghourt", "produit laitier"],
       "de": ["Joghurt"],
       "it": ["yogurt"],
       "pt": ["iogurte"],
@@ -536,7 +535,7 @@
     "butter": {
       "en": ["butter", "dairy"],
       "es": ["mantequilla"],
-      "fr": ["beurre"],
+      "fr": ["beurre", "produit laitier"],
       "de": ["Butter"],
       "it": ["burro"],
       "pt": ["manteiga"],
@@ -552,7 +551,7 @@
     "egg": {
       "en": ["egg", "eggs", "egg whites", "egg yolks"],
       "es": ["huevo"],
-      "fr": ["oeuf"],
+      "fr": ["oeuf", "blancs d'oeufs", "jaunes d'œuf"],
       "de": ["Ei"],
       "it": ["uovo"],
       "pt": ["ovo"],
@@ -568,7 +567,7 @@
     "bread": {
       "en": ["bread", "bread roll", "bread rolls", "rolls", "roll", "bun", "buns", "bun roll", "bun rolls"],
       "es": ["pan"],
-      "fr": ["pain"],
+      "fr": ["pain", "petit pain", "petits pains"],
       "de": ["Brot"],
       "it": ["pane"],
       "pt": ["pão"],
@@ -584,7 +583,7 @@
     "rice": {
       "en": ["rice", "rice grain", "rice grains"],
       "es": ["arroz"],
-      "fr": ["riz"],
+      "fr": ["riz", "grain de riz", "grains de riz"],
       "de": ["Reis"],
       "it": ["riso"],
       "pt": ["arroz"],
@@ -616,7 +615,7 @@
     "potato": {
       "en": ["potato", "potatoes", "potatoe", "potatoe"],
       "es": ["patata", "papa"],
-      "fr": ["pomme de terre"],
+      "fr": ["pomme de terre", "patate"],
       "de": ["Kartoffel"],
       "it": ["patata"],
       "pt": ["batata"],
@@ -664,7 +663,7 @@
     "garlic": {
       "en": ["garlic", "garlic clove", "garlic cloves"],
       "es": ["ajo"],
-      "fr": ["ail"],
+      "fr": ["ail", "gousse d'ail", "gousses d'ail"],
       "de": ["Knoblauch"],
       "it": ["aglio"],
       "pt": ["alho"],
@@ -680,7 +679,7 @@
     "chili": {
       "en": ["chili", "chili pepper", "chili peppers", "chilli", "chilli pepper", "chilli peppers", "chilies", "chilies pepper", "chilies peppers"],
       "es": ["chile"],
-      "fr": ["piment"],
+      "fr": ["piment", "piments"],
       "de": ["Chili"],
       "it": ["peperoncino"],
       "pt": ["pimenta"],
@@ -792,7 +791,7 @@
     "banana": {
       "en": ["banana", "bananas"],
       "es": ["plátano", "banano"],
-      "fr": ["banane"],
+      "fr": ["banane", "bananes"],
       "de": ["Banane"],
       "it": ["banana"],
       "pt": ["banana"],
@@ -808,7 +807,7 @@
     "apple": {
       "en": ["apple", "apples"],
       "es": ["manzana"],
-      "fr": ["pomme"],
+      "fr": ["pomme", "pommes"],
       "de": ["Apfel"],
       "it": ["mela"],
       "pt": ["maçã"],
@@ -824,7 +823,7 @@
     "orange": {
       "en": ["orange", "oranges", "citrus"],
       "es": ["naranja"],
-      "fr": ["orange"],
+      "fr": ["orange", "oranges", "agrumes"],
       "de": ["Orange"],
       "it": ["arancia"],
       "pt": ["laranja"],
@@ -840,7 +839,7 @@
     "lemon": {
       "en": ["lemon", "lemons", "citrus"],
       "es": ["limón"],
-      "fr": ["citron"],
+      "fr": ["citron", "citrons", "agrumes"],
       "de": ["Zitrone"],
       "it": ["limone"],
       "pt": ["limão"],
@@ -856,7 +855,7 @@
     "grapefruit": {
       "en": ["grapefruit", "grapefruits", "citrus"],
       "es": ["toronja"],
-      "fr": ["pamplemousse"],
+      "fr": ["pamplemousse", "pamplemousses", "agrumes"],
       "de": ["Grapefruit"],
       "it": ["pompelmo"],
       "pt": ["toranja"],
@@ -888,7 +887,7 @@
     "strawberry": {
       "en": ["strawberry", "strawberries"],
       "es": ["fresa"],
-      "fr": ["fraise"],
+      "fr": ["fraise", "fraises"],
       "de": ["Erdbeere"],
       "it": ["fragola"],
       "pt": ["morango"],
@@ -945,14 +944,14 @@
       "zh": ["开心果"],
       "ar": ["فستق"],
       "hi": ["मूंगफली"],
-      "bn": ["পিস্তাচিয়ো"],
+      "bn": ["পিস্তাচিয়ো"],
       "da": ["pistacienødder"]
       "hr": ["pistacije"]
     },
     "cashews": {
       "en": ["cashews", "cashew", "cashew nut"],
       "es": ["cacahuetes"],
-      "fr": ["cacahuètes"],
+      "fr": ["noix de cajou"],
       "de": ["Cashewnüsse"],
       "it": ["cacahuè"],
       "pt": ["castanha de Caju"],
@@ -984,7 +983,7 @@
     "almonds": {
       "en": ["almonds", "almond"],
       "es": ["almendras"],
-      "fr": ["amandes"],
+      "fr": ["amande", "amandes"],
       "de": ["Mandeln"],
       "it": ["mandorle"],
       "pt": ["amêndoas"],
@@ -1032,7 +1031,7 @@
     "cauliflower": {
       "en": ["cauliflower"],
       "es": ["coliflor"],
-      "fr": ["chou-fleur"],
+      "fr": ["chou-fleur", "choufleur"],
       "de": ["Blumenkohl"],
       "it": ["cavolfiore"],
       "pt": ["couve-flor"],
@@ -1112,7 +1111,7 @@
     "mango": {
       "en": ["mango", "mangoes"],
       "es": ["mango"],
-      "fr": ["mangue"],
+      "fr": ["mangue", "mangues"],
       "de": ["Mango"],
       "it": ["mango"],
       "pt": ["manga"],
@@ -1128,7 +1127,7 @@
     "peas": {
       "en": ["peas", "pea"],
       "es": ["guisantes", "arverjas"],
-      "fr": ["pois"],
+      "fr": ["pois", "petits pois"],
       "de": ["Erbsen"],
       "it": ["piselli"],
       "pt": ["ervilhas"],
