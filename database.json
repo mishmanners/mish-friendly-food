@@ -31,6 +31,38 @@
   },
 
   "translations": {
+    "vegetarian": {
+      "en": ["Vegetarian"],
+      "fr": ["Végétarien"],
+      "de": ["Vegetarisch"],
+      "es": ["Vegetariano"],
+      "it": ["Vegetariano"],
+      "nl": ["Vegetarisch"],
+      "pt": ["Vegetariano"],
+      "sv": ["Vegetarian"],
+      "fi": ["Vegetaristi"],
+      "da": ["Vegetar"],
+      "nb": ["Vegetar"],
+      "sl": ["Vegetarijanec"],
+      "cs": ["Vegetarián"],
+      "sk": ["Vegetarián"],
+      "pl": ["Wegetarianin"],
+      "hu": ["Vegetáriánus"],
+      "el": ["Βιετανικός"],
+      "bg": ["Вегетарианец"],
+      "ru": ["Вегетарианец"],
+      "sr": ["Вегетаријанец"],
+      "uk": ["Вегетаріанець"],
+      "tr": ["Vejetaryen"],
+      "ro": ["Vegetarian"],
+      "ar": ["نباتي"],
+      "fa": ["نباتی"],
+      "zh": ["素食主义者"],
+      "zh-Hant": ["素食主義者"],
+      "ja": ["ベジタリアン"],
+      "ko": ["채식주의자"]
+    },
+
     "chicken": {
       "en": ["chicken", "poultry", "white meat"],
       "es": ["pollo"],
