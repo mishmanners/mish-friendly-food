@@ -58,6 +58,18 @@ Not everyone wants to export their translation or dietary as text or as cute car
 
 I'll also take any other crazy ideas too - put them in the issue (to be opened)
 
+## Supported Languages
+
+Thanks to a bunch of contributions, these are the currently supported languages:
+- English
+- Spanish
+- Portuguese
+- Russian
+- Japansese
+- Danish
+
+This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute, please do so.
+
 ## Running the Site
 
 This site is built using [Astro](https://astro.build/) which is JavaScript based static site generator. If you'd like to setup and run the site locally, run the following commands:
