@@ -1,0 +1,39 @@
+---
+import CenteredLayout from "../layouts/CenteredLayout.astro";
+import LinkButton from "../components/link-button.astro";
+---
+
+<style>
+    #not-found-section {
+        text-align: center;
+        max-width: 800px;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    img {
+        margin: 10px 0;
+    }
+</style>
+
+<CenteredLayout>
+    <section id="not-found-section">
+        <header>
+            <h1>Opps! Page not found</h1>
+            <img
+                src="/Images/NotFound/404-not-found-splash.png"
+                alt="Page not found"
+            />
+        </header>
+        <p>
+            Uh oh, we couldn't find that page, but don't worry we'll still find
+            food for you. Click to go back to the home page so we can search for
+            your dietary needs.
+        </p>
+        <div>
+            <LinkButton pageUrl="/" text="Go back home" />
+        </div>
+    </section>
+</CenteredLayout>
