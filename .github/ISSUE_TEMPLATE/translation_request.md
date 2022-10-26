@@ -10,3 +10,5 @@ assignees: ''
 What language would you like to see translated for this app?
 
 Add any other relevant information here.
+  
+Before adding this request, make sure you've visited the Discussions: https://github.com/mishmanners/mish-friendly-food/discussions/16
