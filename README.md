@@ -67,6 +67,7 @@ Thanks to a bunch of contributions, these are the currently supported languages:
 - Russian
 - Japansese
 - Danish
+- French
 
 This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/_data/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute, please do so.
 

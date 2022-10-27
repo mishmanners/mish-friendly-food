@@ -1,28 +1,33 @@
-body {
-	margin: 0;
+html {
+	min-height: 100vh;
 }
 
-main,
-header,
-footer {
+body {
+	margin: 0;
+	min-height: 100vh;
+}
+
+body>main,
+body>header,
+body>footer {
 	padding: 20px;
 }
 
 
 @media(min-width: 50em) {
 
-	main,
-	header,
-	footer {
+	body>main,
+	body>header,
+	body>footer {
 		padding: 20px 5vw;
 	}
 }
 
 @media(min-width: 60em) {
 
-	main,
-	header,
-	footer {
+	body>main,
+	body>header,
+	body>footer {
 		padding: 40px 0;
 		width: 90vw;
 		max-width: 1000px;

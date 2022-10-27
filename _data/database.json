@@ -321,6 +321,8 @@
         "Vegan"
       ],
       "fr": [
+        "Végétalienne",
+        "Végétalien",
         "Végan"
       ],
       "de": [
@@ -410,7 +412,7 @@
         "Paleo"
       ],
       "fr": [
-        "Paleo"
+        "Paléo"
       ],
       "de": [
         "Paleo"
@@ -594,7 +596,8 @@
         "dairy friendly"
       ],
       "fr": [
-        "Sans lactose"
+        "Sans lactose",
+        "Sans produits laitiers"
       ],
       "de": [
         "Milchfrei"
@@ -868,7 +871,8 @@
         "soy allergy"
       ],
       "fr": [
-        "Sans soja"
+        "Sans soja",
+        "allergie au soja"
       ],
       "de": [
         "Sojafrei"
@@ -960,7 +964,8 @@
         "NF"
       ],
       "fr": [
-        "Sans noix"
+        "Sans noix",
+        "allergie aux noix"
       ],
       "de": [
         "Nussfrei"
@@ -1050,7 +1055,7 @@
         "pescatarian"
       ],
       "fr": [
-        "Pescatarian"
+        "Pescatarien"
       ],
       "de": [
         "Pescatarian"
@@ -1141,7 +1146,8 @@
         "shellfish allergy"
       ],
       "fr": [
-        "Sans fruits de mer"
+        "Sans fruits de mer",
+        "allergie aux crustacés"
       ],
       "de": [
         "Schalentierallergie"
@@ -1232,7 +1238,8 @@
         "fish allergy"
       ],
       "fr": [
-        "Sans poisson"
+        "Sans poisson",
+        "allergie au poisson"
       ],
       "de": [
         "Fischfrei"
@@ -1327,6 +1334,8 @@
       ],
       "fr": [
         "poulet"
+        "volaille",
+        "viande blanche"
       ],
       "de": [
         "Huhn"
@@ -1373,7 +1382,9 @@
         "carne de res"
       ],
       "fr": [
-        "boeuf"
+        "boeuf",
+        "viande rouge",
+        "veau"
       ],
       "de": [
         "Rindfleisch"
@@ -1421,7 +1432,8 @@
         "carne de cordero"
       ],
       "fr": [
-        "agneau"
+        "agneau",
+        "viande rouge"
       ],
       "de": [
         "Lammfleisch"
@@ -1467,7 +1479,8 @@
         "pato"
       ],
       "fr": [
-        "canard"
+        "canard",
+        "volaille"
       ],
       "de": [
         "Ente"
@@ -1559,7 +1572,8 @@
         "queso"
       ],
       "fr": [
-        "fromage"
+        "fromage",
+        "produit laitier"
       ],
       "de": [
         "Käse"
@@ -1604,7 +1618,8 @@
         "leche"
       ],
       "fr": [
-        "lait"
+        "lait",
+        "produit laitier"
       ],
       "de": [
         "Milch"
@@ -1651,6 +1666,8 @@
       ],
       "fr": [
         "yaourt"
+        "yoghourt",
+        "produit laitier"
       ],
       "de": [
         "Joghurt"
@@ -1695,7 +1712,8 @@
         "mantequilla"
       ],
       "fr": [
-        "beurre"
+        "beurre",
+        "produit laitier"
       ],
       "de": [
         "Butter"
@@ -1742,7 +1760,9 @@
         "huevo"
       ],
       "fr": [
-        "oeuf"
+        "oeuf",
+        "blancs d'oeufs",
+        "jaunes d'œuf"
       ],
       "de": [
         "Ei"
@@ -1794,7 +1814,9 @@
         "pan"
       ],
       "fr": [
-        "pain"
+        "pain",
+        "petit pain",
+        "petits pains"
       ],
       "de": [
         "Brot"
@@ -1840,7 +1862,9 @@
         "arroz"
       ],
       "fr": [
-        "riz"
+        "riz",
+        "grain de riz",
+        "grains de riz"
       ],
       "de": [
         "Reis"
@@ -1932,7 +1956,8 @@
         "papa"
       ],
       "fr": [
-        "pomme de terre"
+        "pomme de terre",
+        "patate"
       ],
       "de": [
         "Kartoffel"
@@ -2068,7 +2093,9 @@
         "ajo"
       ],
       "fr": [
-        "ail"
+        "ail",
+        "gousse d'ail",
+        "gousses d'ail"
       ],
       "de": [
         "Knoblauch"
@@ -2120,7 +2147,8 @@
         "chile"
       ],
       "fr": [
-        "piment"
+        "piment",
+        "piments"
       ],
       "de": [
         "Chili"
@@ -2430,7 +2458,8 @@
         "banano"
       ],
       "fr": [
-        "banane"
+        "banane",
+        "bananes"
       ],
       "de": [
         "Banane"
@@ -2475,7 +2504,8 @@
         "manzana"
       ],
       "fr": [
-        "pomme"
+        "pomme",
+        "pommes"
       ],
       "de": [
         "Apfel"
@@ -2521,7 +2551,9 @@
         "naranja"
       ],
       "fr": [
-        "orange"
+        "orange",
+        "oranges",
+        "agrumes"
       ],
       "de": [
         "Orange"
@@ -2567,7 +2599,9 @@
         "limón"
       ],
       "fr": [
-        "citron"
+        "citron",
+        "citrons",
+        "agrumes"
       ],
       "de": [
         "Zitrone"
@@ -2613,7 +2647,9 @@
         "toronja"
       ],
       "fr": [
-        "pamplemousse"
+        "pamplemousse",
+        "pamplemousses",
+        "agrumes"
       ],
       "de": [
         "Grapefruit"
@@ -2703,7 +2739,8 @@
         "fresa"
       ],
       "fr": [
-        "fraise"
+        "fraise",
+        "fraises"
       ],
       "de": [
         "Erdbeere"
@@ -2883,7 +2920,7 @@
         "cacahuetes"
       ],
       "fr": [
-        "cacahuètes"
+        "noix de cajou"
       ],
       "de": [
         "Cashewnüsse"
@@ -2974,6 +3011,7 @@
         "almendras"
       ],
       "fr": [
+        "amande",
         "amandes"
       ],
       "de": [
@@ -3108,7 +3146,8 @@
         "coliflor"
       ],
       "fr": [
-        "chou-fleur"
+        "chou-fleur",
+        "choufleur"
       ],
       "de": [
         "Blumenkohl"
@@ -3331,7 +3370,8 @@
         "mango"
       ],
       "fr": [
-        "mangue"
+        "mangue",
+        "mangues"
       ],
       "de": [
         "Mango"
@@ -3377,7 +3417,8 @@
         "arverjas"
       ],
       "fr": [
-        "pois"
+        "pois",
+        "petits pois"
       ],
       "de": [
         "Erbsen"

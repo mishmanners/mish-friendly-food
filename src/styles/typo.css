@@ -1,39 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+html {
+	font-size: 10px;
+}
+
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	color: var(--text);
-	font-size: 16px;
+	font-size: 1.6rem;
+	;
 	background: var(--background);
 	line-height: 1.25;
 }
 
 @media(min-width: 50em) {
 	body {
-		font-size: 18px;
+		font-size: 1.8rem;
 	}
+}
+
+h1 {
+	font-size: 3rem;
 }
 
 a {
 	color: var(--links);
 	font-weight: 600;
-
-	&:hover {
-		text-decoration: none;
-	}
 }
 
+a:hover {
+	text-decoration: none;
+}
 
-nav {
-	& ul {
-		list-style: none;
-		padding: 0;
-		margin: -10px;
-	}
+nav>ul {
+	list-style: none;
+	padding: 0;
+	margin: -10px;
+}
 
-	& li {
-		margin: 10px;
-	}
+nav li {
+	margin: 10px;
 }
 
 h1 {

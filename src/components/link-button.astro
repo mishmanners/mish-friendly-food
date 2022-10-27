@@ -1,0 +1,18 @@
+---
+const { pageUrl, text } = Astro.props;
+---
+
+<style>
+    a {
+        display: inline-block;
+        background: var(--colour_button_pink);
+        padding: 12px 10px;
+        color: var(--colour_white);
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 20px;
+        font-size: 1.4rem;
+    }
+</style>
+
+<a href={pageUrl}>{text}</a>

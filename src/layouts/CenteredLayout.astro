@@ -1,0 +1,15 @@
+---
+import "../styles/global.css";
+---
+
+<div id="centered-layout-container">
+    <slot />
+</div>
+
+<style>
+    #centered-layout-container {
+        height: 100vh;
+        display: grid;
+        place-content: center center;
+    }
+</style>
