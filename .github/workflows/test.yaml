@@ -1,0 +1,28 @@
+name: Test
+
+on:
+  push:
+    branches: [ main, gs/add-basic-tests ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+      - name: Test Database.json
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          try {
+            Get-Content ./database.json | ConvertFrom-JSON | Out-Null
+            Write-Output "./database.json is a valid JSON file"
+          } catch {
+            Write-Error $_
+          }
