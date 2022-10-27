@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config'
 
 export default defineConfig({
 	site: 'https://mishfriendfood.github.io', //TODO: change to actual URL
-	base: 'mish-friendly-food/'
+//just setup custom domain
 })
