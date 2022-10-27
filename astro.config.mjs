@@ -1,9 +1,5 @@
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-	vite: {
-		ssr: {
-			external: ["svgo"],
-		},
-	},
+	site: 'https://mishfriendfood.github.io', //TODO: change to actual URL
 })
