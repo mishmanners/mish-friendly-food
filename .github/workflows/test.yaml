@@ -21,8 +21,8 @@ jobs:
         run: |
           $ErrorActionPreference = 'Stop'
           try {
-            Get-Content ./database.json | ConvertFrom-JSON | Out-Null
-            Write-Output "./database.json is a valid JSON file"
+            Get-Content ./_data/database.json | ConvertFrom-JSON | Out-Null
+            Write-Output "./_data/database.json is a valid JSON file"
           } catch {
             Write-Error $_
           }

@@ -1,8 +1,28 @@
+---
+import { Icon } from "astro-icon";
+---
+
 <style>
 	.title {
-		font-size: 1.8em;
+		font-size: 2em;
 		font-weight: 700;
 		margin: 0;
+		display: flex;
+		align-items: center;
+		color: inherit;
+		text-decoration: none;
+
+		&:hover {
+			& svg {
+				transform: scale(1.2) rotate(-10deg) translateX(10px);
+			}
+		}
+	}
+
+	.logo {
+		height: 1.1em;
+		width: auto;
+		margin-left: 0.5ch;
 	}
 
 	header {
@@ -13,7 +33,11 @@
 </style>
 
 <header>
-	<p class="title">Mish Friendly Food</p>
+	<a class="title" href="/">
+		Mish Friendly <Icon name="logo" class="logo" aria-hidden /><span
+			class="sr-only">Food</span
+		>
+	</a>
 
 	<nav>
 		<ul>
@@ -24,7 +48,7 @@
 				<a href="/about">About</a>
 			</li>
 			<li>
-				<a href="/contributing">Contibuting</a>
+				<a href="/translations">Translations</a>
 			</li>
 		</ul>
 	</nav>
