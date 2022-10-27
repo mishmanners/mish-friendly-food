@@ -69,7 +69,7 @@ Thanks to a bunch of contributions, these are the currently supported languages:
 - Danish
 - French
 
-This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute, please do so.
+This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/_data/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute, please do so.
 
 ## Running the Site
 
@@ -88,7 +88,7 @@ Once started the site should be accessible at `http://localhost:3000`, unless th
 
 ### Add New Pages
 
-Astro is really great at adding new pages, this site is setup to either take an Astro file (eg. `src/pages/about.astro`) or a markdown file (eg. `src/pages/contributing.md`). If it's a simple content page, markdown works fine, if there's a bit more to it or you want to add styles to it then an Astro file is the best option.
+Astro is really great at adding new pages, this site is setup to either take an Astro file (eg. `src/pages/translations.astro`) or a markdown file (eg. `src/pages/about.md`). If it's a simple content page, markdown works fine, if there's a bit more to it or you want to add styles to it then an Astro file is the best option.
 
 ### Styling
 

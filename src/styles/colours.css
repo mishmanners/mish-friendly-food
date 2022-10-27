@@ -2,6 +2,7 @@
 	--colour_white: #ffffff;
 	--colour_grey_light: #f9f9f9;
 	--colour_grey_dark: #333333;
+	--colour_purple: #2C2555;
 
 	--colour_light_red: #8B0000;
 	--colour_light_blue: #005c7a;
@@ -26,6 +27,6 @@
 		--colour_red: var(--colour_dark_red);
 		--colour_blue: var(--colour_dark_blue);
 		--colour_grey: var(--colour_dark_grey);
-		--background: var(--colour_grey_dark);
+		--background: var(--colour_purple);
 	}
 }

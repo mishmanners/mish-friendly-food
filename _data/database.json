@@ -1,1160 +1,3503 @@
 {
   "dietary_restrictions": {
-    "vegetarian": ["meat", "fish"],
-    "vegan": ["meat", "fish", "dairy", "eggs", "honey"],
-    "gluten_free": ["gluten", "wheat", "barley", "rye", "oats"],
-    "lactose_free": ["dairy", "milk", "cheese", "yogurt", "butter"],
-    "nut_free": ["nuts", "peanuts", "almonds", "cashews", "pecans", "walnuts", "hazelnuts", "macadamia", "pistachios"],
-    "soy_free": ["soy", "soybeans", "soymilk", "soy sauce", "tofu", "tempeh", "edamame", "soy lecithin"],
-    "paleo": ["grains", "legumes", "dairy", "processed sugar", "potatoes", "corn", "soy", "cane sugar", "refined vegetable oils", "artificial sweeteners", "artificial flavors", "artificial colors", "preservatives"],
-    "pescatarian": ["meat"],
-    "dairy_free": ["dairy", "milk", "cheese", "yogurt", "yoghurt", "ice cream"],
-    "nut_allergy": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"],
-    "shellfish_allergy": ["shellfish", "crustaceans", "crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
-    "egg_allergy": ["eggs", "egg whites", "egg yolks"],
-    "soy_allergy": ["soy", "soybeans", "soy sauce", "soy milk", "soy lecithin", "soy protein", "soy flour"],
-    "fish_allergy": ["fish", "fish sauce", "fish oil", "fish stock", "fish paste", "anchovies", "bass", "catfish", "cod", "flounder", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "salmon", "sardines", "sea bass", "sea bream", "sole", "swordfish", "trout", "tuna", "turbot", "whiting"]
+    "vegetarian": [
+      "meat",
+      "fish"
+    ],
+    "vegan": [
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "honey"
+    ],
+    "gluten_free": [
+      "gluten",
+      "wheat",
+      "barley",
+      "rye",
+      "oats"
+    ],
+    "lactose_free": [
+      "dairy",
+      "milk",
+      "cheese",
+      "yogurt",
+      "butter"
+    ],
+    "nut_free": [
+      "nuts",
+      "peanuts",
+      "almonds",
+      "cashews",
+      "pecans",
+      "walnuts",
+      "hazelnuts",
+      "macadamia",
+      "pistachios"
+    ],
+    "soy_free": [
+      "soy",
+      "soybeans",
+      "soymilk",
+      "soy sauce",
+      "tofu",
+      "tempeh",
+      "edamame",
+      "soy lecithin"
+    ],
+    "paleo": [
+      "grains",
+      "legumes",
+      "dairy",
+      "processed sugar",
+      "potatoes",
+      "corn",
+      "soy",
+      "cane sugar",
+      "refined vegetable oils",
+      "artificial sweeteners",
+      "artificial flavors",
+      "artificial colors",
+      "preservatives"
+    ],
+    "pescatarian": [
+      "meat"
+    ],
+    "dairy_free": [
+      "dairy",
+      "milk",
+      "cheese",
+      "yogurt",
+      "yoghurt",
+      "ice cream"
+    ],
+    "nut_allergy": [
+      "nuts",
+      "peanuts",
+      "almonds",
+      "cashews",
+      "walnuts",
+      "tree nuts",
+      "hazelnuts",
+      "macademia nuts",
+      "pecans",
+      "pistachios"
+    ],
+    "shellfish_allergy": [
+      "shellfish",
+      "crustaceans",
+      "crab",
+      "lobster",
+      "shrimp",
+      "prawns",
+      "mussels",
+      "oysters",
+      "clams"
+    ],
+    "egg_allergy": [
+      "eggs",
+      "egg whites",
+      "egg yolks"
+    ],
+    "soy_allergy": [
+      "soy",
+      "soybeans",
+      "soy sauce",
+      "soy milk",
+      "soy lecithin",
+      "soy protein",
+      "soy flour"
+    ],
+    "fish_allergy": [
+      "fish",
+      "fish sauce",
+      "fish oil",
+      "fish stock",
+      "fish paste",
+      "anchovies",
+      "bass",
+      "catfish",
+      "cod",
+      "flounder",
+      "haddock",
+      "hake",
+      "halibut",
+      "mackerel",
+      "monkfish",
+      "perch",
+      "pollock",
+      "salmon",
+      "sardines",
+      "sea bass",
+      "sea bream",
+      "sole",
+      "swordfish",
+      "trout",
+      "tuna",
+      "turbot",
+      "whiting"
+    ]
   },
-
   "categories": {
-    "meat": ["chicken", "beef", "lamb", "duck", "pork"],
-    "dairy": ["cheese", "milk, yogurt, yoghurt, butter, cream, ice cream"],
-    "white meat": ["chicken", "turkey"],
-    "other meat" : ["duck", "pork"],
-    "red meat": ["beef", "lamb"],
-    "protein": ["chicken", "beef", "lamb", "duck", "pork", "cheese", "milk"],
-    "fish": ["salmon", "tuna", "trout", "cod", "haddock", "hake", "halibut", "mackerel", "monkfish", "perch", "pollock", "sea bass", "sea bream", "sole", "swordfish", "turbot", "whiting"],
-    "shellfish": ["crab", "lobster", "shrimp", "prawns", "mussels", "oysters", "clams"],
-    "eggs": ["eggs", "egg whites", "egg yolks"],
-    "nuts": ["nuts", "peanuts", "almonds", "cashews", "walnuts", "tree nuts", "hazelnuts", "macademia nuts", "pecans", "pistachios"],
-    "nightshades": ["tomatoes", "peppers", "pepper", "chilli", "bell pepper", "capsicum"]
+    "meat": [
+      "chicken",
+      "beef",
+      "lamb",
+      "duck",
+      "pork"
+    ],
+    "dairy": [
+      "cheese",
+      "milk, yogurt, yoghurt, butter, cream, ice cream"
+    ],
+    "white_meat": [
+      "chicken",
+      "turkey"
+    ],
+    "other_meat": [
+      "duck",
+      "pork"
+    ],
+    "red_meat": [
+      "beef",
+      "lamb"
+    ],
+    "protein": [
+      "chicken",
+      "beef",
+      "lamb",
+      "duck",
+      "pork",
+      "cheese",
+      "milk"
+    ],
+    "fish": [
+      "salmon",
+      "tuna",
+      "trout",
+      "cod",
+      "haddock",
+      "hake",
+      "halibut",
+      "mackerel",
+      "monkfish",
+      "perch",
+      "pollock",
+      "sea bass",
+      "sea bream",
+      "sole",
+      "swordfish",
+      "turbot",
+      "whiting"
+    ],
+    "shellfish": [
+      "crab",
+      "lobster",
+      "shrimp",
+      "prawns",
+      "mussels",
+      "oysters",
+      "clams"
+    ],
+    "egg": [
+      "eggs",
+      "egg whites",
+      "egg yolks"
+    ],
+    "nuts": [
+      "nuts",
+      "peanuts",
+      "almonds",
+      "cashews",
+      "walnuts",
+      "tree nuts",
+      "hazelnuts",
+      "macademia nuts",
+      "pecans",
+      "pistachios"
+    ],
+    "nightshades": [
+      "tomatoes",
+      "peppers",
+      "pepper",
+      "chilli",
+      "bell pepper",
+      "capsicum"
+    ]
   },
-
   "translations": {
     "vegetarian": {
-      "en": ["Vegetarian"],
-      "fr": ["Végétarien"],
-      "de": ["Vegetarisch"],
-      "es": ["Vegetariano"],
-      "it": ["Vegetariano"],
-      "nl": ["Vegetarisch"],
-      "pt": ["Vegetariano"],
-      "sv": ["Vegetarian"],
-      "fi": ["Vegetaristi"],
-      "da": ["Vegetar"],
-      "nb": ["Vegetar"],
-      "sl": ["Vegetarijanec"],
-      "cs": ["Vegetarián"],
-      "sk": ["Vegetarián"],
-      "pl": ["Wegetarianin"],
-      "hu": ["Vegetáriánus"],
-      "el": ["Βιετανικός"],
-      "bg": ["Вегетарианец"],
-      "ru": ["Вегетарианец"],
-      "sr": ["Вегетаријанец"],
-      "uk": ["Вегетаріанець"],
-      "tr": ["Vejetaryen"],
-      "ro": ["Vegetarian"],
-      "ar": ["نباتي"],
-      "fa": ["نباتی"],
-      "zh": ["素食主义者"],
-      "zh-Hant": ["素食主義者"],
-      "ja": ["ベジタリアン"],
-      "ko": ["채식주의자"]
+      "en": [
+        "Vegetarian"
+      ],
+      "fr": [
+        "Végétarien"
+      ],
+      "de": [
+        "Vegetarisch"
+      ],
+      "es": [
+        "Vegetariano"
+      ],
+      "it": [
+        "Vegetariano"
+      ],
+      "nl": [
+        "Vegetarisch"
+      ],
+      "pt": [
+        "Vegetariano"
+      ],
+      "sv": [
+        "Vegetarian"
+      ],
+      "fi": [
+        "Vegetaristi"
+      ],
+      "da": [
+        "Vegetar"
+      ],
+      "nb": [
+        "Vegetar"
+      ],
+      "sl": [
+        "Vegetarijanec"
+      ],
+      "cs": [
+        "Vegetarián"
+      ],
+      "sk": [
+        "Vegetarián"
+      ],
+      "pl": [
+        "Wegetarianin"
+      ],
+      "hu": [
+        "Vegetáriánus"
+      ],
+      "el": [
+        "Βιετανικός"
+      ],
+      "bg": [
+        "Вегетарианец"
+      ],
+      "ru": [
+        "Вегетарианец"
+      ],
+      "sr": [
+        "Вегетаријанец"
+      ],
+      "uk": [
+        "Вегетаріанець"
+      ],
+      "tr": [
+        "Vejetaryen"
+      ],
+      "ro": [
+        "Vegetarian"
+      ],
+      "ar": [
+        "نباتي"
+      ],
+      "fa": [
+        "نباتی"
+      ],
+      "zh": [
+        "素食主义者"
+      ],
+      "zh-Hant": [
+        "素食主義者"
+      ],
+      "ja": [
+        "ベジタリアン"
+      ],
+      "ko": [
+        "채식주의자"
+      ]
     },
     "vegan": {
-      "en": ["Vegan"],
-      "fr": ["Végétalienne", "Végétalien", "Végan"],
-      "de": ["Vegan"],
-      "es": ["Vegano"],
-      "it": ["Vegano"],
-      "nl": ["Veganistisch"],
-      "pt": ["Vegano"],
-      "sv": ["Vegan"],
-      "fi": ["Vegaani"],
-      "da": ["Veganer"],
-      "nb": ["Veganer"],
-      "sl": ["Vegan"],
-      "cs": ["Vegan"],
-      "sk": ["Vegan"],
-      "pl": ["Wegetarianin"],
-      "hu": ["Vegán"],
-      "el": ["Βιεγκανός"],
-      "bg": ["Веган"],
-      "ru": ["Веган"],
-      "sr": ["Веган"],
-      "uk": ["Веган"],
-      "tr": ["Vegan"],
-      "ro": ["Vegan"],
-      "ar": ["نباتي"],
-      "fa": ["نباتی"],
-      "zh": ["素食主义者"],
-      "zh-Hant": ["素食主義者"],
-      "ja": ["ベジタリアン"],
-      "ko": ["채식주의자"]
+      "en": [
+        "Vegan"
+      ],
+      "fr": [
+        "Végétalienne",
+        "Végétalien",
+        "Végan"
+      ],
+      "de": [
+        "Vegan"
+      ],
+      "es": [
+        "Vegano"
+      ],
+      "it": [
+        "Vegano"
+      ],
+      "nl": [
+        "Veganistisch"
+      ],
+      "pt": [
+        "Vegano"
+      ],
+      "sv": [
+        "Vegan"
+      ],
+      "fi": [
+        "Vegaani"
+      ],
+      "da": [
+        "Veganer"
+      ],
+      "nb": [
+        "Veganer"
+      ],
+      "sl": [
+        "Vegan"
+      ],
+      "cs": [
+        "Vegan"
+      ],
+      "sk": [
+        "Vegan"
+      ],
+      "pl": [
+        "Wegetarianin"
+      ],
+      "hu": [
+        "Vegán"
+      ],
+      "el": [
+        "Βιεγκανός"
+      ],
+      "bg": [
+        "Веган"
+      ],
+      "ru": [
+        "Веган"
+      ],
+      "sr": [
+        "Веган"
+      ],
+      "uk": [
+        "Веган"
+      ],
+      "tr": [
+        "Vegan"
+      ],
+      "ro": [
+        "Vegan"
+      ],
+      "ar": [
+        "نباتي"
+      ],
+      "fa": [
+        "نباتی"
+      ],
+      "zh": [
+        "素食主义者"
+      ],
+      "zh-Hant": [
+        "素食主義者"
+      ],
+      "ja": [
+        "ベジタリアン"
+      ],
+      "ko": [
+        "채식주의자"
+      ]
     },
     "paleo": {
-      "en": ["Paleo"],
-      "fr": ["Paléo"],
-      "de": ["Paleo"],
-      "es": ["Paleo"],
-      "it": ["Paleo"],
-      "nl": ["Paleo"],
-      "pt": ["Paleo"],
-      "sv": ["Paleo"],
-      "fi": ["Paleo"],
-      "da": ["Paleo"],
-      "nb": ["Paleo"],
-      "sl": ["Paleo"],
-      "cs": ["Paleo"],
-      "sk": ["Paleo"],
-      "pl": ["Paleo"],
-      "hu": ["Paleo"],
-      "el": ["Paleo"],
-      "bg": ["Paleo"],
-      "ru": ["Paleo"],
-      "sr": ["Paleo"],
-      "uk": ["Paleo"],
-      "tr": ["Paleo"],
-      "ro": ["Paleo"],
-      "ar": ["Paleo"],
-      "fa": ["Paleo"],
-      "zh": ["Paleo"],
-      "zh-Hant": ["Paleo"],
-      "ja": ["Paleo"],
-      "ko": ["Paleo"]
+      "en": [
+        "Paleo"
+      ],
+      "fr": [
+        "Paléo"
+      ],
+      "de": [
+        "Paleo"
+      ],
+      "es": [
+        "Paleo"
+      ],
+      "it": [
+        "Paleo"
+      ],
+      "nl": [
+        "Paleo"
+      ],
+      "pt": [
+        "Paleo"
+      ],
+      "sv": [
+        "Paleo"
+      ],
+      "fi": [
+        "Paleo"
+      ],
+      "da": [
+        "Paleo"
+      ],
+      "nb": [
+        "Paleo"
+      ],
+      "sl": [
+        "Paleo"
+      ],
+      "cs": [
+        "Paleo"
+      ],
+      "sk": [
+        "Paleo"
+      ],
+      "pl": [
+        "Paleo"
+      ],
+      "hu": [
+        "Paleo"
+      ],
+      "el": [
+        "Paleo"
+      ],
+      "bg": [
+        "Paleo"
+      ],
+      "ru": [
+        "Paleo"
+      ],
+      "sr": [
+        "Paleo"
+      ],
+      "uk": [
+        "Paleo"
+      ],
+      "tr": [
+        "Paleo"
+      ],
+      "ro": [
+        "Paleo"
+      ],
+      "ar": [
+        "Paleo"
+      ],
+      "fa": [
+        "Paleo"
+      ],
+      "zh": [
+        "Paleo"
+      ],
+      "zh-Hant": [
+        "Paleo"
+      ],
+      "ja": [
+        "Paleo"
+      ],
+      "ko": [
+        "Paleo"
+      ]
     },
     "gluten_free": {
-      "en": ["Gluten-free", "gluten free", "GF", "gluten friendly"],
-      "fr": ["Sans gluten"],
-      "de": ["Glutenfrei"],
-      "es": ["Sin gluten"],
-      "it": ["Senza glutine"],
-      "nl": ["Glutenvrij"],
-      "pt": ["Sem glúten"],
-      "sv": ["Glutenfri"],
-      "fi": ["Gluteeniton"],
-      "da": ["Glutenfri"],
-      "nb": ["Glutenfri"],
-      "sl": ["Gluten-free"],
-      "cs": ["Bez lepku"],
-      "sk": ["Bez lepku"],
-      "pl": ["Bez glutenu"],
-      "hu": ["Gluténmentes"],
-      "el": ["Χωρίς γλουτένη"],
-      "bg": ["Без глутен"],
-      "ru": ["Без глютена"],
-      "sr": ["Без глутена"],
-      "uk": ["Без глютену"],
-      "tr": ["Gluten-free"],
-      "ro": ["Fără gluten"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای گلوتن"],
-      "zh": ["无谷蛋白"],
-      "zh-Hant": ["無麩質"],
-      "ja": ["グルテンフリー"],
-      "ko": ["글루텐 프리"]
+      "en": [
+        "Gluten-free",
+        "gluten free",
+        "GF",
+        "gluten friendly"
+      ],
+      "fr": [
+        "Sans gluten"
+      ],
+      "de": [
+        "Glutenfrei"
+      ],
+      "es": [
+        "Sin gluten"
+      ],
+      "it": [
+        "Senza glutine"
+      ],
+      "nl": [
+        "Glutenvrij"
+      ],
+      "pt": [
+        "Sem glúten"
+      ],
+      "sv": [
+        "Glutenfri"
+      ],
+      "fi": [
+        "Gluteeniton"
+      ],
+      "da": [
+        "Glutenfri"
+      ],
+      "nb": [
+        "Glutenfri"
+      ],
+      "sl": [
+        "Gluten-free"
+      ],
+      "cs": [
+        "Bez lepku"
+      ],
+      "sk": [
+        "Bez lepku"
+      ],
+      "pl": [
+        "Bez glutenu"
+      ],
+      "hu": [
+        "Gluténmentes"
+      ],
+      "el": [
+        "Χωρίς γλουτένη"
+      ],
+      "bg": [
+        "Без глутен"
+      ],
+      "ru": [
+        "Без глютена"
+      ],
+      "sr": [
+        "Без глутена"
+      ],
+      "uk": [
+        "Без глютену"
+      ],
+      "tr": [
+        "Gluten-free"
+      ],
+      "ro": [
+        "Fără gluten"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای گلوتن"
+      ],
+      "zh": [
+        "无谷蛋白"
+      ],
+      "zh-Hant": [
+        "無麩質"
+      ],
+      "ja": [
+        "グルテンフリー"
+      ],
+      "ko": [
+        "글루텐 프리"
+      ]
     },
     "dairy_free": {
-      "en": ["Dairy-free", "dairy free", "DF", "dairy friendly"],
-      "fr": ["Sans lactose", "Sans produits laitiers"],
-      "de": ["Milchfrei"],
-      "es": ["Sin lactosa"],
-      "it": ["Senza lattosio"],
-      "nl": ["Lactosevrij"],
-      "pt": ["Sem lactose"],
-      "sv": ["Laktosfri"],
-      "fi": ["Laktoositon"],
-      "da": ["Laktosefri"],
-      "nb": ["Laktosefri"],
-      "sl": ["Dairy-free"],
-      "cs": ["Bez mléka"],
-      "sk": ["Bez mléka"],
-      "pl": ["Bez laktozy"],
-      "hu": ["Laktózmentes"],
-      "el": ["Χωρίς γάλα"],
-      "bg": ["Без мляко"],
-      "ru": ["Без молока"],
-      "sr": ["Без млека"],
-      "uk": ["Без молока"],
-      "tr": ["Dairy-free"],
-      "ro": ["Fără lactoză"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای لکتوز"],
-      "zh": ["无乳制品"],
-      "zh-Hant": ["無乳製品"],
-      "ja": ["乳製品フリー"],
-      "ko": ["락토스 프리"]
+      "en": [
+        "Dairy-free",
+        "dairy free",
+        "DF",
+        "dairy friendly"
+      ],
+      "fr": [
+        "Sans lactose",
+        "Sans produits laitiers"
+      ],
+      "de": [
+        "Milchfrei"
+      ],
+      "es": [
+        "Sin lactosa"
+      ],
+      "it": [
+        "Senza lattosio"
+      ],
+      "nl": [
+        "Lactosevrij"
+      ],
+      "pt": [
+        "Sem lactose"
+      ],
+      "sv": [
+        "Laktosfri"
+      ],
+      "fi": [
+        "Laktoositon"
+      ],
+      "da": [
+        "Laktosefri"
+      ],
+      "nb": [
+        "Laktosefri"
+      ],
+      "sl": [
+        "Dairy-free"
+      ],
+      "cs": [
+        "Bez mléka"
+      ],
+      "sk": [
+        "Bez mléka"
+      ],
+      "pl": [
+        "Bez laktozy"
+      ],
+      "hu": [
+        "Laktózmentes"
+      ],
+      "el": [
+        "Χωρίς γάλα"
+      ],
+      "bg": [
+        "Без мляко"
+      ],
+      "ru": [
+        "Без молока"
+      ],
+      "sr": [
+        "Без млека"
+      ],
+      "uk": [
+        "Без молока"
+      ],
+      "tr": [
+        "Dairy-free"
+      ],
+      "ro": [
+        "Fără lactoză"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای لکتوز"
+      ],
+      "zh": [
+        "无乳制品"
+      ],
+      "zh-Hant": [
+        "無乳製品"
+      ],
+      "ja": [
+        "乳製品フリー"
+      ],
+      "ko": [
+        "락토스 프리"
+      ]
     },
     "egg_allergy": {
-      "en": ["Egg-free", "egg free", "egg allergy", "egg friendly"],
-      "fr": ["Sans oeuf"],
-      "de": ["Eifrei"],
-      "es": ["Sin huevo"],
-      "it": ["Senza uova"],
-      "nl": ["Eivrij"],
-      "pt": ["Sem ovos"],
-      "sv": ["Äggfri"],
-      "fi": ["Kananeton"],
-      "da": ["Æggefri"],
-      "nb": ["Æggefri"],
-      "sl": ["Egg-free"],
-      "cs": ["Bez vejce"],
-      "sk": ["Bez vajca"],
-      "pl": ["Bez jajek"],
-      "hu": ["Tojásmentes"],
-      "el": ["Χωρίς αυγό"],
-      "bg": ["Без яйца"],
-      "ru": ["Без яиц"],
-      "sr": ["Без јаја"],
-      "uk": ["Без яєць"],
-      "tr": ["Egg-free"],
-      "ro": ["Fără ouă"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای برگه"],
-      "zh": ["无蛋制品"],
-      "zh-Hant": ["無蛋製品"],
-      "ja": ["卵フリー"],
-      "ko": ["달걀 프리"]
+      "en": [
+        "Egg-free",
+        "egg free",
+        "egg allergy",
+        "egg friendly"
+      ],
+      "fr": [
+        "Sans oeuf"
+      ],
+      "de": [
+        "Eifrei"
+      ],
+      "es": [
+        "Sin huevo"
+      ],
+      "it": [
+        "Senza uova"
+      ],
+      "nl": [
+        "Eivrij"
+      ],
+      "pt": [
+        "Sem ovos"
+      ],
+      "sv": [
+        "Äggfri"
+      ],
+      "fi": [
+        "Kananeton"
+      ],
+      "da": [
+        "Æggefri"
+      ],
+      "nb": [
+        "Æggefri"
+      ],
+      "sl": [
+        "Egg-free"
+      ],
+      "cs": [
+        "Bez vejce"
+      ],
+      "sk": [
+        "Bez vajca"
+      ],
+      "pl": [
+        "Bez jajek"
+      ],
+      "hu": [
+        "Tojásmentes"
+      ],
+      "el": [
+        "Χωρίς αυγό"
+      ],
+      "bg": [
+        "Без яйца"
+      ],
+      "ru": [
+        "Без яиц"
+      ],
+      "sr": [
+        "Без јаја"
+      ],
+      "uk": [
+        "Без яєць"
+      ],
+      "tr": [
+        "Egg-free"
+      ],
+      "ro": [
+        "Fără ouă"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای برگه"
+      ],
+      "zh": [
+        "无蛋制品"
+      ],
+      "zh-Hant": [
+        "無蛋製品"
+      ],
+      "ja": [
+        "卵フリー"
+      ],
+      "ko": [
+        "달걀 프리"
+      ]
     },
     "peanut_allergy": {
-      "en": ["Peanut-free", "peanut free", "peanut allergy"],
-      "fr": ["Sans arachide"],
-      "de": ["Erdnussfrei"],
-      "es": ["Sin cacahuate"],
-      "it": ["Senza arachidi"],
-      "nl": ["Pinda vrij"],
-      "pt": ["Sem amendoim"],
-      "sv": ["Jordnötallergi"],
-      "fi": ["Pähkinätön"],
-      "da": ["Jordnøtteallergi"],
-      "nb": ["Jordnøtteallergi"],
-      "sl": ["Peanut-free"],
-      "cs": ["Bez arašídu"],
-      "sk": ["Bez arašídu"],
-      "pl": ["Bez orzechów ziemnych"],
-      "hu": ["Földimogyorómentes"],
-      "el": ["Χωρίς φυστίκι"],
-      "bg": ["Без арахис"],
-      "ru": ["Без арахиса"],
-      "sr": ["Без арахиса"],
-      "uk": ["Без арахісу"],
-      "tr": ["Peanut-free"],
-      "ro": ["Fără arahide"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای بادام"],
-      "zh": ["无花生"],
-      "zh-Hant": ["無花生"],
-      "ja": ["ピーナッツフリー"],
-      "ko": ["땅콩 프리"]
+      "en": [
+        "Peanut-free",
+        "peanut free",
+        "peanut allergy"
+      ],
+      "fr": [
+        "Sans arachide"
+      ],
+      "de": [
+        "Erdnussfrei"
+      ],
+      "es": [
+        "Sin cacahuate"
+      ],
+      "it": [
+        "Senza arachidi"
+      ],
+      "nl": [
+        "Pinda vrij"
+      ],
+      "pt": [
+        "Sem amendoim"
+      ],
+      "sv": [
+        "Jordnötallergi"
+      ],
+      "fi": [
+        "Pähkinätön"
+      ],
+      "da": [
+        "Jordnøtteallergi"
+      ],
+      "nb": [
+        "Jordnøtteallergi"
+      ],
+      "sl": [
+        "Peanut-free"
+      ],
+      "cs": [
+        "Bez arašídu"
+      ],
+      "sk": [
+        "Bez arašídu"
+      ],
+      "pl": [
+        "Bez orzechów ziemnych"
+      ],
+      "hu": [
+        "Földimogyorómentes"
+      ],
+      "el": [
+        "Χωρίς φυστίκι"
+      ],
+      "bg": [
+        "Без арахис"
+      ],
+      "ru": [
+        "Без арахиса"
+      ],
+      "sr": [
+        "Без арахиса"
+      ],
+      "uk": [
+        "Без арахісу"
+      ],
+      "tr": [
+        "Peanut-free"
+      ],
+      "ro": [
+        "Fără arahide"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای بادام"
+      ],
+      "zh": [
+        "无花生"
+      ],
+      "zh-Hant": [
+        "無花生"
+      ],
+      "ja": [
+        "ピーナッツフリー"
+      ],
+      "ko": [
+        "땅콩 프리"
+      ]
     },
     "soy_allergy": {
-      "en": ["Soy-free", "soy free", "soy allergy"],
-      "fr": ["Sans soja", "allergie au soja"],
-      "de": ["Sojafrei"],
-      "es": ["Sin soya"],
-      "it": ["Senza soia"],
-      "nl": ["Sojavrij"],
-      "pt": ["Sem soja"],
-      "sv": ["Sojafri"],
-      "fi": ["Soijaton"],
-      "da": ["Soyafri"],
-      "nb": ["Soyafri"],
-      "sl": ["Soy-free"],
-      "cs": ["Bez soje"],
-      "sk": ["Bez soje"],
-      "pl": ["Bez soi"],
-      "hu": ["Szójababmentes"],
-      "el": ["Χωρίς σόγια"],
-      "bg": ["Без соя"],
-      "ru": ["Без сои"],
-      "sr": ["Без соје"],
-      "uk": ["Без сої"],
-      "tr": ["Soy-free"],
-      "ro": ["Fără soia"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای سویا"],
-      "zh": ["无大豆"],
-      "zh-Hant": ["無大豆"],
-      "ja": ["大豆フリー"],
-      "ko": ["대두 프리"]
+      "en": [
+        "Soy-free",
+        "soy free",
+        "soy allergy"
+      ],
+      "fr": [
+        "Sans soja",
+        "allergie au soja"
+      ],
+      "de": [
+        "Sojafrei"
+      ],
+      "es": [
+        "Sin soya"
+      ],
+      "it": [
+        "Senza soia"
+      ],
+      "nl": [
+        "Sojavrij"
+      ],
+      "pt": [
+        "Sem soja"
+      ],
+      "sv": [
+        "Sojafri"
+      ],
+      "fi": [
+        "Soijaton"
+      ],
+      "da": [
+        "Soyafri"
+      ],
+      "nb": [
+        "Soyafri"
+      ],
+      "sl": [
+        "Soy-free"
+      ],
+      "cs": [
+        "Bez soje"
+      ],
+      "sk": [
+        "Bez soje"
+      ],
+      "pl": [
+        "Bez soi"
+      ],
+      "hu": [
+        "Szójababmentes"
+      ],
+      "el": [
+        "Χωρίς σόγια"
+      ],
+      "bg": [
+        "Без соя"
+      ],
+      "ru": [
+        "Без сои"
+      ],
+      "sr": [
+        "Без соје"
+      ],
+      "uk": [
+        "Без сої"
+      ],
+      "tr": [
+        "Soy-free"
+      ],
+      "ro": [
+        "Fără soia"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای سویا"
+      ],
+      "zh": [
+        "无大豆"
+      ],
+      "zh-Hant": [
+        "無大豆"
+      ],
+      "ja": [
+        "大豆フリー"
+      ],
+      "ko": [
+        "대두 프리"
+      ]
     },
-
     "nut_allergy": {
-      "en": ["Nut-free", "nut free", "nut allergy", "NF"],
-      "fr": ["Sans noix", "allergie aux noix"],
-      "de": ["Nussfrei"],
-      "es": ["Sin nuez"],
-      "it": ["Senza noci"],
-      "nl": ["Notenvrij"],
-      "pt": ["Sem nozes"],
-      "sv": ["Nötallergi"],
-      "fi": ["Pähkinätön"],
-      "da": ["Nødderallergi"],
-      "nb": ["Nødderallergi"],
-      "sl": ["Nut-free"],
-      "cs": ["Bez ořechů"],
-      "sk": ["Bez orechov"],
-      "pl": ["Bez orzechów"],
-      "hu": ["Magvakmentes"],
-      "el": ["Χωρίς φυστίκι"],
-      "bg": ["Без ядки"],
-      "ru": ["Без орехов"],
-      "sr": ["Без јагода"],
-      "uk": ["Без орехів"],
-      "tr": ["Nut-free"],
-      "ro": ["Fără nuci"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای بادام"],
-      "zh": ["无坚果"],
-      "zh-Hant": ["無堅果"],
-      "ja": ["ナッツフリー"],
-      "ko": ["견과류 프리"]
+      "en": [
+        "Nut-free",
+        "nut free",
+        "nut allergy",
+        "NF"
+      ],
+      "fr": [
+        "Sans noix",
+        "allergie aux noix"
+      ],
+      "de": [
+        "Nussfrei"
+      ],
+      "es": [
+        "Sin nuez"
+      ],
+      "it": [
+        "Senza noci"
+      ],
+      "nl": [
+        "Notenvrij"
+      ],
+      "pt": [
+        "Sem nozes"
+      ],
+      "sv": [
+        "Nötallergi"
+      ],
+      "fi": [
+        "Pähkinätön"
+      ],
+      "da": [
+        "Nødderallergi"
+      ],
+      "nb": [
+        "Nødderallergi"
+      ],
+      "sl": [
+        "Nut-free"
+      ],
+      "cs": [
+        "Bez ořechů"
+      ],
+      "sk": [
+        "Bez orechov"
+      ],
+      "pl": [
+        "Bez orzechów"
+      ],
+      "hu": [
+        "Magvakmentes"
+      ],
+      "el": [
+        "Χωρίς φυστίκι"
+      ],
+      "bg": [
+        "Без ядки"
+      ],
+      "ru": [
+        "Без орехов"
+      ],
+      "sr": [
+        "Без јагода"
+      ],
+      "uk": [
+        "Без орехів"
+      ],
+      "tr": [
+        "Nut-free"
+      ],
+      "ro": [
+        "Fără nuci"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای بادام"
+      ],
+      "zh": [
+        "无坚果"
+      ],
+      "zh-Hant": [
+        "無堅果"
+      ],
+      "ja": [
+        "ナッツフリー"
+      ],
+      "ko": [
+        "견과류 프리"
+      ]
     },
     "pescatarian": {
-      "en": ["Pescatarian", "pescatarian"],
-      "fr": ["Pescatarien"],
-      "de": ["Pescatarian"],
-      "es": ["Pescatarian"],
-      "it": ["Pescatarian"],
-      "nl": ["Pescatarian"],
-      "pt": ["Pescatarian"],
-      "sv": ["Pescatarian"],
-      "fi": ["Pescatarian"],
-      "da": ["Pescatarian"],
-      "nb": ["Pescatarian"],
-      "sl": ["Pescatarian"],
-      "cs": ["Pescatarian"],
-      "sk": ["Pescatarian"],
-      "pl": ["Pescatarian"],
-      "hu": ["Pescatarian"],
-      "el": ["Pescatarian"],
-      "bg": ["Pescatarian"],
-      "ru": ["Pescatarian"],
-      "sr": ["Pescatarian"],
-      "uk": ["Pescatarian"],
-      "tr": ["Pescatarian"],
-      "ro": ["Pescatarian"],
-      "ar": ["Pescatarian"],
-      "fa": ["Pescatarian"],
-      "zh": ["Pescatarian"],
-      "zh-Hant": ["Pescatarian"],
-      "ja": ["Pescatarian"],
-      "ko": ["Pescatarian"]
+      "en": [
+        "Pescatarian",
+        "pescatarian"
+      ],
+      "fr": [
+        "Pescatarien"
+      ],
+      "de": [
+        "Pescatarian"
+      ],
+      "es": [
+        "Pescatarian"
+      ],
+      "it": [
+        "Pescatarian"
+      ],
+      "nl": [
+        "Pescatarian"
+      ],
+      "pt": [
+        "Pescatarian"
+      ],
+      "sv": [
+        "Pescatarian"
+      ],
+      "fi": [
+        "Pescatarian"
+      ],
+      "da": [
+        "Pescatarian"
+      ],
+      "nb": [
+        "Pescatarian"
+      ],
+      "sl": [
+        "Pescatarian"
+      ],
+      "cs": [
+        "Pescatarian"
+      ],
+      "sk": [
+        "Pescatarian"
+      ],
+      "pl": [
+        "Pescatarian"
+      ],
+      "hu": [
+        "Pescatarian"
+      ],
+      "el": [
+        "Pescatarian"
+      ],
+      "bg": [
+        "Pescatarian"
+      ],
+      "ru": [
+        "Pescatarian"
+      ],
+      "sr": [
+        "Pescatarian"
+      ],
+      "uk": [
+        "Pescatarian"
+      ],
+      "tr": [
+        "Pescatarian"
+      ],
+      "ro": [
+        "Pescatarian"
+      ],
+      "ar": [
+        "Pescatarian"
+      ],
+      "fa": [
+        "Pescatarian"
+      ],
+      "zh": [
+        "Pescatarian"
+      ],
+      "zh-Hant": [
+        "Pescatarian"
+      ],
+      "ja": [
+        "Pescatarian"
+      ],
+      "ko": [
+        "Pescatarian"
+      ]
     },
     "shellfish": {
-      "en": ["Shellfish-free", "shellfish free", "shellfish allergy"],
-      "fr": ["Sans fruits de mer", "allergie aux crustacés"],
-      "de": ["Schalentierallergie"],
-      "es": ["Sin mariscos"],
-      "it": ["Senza frutti di mare"],
-      "nl": ["Schelpdierenallergie"],
-      "pt": ["Sem frutos do mar"],
-      "sv": ["Skaldjurallergi"],
-      "fi": ["Kala-allergia"],
-      "da": ["Skaldyrsallergi"],
-      "nb": ["Skaldyrsallergi"],
-      "sl": ["Shellfish-free"],
-      "cs": ["Bez mořských plodů"],
-      "sk": ["Bez morských plodov"],
-      "pl": ["Bez owoców morza"],
-      "hu": ["Hulladékmentes"],
-      "el": ["Χωρίς θαλασσινά"],
-      "bg": ["Без морски дарове"],
-      "ru": ["Без морепродуктов"],
-      "sr": ["Без морских дарова"],
-      "uk": ["Без морепродуктів"],
-      "tr": ["Shellfish-free"],
-      "ro": ["Fără fructe de mare"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای ماهی"],
-      "zh": ["无海鲜"],
-      "zh-Hant": ["無海鮮"],
-      "ja": ["貝類フリー"],
-      "ko": ["조개 프리"]
+      "en": [
+        "Shellfish-free",
+        "shellfish free",
+        "shellfish allergy"
+      ],
+      "fr": [
+        "Sans fruits de mer",
+        "allergie aux crustacés"
+      ],
+      "de": [
+        "Schalentierallergie"
+      ],
+      "es": [
+        "Sin mariscos"
+      ],
+      "it": [
+        "Senza frutti di mare"
+      ],
+      "nl": [
+        "Schelpdierenallergie"
+      ],
+      "pt": [
+        "Sem frutos do mar"
+      ],
+      "sv": [
+        "Skaldjurallergi"
+      ],
+      "fi": [
+        "Kala-allergia"
+      ],
+      "da": [
+        "Skaldyrsallergi"
+      ],
+      "nb": [
+        "Skaldyrsallergi"
+      ],
+      "sl": [
+        "Shellfish-free"
+      ],
+      "cs": [
+        "Bez mořských plodů"
+      ],
+      "sk": [
+        "Bez morských plodov"
+      ],
+      "pl": [
+        "Bez owoców morza"
+      ],
+      "hu": [
+        "Hulladékmentes"
+      ],
+      "el": [
+        "Χωρίς θαλασσινά"
+      ],
+      "bg": [
+        "Без морски дарове"
+      ],
+      "ru": [
+        "Без морепродуктов"
+      ],
+      "sr": [
+        "Без морских дарова"
+      ],
+      "uk": [
+        "Без морепродуктів"
+      ],
+      "tr": [
+        "Shellfish-free"
+      ],
+      "ro": [
+        "Fără fructe de mare"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای ماهی"
+      ],
+      "zh": [
+        "无海鲜"
+      ],
+      "zh-Hant": [
+        "無海鮮"
+      ],
+      "ja": [
+        "貝類フリー"
+      ],
+      "ko": [
+        "조개 프리"
+      ]
     },
     "fish_allergy": {
-      "en": ["Fish-free", "fish free", "fish allergy"],
-      "fr": ["Sans poisson", "allergie au poisson"],
-      "de": ["Fischfrei"],
-      "es": ["Sin pescado"],
-      "it": ["Senza pesce"],
-      "nl": ["Visvrij"],
-      "pt": ["Sem peixe"],
-      "sv": ["Fiskallergi"],
-      "fi": ["Kala-allergia"],
-      "da": ["Fiskallergi"],
-      "nb": ["Fiskallergi"],
-      "sl": ["Fish-free"],
-      "cs": ["Bez ryb"],
-      "sk": ["Bez ryb"],
-      "pl": ["Bez ryb"],
-      "hu": ["Halmentes"],
-      "el": ["Χωρίς ψάρι"],
-      "bg": ["Без риба"],
-      "ru": ["Без рыбы"],
-      "sr": ["Без рибе"],
-      "uk": ["Без риби"],
-      "tr": ["Fish-free"],
-      "ro": ["Fără pește"],
-      "ar": ["غير دقيق"],
-      "fa": ["غیر دارای ماهی"],
-      "zh": ["无鱼"],
-      "zh-Hant": ["無魚"],
-      "ja": ["魚フリー"],
-      "ko": ["생선 프리"]
+      "en": [
+        "Fish-free",
+        "fish free",
+        "fish allergy"
+      ],
+      "fr": [
+        "Sans poisson",
+        "allergie au poisson"
+      ],
+      "de": [
+        "Fischfrei"
+      ],
+      "es": [
+        "Sin pescado"
+      ],
+      "it": [
+        "Senza pesce"
+      ],
+      "nl": [
+        "Visvrij"
+      ],
+      "pt": [
+        "Sem peixe"
+      ],
+      "sv": [
+        "Fiskallergi"
+      ],
+      "fi": [
+        "Kala-allergia"
+      ],
+      "da": [
+        "Fiskallergi"
+      ],
+      "nb": [
+        "Fiskallergi"
+      ],
+      "sl": [
+        "Fish-free"
+      ],
+      "cs": [
+        "Bez ryb"
+      ],
+      "sk": [
+        "Bez ryb"
+      ],
+      "pl": [
+        "Bez ryb"
+      ],
+      "hu": [
+        "Halmentes"
+      ],
+      "el": [
+        "Χωρίς ψάρι"
+      ],
+      "bg": [
+        "Без риба"
+      ],
+      "ru": [
+        "Без рыбы"
+      ],
+      "sr": [
+        "Без рибе"
+      ],
+      "uk": [
+        "Без риби"
+      ],
+      "tr": [
+        "Fish-free"
+      ],
+      "ro": [
+        "Fără pește"
+      ],
+      "ar": [
+        "غير دقيق"
+      ],
+      "fa": [
+        "غیر دارای ماهی"
+      ],
+      "zh": [
+        "无鱼"
+      ],
+      "zh-Hant": [
+        "無魚"
+      ],
+      "ja": [
+        "魚フリー"
+      ],
+      "ko": [
+        "생선 프리"
+      ]
     },
     "chicken": {
-      "en": ["chicken", "poultry", "white meat"],
-      "es": ["pollo"],
-      "fr": ["poulet", "volaille", "viande blanche"],
-      "de": ["Huhn"],
-      "it": ["pollo"],
-      "pt": ["frango"],
-      "ru": ["курица"],
-      "ja": ["鶏肉"],
-      "zh": ["鸡肉"],
-      "ar": ["دجاج"],
-      "hi": ["मुर्गी"],
-      "bn": ["মুরগি"],
-      "hr": ["piletina"],
-      "da": ["kylling"]
+      "en": [
+        "chicken",
+        "poultry",
+        "white meat"
+      ],
+      "es": [
+        "pollo"
+      ],
+      "fr": [
+        "poulet"
+        "volaille",
+        "viande blanche"
+      ],
+      "de": [
+        "Huhn"
+      ],
+      "it": [
+        "pollo"
+      ],
+      "pt": [
+        "frango"
+      ],
+      "ru": [
+        "курица"
+      ],
+      "ja": [
+        "鶏肉"
+      ],
+      "zh": [
+        "鸡肉"
+      ],
+      "ar": [
+        "دجاج"
+      ],
+      "hi": [
+        "मुर्गी"
+      ],
+      "bn": [
+        "মুরগি"
+      ],
+      "hr": [
+        "piletina"
+      ],
+      "da": [
+        "kylling"
+      ]
     },
     "beef": {
-      "en": ["beef", "meat", "red meat", "veal"],
-      "es": ["carne de res"],
-      "fr": ["boeuf", "viande rouge", "veau"],
-      "de": ["Rindfleisch"],
-      "it": ["manzo"],
-      "pt": ["carne"],
-      "ru": ["говядина"],
-      "ja": ["牛肉"],
-      "zh": ["牛肉"],
-      "ar": ["لحم البقر"],
-      "hi": ["गाय का मांस"],
-      "bn": ["গরুর মাংস"],
-      "hr": ["govedina"],
-      "da": ["oksekød", "bøf"]
+      "en": [
+        "beef",
+        "meat",
+        "red meat",
+        "veal"
+      ],
+      "es": [
+        "carne de res"
+      ],
+      "fr": [
+        "boeuf",
+        "viande rouge",
+        "veau"
+      ],
+      "de": [
+        "Rindfleisch"
+      ],
+      "it": [
+        "manzo"
+      ],
+      "pt": [
+        "carne"
+      ],
+      "ru": [
+        "говядина"
+      ],
+      "ja": [
+        "牛肉"
+      ],
+      "zh": [
+        "牛肉"
+      ],
+      "ar": [
+        "لحم البقر"
+      ],
+      "hi": [
+        "गाय का मांस"
+      ],
+      "bn": [
+        "গরুর মাংস"
+      ],
+      "hr": [
+        "govedina"
+      ],
+      "da": [
+        "oksekød",
+        "bøf"
+      ]
     },
     "lamb": {
-      "en": ["lamb", "meat", "red meat", "hoggate"],
-      "es": ["carne de cordero"],
-      "fr": ["agneau", "viande rouge"],
-      "de": ["Lammfleisch"],
-      "it": ["agnello"],
-      "pt": ["cordeiro"],
-      "ru": ["баранина"],
-      "ja": ["羊肉"],
-      "zh": ["羊肉"],
-      "ar": ["لحم الخروف"],
-      "hi": ["बकरी का मांस"],
-      "bn": ["বাকরির মাংস"],
-      "hr": ["janjetina"],
-      "da": ["lam", "lammekød"]
+      "en": [
+        "lamb",
+        "meat",
+        "red meat",
+        "hoggate"
+      ],
+      "es": [
+        "carne de cordero"
+      ],
+      "fr": [
+        "agneau",
+        "viande rouge"
+      ],
+      "de": [
+        "Lammfleisch"
+      ],
+      "it": [
+        "agnello"
+      ],
+      "pt": [
+        "cordeiro"
+      ],
+      "ru": [
+        "баранина"
+      ],
+      "ja": [
+        "羊肉"
+      ],
+      "zh": [
+        "羊肉"
+      ],
+      "ar": [
+        "لحم الخروف"
+      ],
+      "hi": [
+        "बकरी का मांस"
+      ],
+      "bn": [
+        "বাকরির মাংস"
+      ],
+      "hr": [
+        "janjetina"
+      ],
+      "da": [
+        "lam",
+        "lammekød"
+      ]
     },
     "duck": {
-      "en": ["duck", "poultry"],
-      "es": ["pato"],
-      "fr": ["canard", "volaille"],
-      "de": ["Ente"],
-      "it": ["anatra"],
-      "pt": ["pato"],
-      "ru": ["утка"],
-      "ja": ["アヒル"],
-      "zh": ["鸭肉"],
-      "ar": ["بطة"],
-      "hi": ["बकरी"],
-      "bn": ["বাকরি"],
-      "hr": ["patka"],
-      "da": ["and"]
+      "en": [
+        "duck",
+        "poultry"
+      ],
+      "es": [
+        "pato"
+      ],
+      "fr": [
+        "canard",
+        "volaille"
+      ],
+      "de": [
+        "Ente"
+      ],
+      "it": [
+        "anatra"
+      ],
+      "pt": [
+        "pato"
+      ],
+      "ru": [
+        "утка"
+      ],
+      "ja": [
+        "アヒル"
+      ],
+      "zh": [
+        "鸭肉"
+      ],
+      "ar": [
+        "بطة"
+      ],
+      "hi": [
+        "बकरी"
+      ],
+      "bn": [
+        "বাকরি"
+      ],
+      "hr": [
+        "patka"
+      ],
+      "da": [
+        "and"
+      ]
     },
     "pork": {
-      "en": ["pork", "meat"],
-      "es": ["cerdo", "marrano"],
-      "fr": ["porc"],
-      "de": ["Schweinefleisch"],
-      "it": ["maiale"],
-      "pt": ["porco"],
-      "ru": ["свинина"],
-      "ja": ["豚肉"],
-      "zh": ["猪肉"],
-      "ar": ["لحم الخنزير"],
-      "hi": ["सूअर"],
-      "bn": ["শুঁইর"],
-      "hr": ["svinjetina"],
-      "da": ["svin", "svinekød"]
+      "en": [
+        "pork",
+        "meat"
+      ],
+      "es": [
+        "cerdo",
+        "marrano"
+      ],
+      "fr": [
+        "porc"
+      ],
+      "de": [
+        "Schweinefleisch"
+      ],
+      "it": [
+        "maiale"
+      ],
+      "pt": [
+        "porco"
+      ],
+      "ru": [
+        "свинина"
+      ],
+      "ja": [
+        "豚肉"
+      ],
+      "zh": [
+        "猪肉"
+      ],
+      "ar": [
+        "لحم الخنزير"
+      ],
+      "hi": [
+        "सूअर"
+      ],
+      "bn": [
+        "শুঁইর"
+      ],
+      "hr": [
+        "svinjetina"
+      ],
+      "da": [
+        "svin",
+        "svinekød"
+      ]
     },
     "cheese": {
-      "en": ["cheese", "dairy"],
-      "es": ["queso"],
-      "fr": ["fromage", "produit laitier"],
-      "de": ["Käse"],
-      "it": ["formaggio"],
-      "pt": ["queijo"],
-      "ru": ["сыр"],
-      "ja": ["チーズ"],
-      "zh": ["奶酪"],
-      "ar": ["جبن"],
-      "hi": ["चीज"],
-      "bn": ["চিজ"],
-      "hr": ["sir"],
-      "da": ["ost"]
+      "en": [
+        "cheese",
+        "dairy"
+      ],
+      "es": [
+        "queso"
+      ],
+      "fr": [
+        "fromage",
+        "produit laitier"
+      ],
+      "de": [
+        "Käse"
+      ],
+      "it": [
+        "formaggio"
+      ],
+      "pt": [
+        "queijo"
+      ],
+      "ru": [
+        "сыр"
+      ],
+      "ja": [
+        "チーズ"
+      ],
+      "zh": [
+        "奶酪"
+      ],
+      "ar": [
+        "جبن"
+      ],
+      "hi": [
+        "चीज"
+      ],
+      "bn": [
+        "চিজ"
+      ],
+      "hr": [
+        "sir"
+      ],
+      "da": [
+        "ost"
+      ]
     },
     "milk": {
-      "en": ["milk", "dairy"],
-      "es": ["leche"],
-      "fr": ["lait", "produit laitier"],
-      "de": ["Milch"],
-      "it": ["latte"],
-      "pt": ["leite"],
-      "ru": ["молоко"],
-      "ja": ["ミルク"],
-      "zh": ["牛奶"],
-      "ar": ["حليب"],
-      "hi": ["दूध"],
-      "bn": ["দুধ"],
-      "hr": ["mlijeko"],
-      "da": ["mælk"]
+      "en": [
+        "milk",
+        "dairy"
+      ],
+      "es": [
+        "leche"
+      ],
+      "fr": [
+        "lait",
+        "produit laitier"
+      ],
+      "de": [
+        "Milch"
+      ],
+      "it": [
+        "latte"
+      ],
+      "pt": [
+        "leite"
+      ],
+      "ru": [
+        "молоко"
+      ],
+      "ja": [
+        "ミルク"
+      ],
+      "zh": [
+        "牛奶"
+      ],
+      "ar": [
+        "حليب"
+      ],
+      "hi": [
+        "दूध"
+      ],
+      "bn": [
+        "দুধ"
+      ],
+      "hr": [
+        "mlijeko"
+      ],
+      "da": [
+        "mælk"
+      ]
     },
     "yogurt": {
-      "en": ["yogurt", "yoghurt", "dairy"],
-      "es": ["yogur"],
-      "fr": ["yaourt", "yoghourt", "produit laitier"],
-      "de": ["Joghurt"],
-      "it": ["yogurt"],
-      "pt": ["iogurte"],
-      "ru": ["йогурт"],
-      "ja": ["ヨーグルト"],
-      "zh": ["酸奶"],
-      "ar": ["يوغورت"],
-      "hi": ["योगर्ट"],
-      "bn": ["যোগুর্ট"],
-      "hr": ["jogurt"],
-      "da": ["youghurt"]
+      "en": [
+        "yogurt",
+        "yoghurt",
+        "dairy"
+      ],
+      "es": [
+        "yogur"
+      ],
+      "fr": [
+        "yaourt"
+        "yoghourt",
+        "produit laitier"
+      ],
+      "de": [
+        "Joghurt"
+      ],
+      "it": [
+        "yogurt"
+      ],
+      "pt": [
+        "iogurte"
+      ],
+      "ru": [
+        "йогурт"
+      ],
+      "ja": [
+        "ヨーグルト"
+      ],
+      "zh": [
+        "酸奶"
+      ],
+      "ar": [
+        "يوغورت"
+      ],
+      "hi": [
+        "योगर्ट"
+      ],
+      "bn": [
+        "যোগুর্ট"
+      ],
+      "hr": [
+        "jogurt"
+      ],
+      "da": [
+        "youghurt"
+      ]
     },
     "butter": {
-      "en": ["butter", "dairy"],
-      "es": ["mantequilla"],
-      "fr": ["beurre", "produit laitier"],
-      "de": ["Butter"],
-      "it": ["burro"],
-      "pt": ["manteiga"],
-      "ru": ["сливочное масло"],
-      "ja": ["バター"],
-      "zh": ["黄油"],
-      "ar": ["زبدة"],
-      "hi": ["मक्खन"],
-      "bn": ["মাখন"],
-      "hr": ["maslac"],
-      "da": ["smør"]
+      "en": [
+        "butter",
+        "dairy"
+      ],
+      "es": [
+        "mantequilla"
+      ],
+      "fr": [
+        "beurre",
+        "produit laitier"
+      ],
+      "de": [
+        "Butter"
+      ],
+      "it": [
+        "burro"
+      ],
+      "pt": [
+        "manteiga"
+      ],
+      "ru": [
+        "сливочное масло"
+      ],
+      "ja": [
+        "バター"
+      ],
+      "zh": [
+        "黄油"
+      ],
+      "ar": [
+        "زبدة"
+      ],
+      "hi": [
+        "मक्खन"
+      ],
+      "bn": [
+        "মাখন"
+      ],
+      "hr": [
+        "maslac"
+      ],
+      "da": [
+        "smør"
+      ]
     },
     "egg": {
-      "en": ["egg", "eggs", "egg whites", "egg yolks"],
-      "es": ["huevo"],
-      "fr": ["oeuf", "blancs d'oeufs", "jaunes d'œuf"],
-      "de": ["Ei"],
-      "it": ["uovo"],
-      "pt": ["ovo"],
-      "ru": ["яйцо"],
-      "ja": ["卵"],
-      "zh": ["鸡蛋"],
-      "ar": ["بيضة"],
-      "hi": ["अंडा"],
-      "bn": ["ডিম"],
-      "hr": ["jaje"],
-      "da": ["æg"]
+      "en": [
+        "egg",
+        "eggs",
+        "egg whites",
+        "egg yolks"
+      ],
+      "es": [
+        "huevo"
+      ],
+      "fr": [
+        "oeuf",
+        "blancs d'oeufs",
+        "jaunes d'œuf"
+      ],
+      "de": [
+        "Ei"
+      ],
+      "it": [
+        "uovo"
+      ],
+      "pt": [
+        "ovo"
+      ],
+      "ru": [
+        "яйцо"
+      ],
+      "ja": [
+        "卵"
+      ],
+      "zh": [
+        "鸡蛋"
+      ],
+      "ar": [
+        "بيضة"
+      ],
+      "hi": [
+        "अंडा"
+      ],
+      "bn": [
+        "ডিম"
+      ],
+      "hr": [
+        "jaje"
+      ],
+      "da": [
+        "æg"
+      ]
     },
     "bread": {
-      "en": ["bread", "bread roll", "bread rolls", "rolls", "roll", "bun", "buns", "bun roll", "bun rolls"],
-      "es": ["pan"],
-      "fr": ["pain", "petit pain", "petits pains"],
-      "de": ["Brot"],
-      "it": ["pane"],
-      "pt": ["pão"],
-      "ru": ["хлеб"],
-      "ja": ["パン"],
-      "zh": ["面包"],
-      "ar": ["خبز"],
-      "hi": ["ब्रेड"],
-      "bn": ["ব্রেড"],
-      "hr": ["kruh"],
-      "da": ["brød"]
+      "en": [
+        "bread",
+        "bread roll",
+        "bread rolls",
+        "rolls",
+        "roll",
+        "bun",
+        "buns",
+        "bun roll",
+        "bun rolls"
+      ],
+      "es": [
+        "pan"
+      ],
+      "fr": [
+        "pain",
+        "petit pain",
+        "petits pains"
+      ],
+      "de": [
+        "Brot"
+      ],
+      "it": [
+        "pane"
+      ],
+      "pt": [
+        "pão"
+      ],
+      "ru": [
+        "хлеб"
+      ],
+      "ja": [
+        "パン"
+      ],
+      "zh": [
+        "面包"
+      ],
+      "ar": [
+        "خبز"
+      ],
+      "hi": [
+        "ब्रेड"
+      ],
+      "bn": [
+        "ব্রেড"
+      ],
+      "hr": [
+        "kruh"
+      ],
+      "da": [
+        "brød"
+      ]
     },
     "rice": {
-      "en": ["rice", "rice grain", "rice grains"],
-      "es": ["arroz"],
-      "fr": ["riz", "grain de riz", "grains de riz"],
-      "de": ["Reis"],
-      "it": ["riso"],
-      "pt": ["arroz"],
-      "ru": ["рис"],
-      "ja": ["ご飯"],
-      "zh": ["米饭"],
-      "ar": ["أرز"],
-      "hi": ["चावल"],
-      "bn": ["ভাত"],
-      "hr": ["riža"],
-      "da": ["ris"]
+      "en": [
+        "rice",
+        "rice grain",
+        "rice grains"
+      ],
+      "es": [
+        "arroz"
+      ],
+      "fr": [
+        "riz",
+        "grain de riz",
+        "grains de riz"
+      ],
+      "de": [
+        "Reis"
+      ],
+      "it": [
+        "riso"
+      ],
+      "pt": [
+        "arroz"
+      ],
+      "ru": [
+        "рис"
+      ],
+      "ja": [
+        "ご飯"
+      ],
+      "zh": [
+        "米饭"
+      ],
+      "ar": [
+        "أرز"
+      ],
+      "hi": [
+        "चावल"
+      ],
+      "bn": [
+        "ভাত"
+      ],
+      "hr": [
+        "riža"
+      ],
+      "da": [
+        "ris"
+      ]
     },
     "pasta": {
-      "en": ["pasta"],
-      "es": ["pasta"],
-      "fr": ["pâtes"],
-      "de": ["Nudeln"],
-      "it": ["pasta"],
-      "pt": ["massa"],
-      "ru": ["макароны"],
-      "ja": ["パスタ"],
-      "zh": ["意大利面"],
-      "ar": ["معكرونة"],
-      "hi": ["पास्ता"],
-      "bn": ["পাস্তা"],
-      "hr": ["tjestenina"],
-      "da": ["pasta"]
+      "en": [
+        "pasta"
+      ],
+      "es": [
+        "pasta"
+      ],
+      "fr": [
+        "pâtes"
+      ],
+      "de": [
+        "Nudeln"
+      ],
+      "it": [
+        "pasta"
+      ],
+      "pt": [
+        "massa"
+      ],
+      "ru": [
+        "макароны"
+      ],
+      "ja": [
+        "パスタ"
+      ],
+      "zh": [
+        "意大利面"
+      ],
+      "ar": [
+        "معكرونة"
+      ],
+      "hi": [
+        "पास्ता"
+      ],
+      "bn": [
+        "পাস্তা"
+      ],
+      "hr": [
+        "tjestenina"
+      ],
+      "da": [
+        "pasta"
+      ]
     },
     "potato": {
-      "en": ["potato", "potatoes", "potatoe", "potatoe"],
-      "es": ["patata", "papa"],
-      "fr": ["pomme de terre", "patate"],
-      "de": ["Kartoffel"],
-      "it": ["patata"],
-      "pt": ["batata"],
-      "ru": ["картофель"],
-      "ja": ["じゃがいも"],
-      "zh": ["土豆"],
-      "ar": ["بطاطس"],
-      "hi": ["आलू"],
-      "bn": ["আলু"],
-      "hr": ["krumpir"],
-      "da": ["kartoffel"]
+      "en": [
+        "potato",
+        "potatoes",
+        "potatoe",
+        "potatoe"
+      ],
+      "es": [
+        "patata",
+        "papa"
+      ],
+      "fr": [
+        "pomme de terre",
+        "patate"
+      ],
+      "de": [
+        "Kartoffel"
+      ],
+      "it": [
+        "patata"
+      ],
+      "pt": [
+        "batata"
+      ],
+      "ru": [
+        "картофель"
+      ],
+      "ja": [
+        "じゃがいも"
+      ],
+      "zh": [
+        "土豆"
+      ],
+      "ar": [
+        "بطاطس"
+      ],
+      "hi": [
+        "आलू"
+      ],
+      "bn": [
+        "আলু"
+      ],
+      "hr": [
+        "krumpir"
+      ],
+      "da": [
+        "kartoffel"
+      ]
     },
     "tomato": {
-      "en": ["tomato", "tomatoes"],
-      "es": ["tomate"],
-      "fr": ["tomate"],
-      "de": ["Tomate"],
-      "it": ["pomodoro"],
-      "pt": ["tomate"],
-      "ru": ["помидор"],
-      "ja": ["トマト"],
-      "zh": ["番茄"],
-      "ar": ["طماطم"],
-      "hi": ["टमाटर"],
-      "bn": ["টমেটো"],
-      "hr": ["rajčica"],
-      "da": ["tomat"]
+      "en": [
+        "tomato",
+        "tomatoes"
+      ],
+      "es": [
+        "tomate"
+      ],
+      "fr": [
+        "tomate"
+      ],
+      "de": [
+        "Tomate"
+      ],
+      "it": [
+        "pomodoro"
+      ],
+      "pt": [
+        "tomate"
+      ],
+      "ru": [
+        "помидор"
+      ],
+      "ja": [
+        "トマト"
+      ],
+      "zh": [
+        "番茄"
+      ],
+      "ar": [
+        "طماطم"
+      ],
+      "hi": [
+        "टमाटर"
+      ],
+      "bn": [
+        "টমেটো"
+      ],
+      "hr": [
+        "rajčica"
+      ],
+      "da": [
+        "tomat"
+      ]
     },
     "onion": {
-      "en": ["onion", "onions"],
-      "es": ["cebolla"],
-      "fr": ["oignon"],
-      "de": ["Zwiebel"],
-      "it": ["cipolla"],
-      "pt": ["cebola"],
-      "ru": ["лук"],
-      "ja": ["玉ねぎ"],
-      "zh": ["洋葱"],
-      "ar": ["بصل"],
-      "hi": ["प्याज"],
-      "bn": ["পুদিনা"],
-      "hr": ["luk"],
-      "da": ["løg"]
+      "en": [
+        "onion",
+        "onions"
+      ],
+      "es": [
+        "cebolla"
+      ],
+      "fr": [
+        "oignon"
+      ],
+      "de": [
+        "Zwiebel"
+      ],
+      "it": [
+        "cipolla"
+      ],
+      "pt": [
+        "cebola"
+      ],
+      "ru": [
+        "лук"
+      ],
+      "ja": [
+        "玉ねぎ"
+      ],
+      "zh": [
+        "洋葱"
+      ],
+      "ar": [
+        "بصل"
+      ],
+      "hi": [
+        "प्याज"
+      ],
+      "bn": [
+        "পুদিনা"
+      ],
+      "hr": [
+        "luk"
+      ],
+      "da": [
+        "løg"
+      ]
     },
     "garlic": {
-      "en": ["garlic", "garlic clove", "garlic cloves"],
-      "es": ["ajo"],
-      "fr": ["ail", "gousse d'ail", "gousses d'ail"],
-      "de": ["Knoblauch"],
-      "it": ["aglio"],
-      "pt": ["alho"],
-      "ru": ["чеснок"],
-      "ja": ["ニンニク"],
-      "zh": ["大蒜"],
-      "ar": ["ثوم"],
-      "hi": ["लहसुन"],
-      "bn": ["লসন"],
-      "hr": ["češnjak"],
-      "da": ["hvidløg"]
+      "en": [
+        "garlic",
+        "garlic clove",
+        "garlic cloves"
+      ],
+      "es": [
+        "ajo"
+      ],
+      "fr": [
+        "ail",
+        "gousse d'ail",
+        "gousses d'ail"
+      ],
+      "de": [
+        "Knoblauch"
+      ],
+      "it": [
+        "aglio"
+      ],
+      "pt": [
+        "alho"
+      ],
+      "ru": [
+        "чеснок"
+      ],
+      "ja": [
+        "ニンニク"
+      ],
+      "zh": [
+        "大蒜"
+      ],
+      "ar": [
+        "ثوم"
+      ],
+      "hi": [
+        "लहसुन"
+      ],
+      "bn": [
+        "লসন"
+      ],
+      "hr": [
+        "češnjak"
+      ],
+      "da": [
+        "hvidløg"
+      ]
     },
     "chili": {
-      "en": ["chili", "chili pepper", "chili peppers", "chilli", "chilli pepper", "chilli peppers", "chilies", "chilies pepper", "chilies peppers"],
-      "es": ["chile"],
-      "fr": ["piment", "piments"],
-      "de": ["Chili"],
-      "it": ["peperoncino"],
-      "pt": ["pimenta"],
-      "ru": ["перец"],
-      "ja": ["チリ"],
-      "zh": ["辣椒"],
-      "ar": ["فلفل"],
-      "hi": ["चिली"],
-      "bn": ["মরিচ"],
-      "hr": ["čili paprika"],
-      "da": ["chili"]
+      "en": [
+        "chili",
+        "chili pepper",
+        "chili peppers",
+        "chilli",
+        "chilli pepper",
+        "chilli peppers",
+        "chilies",
+        "chilies pepper",
+        "chilies peppers"
+      ],
+      "es": [
+        "chile"
+      ],
+      "fr": [
+        "piment",
+        "piments"
+      ],
+      "de": [
+        "Chili"
+      ],
+      "it": [
+        "peperoncino"
+      ],
+      "pt": [
+        "pimenta"
+      ],
+      "ru": [
+        "перец"
+      ],
+      "ja": [
+        "チリ"
+      ],
+      "zh": [
+        "辣椒"
+      ],
+      "ar": [
+        "فلفل"
+      ],
+      "hi": [
+        "चिली"
+      ],
+      "bn": [
+        "মরিচ"
+      ],
+      "hr": [
+        "čili paprika"
+      ],
+      "da": [
+        "chili"
+      ]
     },
     "pepper": {
-      "en": ["pepper"],
-      "es": ["pimienta"],
-      "fr": ["poivre"],
-      "de": ["Pfeffer"],
-      "it": ["pepe"],
-      "pt": ["pimenta"],
-      "ru": ["перец"],
-      "ja": ["こしょう"],
-      "zh": ["胡椒"],
-      "ar": ["فلفل"],
-      "hi": ["मिर्च"],
-      "bn": ["মরিচ"],
-      "hr": ["papar"],
-      "da": ["peber"]
+      "en": [
+        "pepper"
+      ],
+      "es": [
+        "pimienta"
+      ],
+      "fr": [
+        "poivre"
+      ],
+      "de": [
+        "Pfeffer"
+      ],
+      "it": [
+        "pepe"
+      ],
+      "pt": [
+        "pimenta"
+      ],
+      "ru": [
+        "перец"
+      ],
+      "ja": [
+        "こしょう"
+      ],
+      "zh": [
+        "胡椒"
+      ],
+      "ar": [
+        "فلفل"
+      ],
+      "hi": [
+        "मिर्च"
+      ],
+      "bn": [
+        "মরিচ"
+      ],
+      "hr": [
+        "papar"
+      ],
+      "da": [
+        "peber"
+      ]
     },
     "salt": {
-      "en": ["salt"],
-      "es": ["sal"],
-      "fr": ["sel"],
-      "de": ["Salz"],
-      "it": ["sale"],
-      "pt": ["sal"],
-      "ru": ["соль"],
-      "ja": ["塩"],
-      "zh": ["盐"],
-      "ar": ["ملح"],
-      "hi": ["नमक"],
-      "bn": ["নমক"],
-      "hr": ["sol"],
-      "da": ["salt"]
+      "en": [
+        "salt"
+      ],
+      "es": [
+        "sal"
+      ],
+      "fr": [
+        "sel"
+      ],
+      "de": [
+        "Salz"
+      ],
+      "it": [
+        "sale"
+      ],
+      "pt": [
+        "sal"
+      ],
+      "ru": [
+        "соль"
+      ],
+      "ja": [
+        "塩"
+      ],
+      "zh": [
+        "盐"
+      ],
+      "ar": [
+        "ملح"
+      ],
+      "hi": [
+        "नमक"
+      ],
+      "bn": [
+        "নমক"
+      ],
+      "hr": [
+        "sol"
+      ],
+      "da": [
+        "salt"
+      ]
     },
     "sugar": {
-      "en": ["sugar"],
-      "es": ["azúcar"],
-      "fr": ["sucre"],
-      "de": ["Zucker"],
-      "it": ["zucchero"],
-      "pt": ["açúcar"],
-      "ru": ["сахар"],
-      "ja": ["砂糖"],
-      "zh": ["糖"],
-      "ar": ["سكر"],
-      "hi": ["चीनी"],
-      "bn": ["চিনি"],
-      "hr": ["šećer"],
-      "da": ["sukker"]
+      "en": [
+        "sugar"
+      ],
+      "es": [
+        "azúcar"
+      ],
+      "fr": [
+        "sucre"
+      ],
+      "de": [
+        "Zucker"
+      ],
+      "it": [
+        "zucchero"
+      ],
+      "pt": [
+        "açúcar"
+      ],
+      "ru": [
+        "сахар"
+      ],
+      "ja": [
+        "砂糖"
+      ],
+      "zh": [
+        "糖"
+      ],
+      "ar": [
+        "سكر"
+      ],
+      "hi": [
+        "चीनी"
+      ],
+      "bn": [
+        "চিনি"
+      ],
+      "hr": [
+        "šećer"
+      ],
+      "da": [
+        "sukker"
+      ]
     },
     "oil": {
-      "en": ["oil"],
-      "es": ["aceite"],
-      "fr": ["huile"],
-      "de": ["Öl"],
-      "it": ["olio"],
-      "pt": ["óleo"],
-      "ru": ["масло"],
-      "ja": ["油"],
-      "zh": ["油"],
-      "ar": ["زيت"],
-      "hi": ["तेल"],
-      "bn": ["তেল"],
-      "hr": ["ulje"],
-      "da": ["olie"]
+      "en": [
+        "oil"
+      ],
+      "es": [
+        "aceite"
+      ],
+      "fr": [
+        "huile"
+      ],
+      "de": [
+        "Öl"
+      ],
+      "it": [
+        "olio"
+      ],
+      "pt": [
+        "óleo"
+      ],
+      "ru": [
+        "масло"
+      ],
+      "ja": [
+        "油"
+      ],
+      "zh": [
+        "油"
+      ],
+      "ar": [
+        "زيت"
+      ],
+      "hi": [
+        "तेल"
+      ],
+      "bn": [
+        "তেল"
+      ],
+      "hr": [
+        "ulje"
+      ],
+      "da": [
+        "olie"
+      ]
     },
     "vinegar": {
-      "en": ["vinegar"],
-      "es": ["vinagre"],
-      "fr": ["vinaigre"],
-      "de": ["Essig"],
-      "it": ["aceto"],
-      "pt": ["vinagre"],
-      "ru": ["уксус"],
-      "ja": ["酢"],
-      "zh": ["醋"],
-      "ar": ["خل"],
-      "hi": ["शहद"],
-      "bn": ["শাহদ"],
-      "hr": ["ocat"],
-      "da": ["eddike"]
+      "en": [
+        "vinegar"
+      ],
+      "es": [
+        "vinagre"
+      ],
+      "fr": [
+        "vinaigre"
+      ],
+      "de": [
+        "Essig"
+      ],
+      "it": [
+        "aceto"
+      ],
+      "pt": [
+        "vinagre"
+      ],
+      "ru": [
+        "уксус"
+      ],
+      "ja": [
+        "酢"
+      ],
+      "zh": [
+        "醋"
+      ],
+      "ar": [
+        "خل"
+      ],
+      "hi": [
+        "शहद"
+      ],
+      "bn": [
+        "শাহদ"
+      ],
+      "hr": [
+        "ocat"
+      ],
+      "da": [
+        "eddike"
+      ]
     },
     "water": {
-      "en": ["water"],
-      "es": ["agua"],
-      "fr": ["eau"],
-      "de": ["Wasser"],
-      "it": ["acqua"],
-      "pt": ["água"],
-      "ru": ["вода"],
-      "ja": ["水"],
-      "zh": ["水"],
-      "ar": ["ماء"],
-      "hi": ["पानी"],
-      "bn": ["পানি"],
-      "hr": ["voda"],
-      "da": ["vand"]
+      "en": [
+        "water"
+      ],
+      "es": [
+        "agua"
+      ],
+      "fr": [
+        "eau"
+      ],
+      "de": [
+        "Wasser"
+      ],
+      "it": [
+        "acqua"
+      ],
+      "pt": [
+        "água"
+      ],
+      "ru": [
+        "вода"
+      ],
+      "ja": [
+        "水"
+      ],
+      "zh": [
+        "水"
+      ],
+      "ar": [
+        "ماء"
+      ],
+      "hi": [
+        "पानी"
+      ],
+      "bn": [
+        "পানি"
+      ],
+      "hr": [
+        "voda"
+      ],
+      "da": [
+        "vand"
+      ]
     },
     "banana": {
-      "en": ["banana", "bananas"],
-      "es": ["plátano", "banano"],
-      "fr": ["banane", "bananes"],
-      "de": ["Banane"],
-      "it": ["banana"],
-      "pt": ["banana"],
-      "ru": ["банан"],
-      "ja": ["バナナ"],
-      "zh": ["香蕉"],
-      "ar": ["موز"],
-      "hi": ["केला"],
-      "bn": ["কেলা"],
-      "hr": ["banana"],
-      "da": ["banan"]
+      "en": [
+        "banana",
+        "bananas"
+      ],
+      "es": [
+        "plátano",
+        "banano"
+      ],
+      "fr": [
+        "banane",
+        "bananes"
+      ],
+      "de": [
+        "Banane"
+      ],
+      "it": [
+        "banana"
+      ],
+      "pt": [
+        "banana"
+      ],
+      "ru": [
+        "банан"
+      ],
+      "ja": [
+        "バナナ"
+      ],
+      "zh": [
+        "香蕉"
+      ],
+      "ar": [
+        "موز"
+      ],
+      "hi": [
+        "केला"
+      ],
+      "bn": [
+        "কেলা"
+      ],
+      "hr": [
+        "banana"
+      ],
+      "da": [
+        "banan"
+      ]
     },
     "apple": {
-      "en": ["apple", "apples"],
-      "es": ["manzana"],
-      "fr": ["pomme", "pommes"],
-      "de": ["Apfel"],
-      "it": ["mela"],
-      "pt": ["maçã"],
-      "ru": ["яблоко"],
-      "ja": ["りんご"],
-      "zh": ["苹果"],
-      "ar": ["تفاح"],
-      "hi": ["सेब"],
-      "bn": ["আপেল"],
-      "hr": ["jabuka"],
-      "da": ["æble"]
+      "en": [
+        "apple",
+        "apples"
+      ],
+      "es": [
+        "manzana"
+      ],
+      "fr": [
+        "pomme",
+        "pommes"
+      ],
+      "de": [
+        "Apfel"
+      ],
+      "it": [
+        "mela"
+      ],
+      "pt": [
+        "maçã"
+      ],
+      "ru": [
+        "яблоко"
+      ],
+      "ja": [
+        "りんご"
+      ],
+      "zh": [
+        "苹果"
+      ],
+      "ar": [
+        "تفاح"
+      ],
+      "hi": [
+        "सेब"
+      ],
+      "bn": [
+        "আপেল"
+      ],
+      "hr": [
+        "jabuka"
+      ],
+      "da": [
+        "æble"
+      ]
     },
     "orange": {
-      "en": ["orange", "oranges", "citrus"],
-      "es": ["naranja"],
-      "fr": ["orange", "oranges", "agrumes"],
-      "de": ["Orange"],
-      "it": ["arancia"],
-      "pt": ["laranja"],
-      "ru": ["апельсин"],
-      "ja": ["オレンジ"],
-      "zh": ["橙子"],
-      "ar": ["برتقال"],
-      "hi": ["नारंगी"],
-      "bn": ["কমলা"],
-      "hr": ["naranča"],
-      "da": ["appelsin"]
+      "en": [
+        "orange",
+        "oranges",
+        "citrus"
+      ],
+      "es": [
+        "naranja"
+      ],
+      "fr": [
+        "orange",
+        "oranges",
+        "agrumes"
+      ],
+      "de": [
+        "Orange"
+      ],
+      "it": [
+        "arancia"
+      ],
+      "pt": [
+        "laranja"
+      ],
+      "ru": [
+        "апельсин"
+      ],
+      "ja": [
+        "オレンジ"
+      ],
+      "zh": [
+        "橙子"
+      ],
+      "ar": [
+        "برتقال"
+      ],
+      "hi": [
+        "नारंगी"
+      ],
+      "bn": [
+        "কমলা"
+      ],
+      "hr": [
+        "naranča"
+      ],
+      "da": [
+        "appelsin"
+      ]
     },
     "lemon": {
-      "en": ["lemon", "lemons", "citrus"],
-      "es": ["limón"],
-      "fr": ["citron", "citrons", "agrumes"],
-      "de": ["Zitrone"],
-      "it": ["limone"],
-      "pt": ["limão"],
-      "ru": ["лимон"],
-      "ja": ["レモン"],
-      "zh": ["柠檬"],
-      "ar": ["ليمون"],
-      "hi": ["नींबू"],
-      "bn": ["নাইমবুজ"],
-      "hr": ["limun"],
-      "da": ["citron"]
+      "en": [
+        "lemon",
+        "lemons",
+        "citrus"
+      ],
+      "es": [
+        "limón"
+      ],
+      "fr": [
+        "citron",
+        "citrons",
+        "agrumes"
+      ],
+      "de": [
+        "Zitrone"
+      ],
+      "it": [
+        "limone"
+      ],
+      "pt": [
+        "limão"
+      ],
+      "ru": [
+        "лимон"
+      ],
+      "ja": [
+        "レモン"
+      ],
+      "zh": [
+        "柠檬"
+      ],
+      "ar": [
+        "ليمون"
+      ],
+      "hi": [
+        "नींबू"
+      ],
+      "bn": [
+        "নাইমবুজ"
+      ],
+      "hr": [
+        "limun"
+      ],
+      "da": [
+        "citron"
+      ]
     },
     "grapefruit": {
-      "en": ["grapefruit", "grapefruits", "citrus"],
-      "es": ["toronja"],
-      "fr": ["pamplemousse", "pamplemousses", "agrumes"],
-      "de": ["Grapefruit"],
-      "it": ["pompelmo"],
-      "pt": ["toranja"],
-      "ru": ["грейпфрут"],
-      "ja": ["グレープフルーツ"],
-      "zh": ["葡萄柚"],
-      "ar": ["برتقالي"],
-      "hi": ["अंगूर"],
-      "bn": ["আঙ্গুর"],
-      "hr": ["grejp"],
-      "da": ["grapefrugt"]
+      "en": [
+        "grapefruit",
+        "grapefruits",
+        "citrus"
+      ],
+      "es": [
+        "toronja"
+      ],
+      "fr": [
+        "pamplemousse",
+        "pamplemousses",
+        "agrumes"
+      ],
+      "de": [
+        "Grapefruit"
+      ],
+      "it": [
+        "pompelmo"
+      ],
+      "pt": [
+        "toranja"
+      ],
+      "ru": [
+        "грейпфрут"
+      ],
+      "ja": [
+        "グレープフルーツ"
+      ],
+      "zh": [
+        "葡萄柚"
+      ],
+      "ar": [
+        "برتقالي"
+      ],
+      "hi": [
+        "अंगूर"
+      ],
+      "bn": [
+        "আঙ্গুর"
+      ],
+      "hr": [
+        "grejp"
+      ],
+      "da": [
+        "grapefrugt"
+      ]
     },
     "pineapple": {
-      "en": ["pineapple", "pineapples"],
-      "es": ["piña"],
-      "fr": ["ananas"],
-      "de": ["Ananas"],
-      "it": ["ananas"],
-      "pt": ["abacaxi"],
-      "ru": ["ананас"],
-      "ja": ["パイナップル"],
-      "zh": ["菠萝"],
-      "ar": ["أناناس"],
-      "hi": ["अनानास"],
-      "bn": ["আনানাস"],
-      "hr": ["ananas"],
-      "da": ["ananas"]
+      "en": [
+        "pineapple",
+        "pineapples"
+      ],
+      "es": [
+        "piña"
+      ],
+      "fr": [
+        "ananas"
+      ],
+      "de": [
+        "Ananas"
+      ],
+      "it": [
+        "ananas"
+      ],
+      "pt": [
+        "abacaxi"
+      ],
+      "ru": [
+        "ананас"
+      ],
+      "ja": [
+        "パイナップル"
+      ],
+      "zh": [
+        "菠萝"
+      ],
+      "ar": [
+        "أناناس"
+      ],
+      "hi": [
+        "अनानास"
+      ],
+      "bn": [
+        "আনানাস"
+      ],
+      "hr": [
+        "ananas"
+      ],
+      "da": [
+        "ananas"
+      ]
     },
     "strawberry": {
-      "en": ["strawberry", "strawberries"],
-      "es": ["fresa"],
-      "fr": ["fraise", "fraises"],
-      "de": ["Erdbeere"],
-      "it": ["fragola"],
-      "pt": ["morango"],
-      "ru": ["клубника"],
-      "ja": ["イチゴ"],
-      "zh": ["草莓"],
-      "ar": ["فراولة"],
-      "hi": ["स्ट्रॉबेरी"],
-      "bn": ["স্ট্র্বেবেরি"],
-      "hr": ["jagoda"],
-      "da": ["jordbær"]
+      "en": [
+        "strawberry",
+        "strawberries"
+      ],
+      "es": [
+        "fresa"
+      ],
+      "fr": [
+        "fraise",
+        "fraises"
+      ],
+      "de": [
+        "Erdbeere"
+      ],
+      "it": [
+        "fragola"
+      ],
+      "pt": [
+        "morango"
+      ],
+      "ru": [
+        "клубника"
+      ],
+      "ja": [
+        "イチゴ"
+      ],
+      "zh": [
+        "草莓"
+      ],
+      "ar": [
+        "فراولة"
+      ],
+      "hi": [
+        "स्ट्रॉबेरी"
+      ],
+      "bn": [
+        "স্ট্র্বেবেরি"
+      ],
+      "hr": [
+        "jagoda"
+      ],
+      "da": [
+        "jordbær"
+      ]
     },
     "chick-peas": {
-      "en": ["chick-peas", "chickpeas", "chick peas"],
-      "es": ["garbanzos"],
-      "fr": ["pois chiches"],
-      "de": ["Kichererbsen"],
-      "it": ["cicerchie"],
-      "pt": ["grão de bico"],
-      "ru": ["чечевица"],
-      "ja": ["ひよこ豆"],
-      "zh": ["鸡豆"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["kikærter"],
-      "hr": ["slanutak"]
+      "en": [
+        "chick-peas",
+        "chickpeas",
+        "chick peas"
+      ],
+      "es": [
+        "garbanzos"
+      ],
+      "fr": [
+        "pois chiches"
+      ],
+      "de": [
+        "Kichererbsen"
+      ],
+      "it": [
+        "cicerchie"
+      ],
+      "pt": [
+        "grão de bico"
+      ],
+      "ru": [
+        "чечевица"
+      ],
+      "ja": [
+        "ひよこ豆"
+      ],
+      "zh": [
+        "鸡豆"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "kikærter"
+      ],
+      "hr": [
+        "slanutak"
+      ]
     },
     "kidney beans": {
-      "en": ["kidney beans"],
-      "es": ["frijoles"],
-      "fr": ["haricots rouges"],
-      "de": ["Kidneybohnen"],
-      "it": ["fagioli"],
-      "pt": ["feijão vermelho"],
-      "ru": ["фасоль"],
-      "ja": ["インゲン豆"],
-      "zh": ["腰豆"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["røde bønner"],
-      "hr": ["grah"]
+      "en": [
+        "kidney beans"
+      ],
+      "es": [
+        "frijoles"
+      ],
+      "fr": [
+        "haricots rouges"
+      ],
+      "de": [
+        "Kidneybohnen"
+      ],
+      "it": [
+        "fagioli"
+      ],
+      "pt": [
+        "feijão vermelho"
+      ],
+      "ru": [
+        "фасоль"
+      ],
+      "ja": [
+        "インゲン豆"
+      ],
+      "zh": [
+        "腰豆"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "røde bønner"
+      ],
+      "hr": [
+        "grah"
+      ]
     },
     "pistachios": {
-      "en": ["pistachios"],
-      "es": ["pistachos"],
-      "fr": ["pistaches"],
-      "de": ["Pistazien"],
-      "it": ["pistacchi"],
-      "pt": ["pistache"],
-      "ru": ["фисташки"],
-      "ja": ["ピスタチオ"],
-      "zh": ["开心果"],
-      "ar": ["فستق"],
-      "hi": ["मूंगफली"],
-      "bn": ["পিস্তাচিয়ো"],
-      "da": ["pistacienødder"],
-      "hr": ["pistacije"]
+      "en": [
+        "pistachios"
+      ],
+      "es": [
+        "pistachos"
+      ],
+      "fr": [
+        "pistaches"
+      ],
+      "de": [
+        "Pistazien"
+      ],
+      "it": [
+        "pistacchi"
+      ],
+      "pt": [
+        "pistache"
+      ],
+      "ru": [
+        "фисташки"
+      ],
+      "ja": [
+        "ピスタチオ"
+      ],
+      "zh": [
+        "开心果"
+      ],
+      "ar": [
+        "فستق"
+      ],
+      "hi": [
+        "मूंगफली"
+      ],
+      "bn": [
+        "পিস্তাচিয়ো"
+      ],
+      "da": [
+        "pistacienødder"
+      ],
+      "hr": [
+        "pistacije"
+      ]
     },
     "cashews": {
-      "en": ["cashews", "cashew", "cashew nut"],
-      "es": ["cacahuetes"],
-      "fr": ["noix de cajou"],
-      "de": ["Cashewnüsse"],
-      "it": ["cacahuè"],
-      "pt": ["castanha de Caju"],
-      "ru": ["каштан", "кешью"],
-      "ja": ["カシューナッツ"],
-      "zh": ["腰果"],
-      "ar": ["كاجو"],
-      "hi": ["मूंगफली"],
-      "bn": ["কাশু"],
-      "da": ["cashewnødder"],
-      "hr": ["indijski oraščići"]
+      "en": [
+        "cashews",
+        "cashew",
+        "cashew nut"
+      ],
+      "es": [
+        "cacahuetes"
+      ],
+      "fr": [
+        "noix de cajou"
+      ],
+      "de": [
+        "Cashewnüsse"
+      ],
+      "it": [
+        "cacahuè"
+      ],
+      "pt": [
+        "castanha de Caju"
+      ],
+      "ru": [
+        "каштан",
+        "кешью"
+      ],
+      "ja": [
+        "カシューナッツ"
+      ],
+      "zh": [
+        "腰果"
+      ],
+      "ar": [
+        "كاجو"
+      ],
+      "hi": [
+        "मूंगफली"
+      ],
+      "bn": [
+        "কাশু"
+      ],
+      "da": [
+        "cashewnødder"
+      ],
+      "hr": [
+        "indijski oraščići"
+      ]
     },
     "brazil nut": {
-      "en": ["brazil nut", "brazil nuts"],
-      "es": ["nuez de Brasil"],
-      "fr": ["noix de Brésil"],
-      "de": ["Brazilnuss"],
-      "it": ["noce di Brazil"],
-      "pt": ["castanha do Pará"],
-      "ru": ["бразильский орех"],
-      "ja": ["ブラジルナッツ"],
-      "zh": ["巴西坚果"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["paranødder"],
-      "hr": ["brazilski oraščić"]
+      "en": [
+        "brazil nut",
+        "brazil nuts"
+      ],
+      "es": [
+        "nuez de Brasil"
+      ],
+      "fr": [
+        "noix de Brésil"
+      ],
+      "de": [
+        "Brazilnuss"
+      ],
+      "it": [
+        "noce di Brazil"
+      ],
+      "pt": [
+        "castanha do Pará"
+      ],
+      "ru": [
+        "бразильский орех"
+      ],
+      "ja": [
+        "ブラジルナッツ"
+      ],
+      "zh": [
+        "巴西坚果"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "paranødder"
+      ],
+      "hr": [
+        "brazilski oraščić"
+      ]
     },
     "almonds": {
-      "en": ["almonds", "almond"],
-      "es": ["almendras"],
-      "fr": ["amande", "amandes"],
-      "de": ["Mandeln"],
-      "it": ["mandorle"],
-      "pt": ["amêndoas"],
-      "ru": ["миндаль"],
-      "ja": ["アーモンド"],
-      "zh": ["杏仁"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["mandler"],
-      "hr": ["bademi"]
+      "en": [
+        "almonds",
+        "almond"
+      ],
+      "es": [
+        "almendras"
+      ],
+      "fr": [
+        "amande",
+        "amandes"
+      ],
+      "de": [
+        "Mandeln"
+      ],
+      "it": [
+        "mandorle"
+      ],
+      "pt": [
+        "amêndoas"
+      ],
+      "ru": [
+        "миндаль"
+      ],
+      "ja": [
+        "アーモンド"
+      ],
+      "zh": [
+        "杏仁"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "mandler"
+      ],
+      "hr": [
+        "bademi"
+      ]
     },
     "eggplant": {
-      "en": ["eggplant", "aubergine"],
-      "es": ["berenjena"],
-      "fr": ["aubergine"],
-      "de": ["Eggplant"],
-      "it": ["melanzana"],
-      "pt": ["berinjela"],
-      "ru": ["баклажан"],
-      "ja": ["ナス"],
-      "zh": ["茄子"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["aubergine"],
-      "hr": ["patlidžan"]
+      "en": [
+        "eggplant",
+        "aubergine"
+      ],
+      "es": [
+        "berenjena"
+      ],
+      "fr": [
+        "aubergine"
+      ],
+      "de": [
+        "Eggplant"
+      ],
+      "it": [
+        "melanzana"
+      ],
+      "pt": [
+        "berinjela"
+      ],
+      "ru": [
+        "баклажан"
+      ],
+      "ja": [
+        "ナス"
+      ],
+      "zh": [
+        "茄子"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "aubergine"
+      ],
+      "hr": [
+        "patlidžan"
+      ]
     },
     "cabbage": {
-      "en": ["cabbage"],
-      "es": ["col", "repollo"],
-      "fr": ["chou"],
-      "de": ["Kohl"],
-      "it": ["cavolo"],
-      "pt": ["repolho"],
-      "ru": ["капуста"],
-      "ja": ["キャベツ"],
-      "zh": ["白菜"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["kål"],
-      "hr": ["kupus"]
+      "en": [
+        "cabbage"
+      ],
+      "es": [
+        "col",
+        "repollo"
+      ],
+      "fr": [
+        "chou"
+      ],
+      "de": [
+        "Kohl"
+      ],
+      "it": [
+        "cavolo"
+      ],
+      "pt": [
+        "repolho"
+      ],
+      "ru": [
+        "капуста"
+      ],
+      "ja": [
+        "キャベツ"
+      ],
+      "zh": [
+        "白菜"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "kål"
+      ],
+      "hr": [
+        "kupus"
+      ]
     },
     "cauliflower": {
-      "en": ["cauliflower"],
-      "es": ["coliflor"],
-      "fr": ["chou-fleur", "choufleur"],
-      "de": ["Blumenkohl"],
-      "it": ["cavolfiore"],
-      "pt": ["couve-flor"],
-      "ru": ["цветная капуста"],
-      "ja": ["カリフラワー"],
-      "zh": ["花椰菜"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["blomkål"],
-      "hr": ["karfiol"]
+      "en": [
+        "cauliflower"
+      ],
+      "es": [
+        "coliflor"
+      ],
+      "fr": [
+        "chou-fleur",
+        "choufleur"
+      ],
+      "de": [
+        "Blumenkohl"
+      ],
+      "it": [
+        "cavolfiore"
+      ],
+      "pt": [
+        "couve-flor"
+      ],
+      "ru": [
+        "цветная капуста"
+      ],
+      "ja": [
+        "カリフラワー"
+      ],
+      "zh": [
+        "花椰菜"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "blomkål"
+      ],
+      "hr": [
+        "karfiol"
+      ]
     },
     "broccoli": {
-      "en": ["broccoli", "broccolli"],
-      "es": ["brócoli"],
-      "fr": ["brocoli"],
-      "de": ["Brokkoli"],
-      "it": ["broccoli"],
-      "pt": ["brócolis"],
-      "ru": ["брокколи"],
-      "ja": ["ブロッコリー"],
-      "zh": ["西兰花"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["brokkoli", "brokkoli"],
-      "hr": ["brokula"]
+      "en": [
+        "broccoli",
+        "broccolli"
+      ],
+      "es": [
+        "brócoli"
+      ],
+      "fr": [
+        "brocoli"
+      ],
+      "de": [
+        "Brokkoli"
+      ],
+      "it": [
+        "broccoli"
+      ],
+      "pt": [
+        "brócolis"
+      ],
+      "ru": [
+        "брокколи"
+      ],
+      "ja": [
+        "ブロッコリー"
+      ],
+      "zh": [
+        "西兰花"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "brokkoli",
+        "brokkoli"
+      ],
+      "hr": [
+        "brokula"
+      ]
     },
     "spinach": {
-      "en": ["spinach"],
-      "es": ["espinacas"],
-      "fr": ["épinards"],
-      "de": ["Spinat"],
-      "it": ["spinaci"],
-      "pt": ["espinafre"],
-      "ru": ["шпинат"],
-      "ja": ["ホウレンソウ"],
-      "zh": ["菠菜"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["spinat"],
-      "hr": ["špinat"]
+      "en": [
+        "spinach"
+      ],
+      "es": [
+        "espinacas"
+      ],
+      "fr": [
+        "épinards"
+      ],
+      "de": [
+        "Spinat"
+      ],
+      "it": [
+        "spinaci"
+      ],
+      "pt": [
+        "espinafre"
+      ],
+      "ru": [
+        "шпинат"
+      ],
+      "ja": [
+        "ホウレンソウ"
+      ],
+      "zh": [
+        "菠菜"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "spinat"
+      ],
+      "hr": [
+        "špinat"
+      ]
     },
     "lettuce": {
-      "en": ["lettuce"],
-      "es": ["lechuga"],
-      "fr": ["laitue"],
-      "de": ["Salat"],
-      "it": ["lattuga"],
-      "pt": ["alface"],
-      "ru": ["салат"],
-      "ja": ["レタス"],
-      "zh": ["生菜"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["salat"],
-      "hr": ["zelena salata"]
+      "en": [
+        "lettuce"
+      ],
+      "es": [
+        "lechuga"
+      ],
+      "fr": [
+        "laitue"
+      ],
+      "de": [
+        "Salat"
+      ],
+      "it": [
+        "lattuga"
+      ],
+      "pt": [
+        "alface"
+      ],
+      "ru": [
+        "салат"
+      ],
+      "ja": [
+        "レタス"
+      ],
+      "zh": [
+        "生菜"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "salat"
+      ],
+      "hr": [
+        "zelena salata"
+      ]
     },
     "cucumber": {
-      "en": ["cucumber"],
-      "es": ["pepino"],
-      "fr": ["concombre"],
-      "de": ["Gurke"],
-      "it": ["cetriolo"],
-      "pt": ["pepino"],
-      "ru": ["огурец"],
-      "ja": ["キュウリ"],
-      "zh": ["黄瓜"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["agurk"],
-      "hr": ["krastavac"]
+      "en": [
+        "cucumber"
+      ],
+      "es": [
+        "pepino"
+      ],
+      "fr": [
+        "concombre"
+      ],
+      "de": [
+        "Gurke"
+      ],
+      "it": [
+        "cetriolo"
+      ],
+      "pt": [
+        "pepino"
+      ],
+      "ru": [
+        "огурец"
+      ],
+      "ja": [
+        "キュウリ"
+      ],
+      "zh": [
+        "黄瓜"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "agurk"
+      ],
+      "hr": [
+        "krastavac"
+      ]
     },
     "mango": {
-      "en": ["mango", "mangoes"],
-      "es": ["mango"],
-      "fr": ["mangue", "mangues"],
-      "de": ["Mango"],
-      "it": ["mango"],
-      "pt": ["manga"],
-      "ru": ["манго"],
-      "ja": ["マンゴー"],
-      "zh": ["芒果"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["mango"],
-      "hr": ["mango"]
+      "en": [
+        "mango",
+        "mangoes"
+      ],
+      "es": [
+        "mango"
+      ],
+      "fr": [
+        "mangue",
+        "mangues"
+      ],
+      "de": [
+        "Mango"
+      ],
+      "it": [
+        "mango"
+      ],
+      "pt": [
+        "manga"
+      ],
+      "ru": [
+        "манго"
+      ],
+      "ja": [
+        "マンゴー"
+      ],
+      "zh": [
+        "芒果"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "mango"
+      ],
+      "hr": [
+        "mango"
+      ]
     },
     "peas": {
-      "en": ["peas", "pea"],
-      "es": ["guisantes", "arverjas"],
-      "fr": ["pois", "petits pois"],
-      "de": ["Erbsen"],
-      "it": ["piselli"],
-      "pt": ["ervilhas"],
-      "ru": ["горох"],
-      "ja": ["エンドウ豆"],
-      "zh": ["豌豆"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["ærter"],
-      "hr": ["grašak"]
+      "en": [
+        "peas",
+        "pea"
+      ],
+      "es": [
+        "guisantes",
+        "arverjas"
+      ],
+      "fr": [
+        "pois",
+        "petits pois"
+      ],
+      "de": [
+        "Erbsen"
+      ],
+      "it": [
+        "piselli"
+      ],
+      "pt": [
+        "ervilhas"
+      ],
+      "ru": [
+        "горох"
+      ],
+      "ja": [
+        "エンドウ豆"
+      ],
+      "zh": [
+        "豌豆"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "ærter"
+      ],
+      "hr": [
+        "grašak"
+      ]
     },
     "carrot": {
-      "en": ["carrot"],
-      "es": ["zanahoria"],
-      "fr": ["carotte"],
-      "de": ["Karotte"],
-      "it": ["carota"],
-      "pt": ["cenoura"],
-      "ru": ["морковь"],
-      "ja": ["ニンジン"],
-      "zh": ["胡萝卜"],
-      "ar": ["فول الصويا"],
-      "hi": ["चना"],
-      "bn": ["চিকপি"],
-      "da": ["gulerod", "gulerødder"],
-      "hr": ["mrkva"]
+      "en": [
+        "carrot"
+      ],
+      "es": [
+        "zanahoria"
+      ],
+      "fr": [
+        "carotte"
+      ],
+      "de": [
+        "Karotte"
+      ],
+      "it": [
+        "carota"
+      ],
+      "pt": [
+        "cenoura"
+      ],
+      "ru": [
+        "морковь"
+      ],
+      "ja": [
+        "ニンジン"
+      ],
+      "zh": [
+        "胡萝卜"
+      ],
+      "ar": [
+        "فول الصويا"
+      ],
+      "hi": [
+        "चना"
+      ],
+      "bn": [
+        "চিকপি"
+      ],
+      "da": [
+        "gulerod",
+        "gulerødder"
+      ],
+      "hr": [
+        "mrkva"
+      ]
     }
   }
 }
