@@ -1,4 +1,11 @@
 ---
+import socialImage from "../img/social_card.jpg";
+import favicon16 from "../img/favicon-16x16.png";
+import favicon32 from "../img/favicon-32x32.png";
+import favicon192 from "../img/android-chrome-192x192.png";
+import favicon512 from "../img/android-chrome-512x512.png";
+import faviconapple from "../img/apple-touch-icon.png";
+
 const defaultMeta = {
 	title: "Mish Friendly Food",
 	description:
@@ -23,9 +30,24 @@ const { title, description } = meta;
 		/>
 		<title>{title}</title>
 		<meta name="description" content={description} />
-		<link rel="icon" href="/favicon.ico" sizes="any" />
-		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-		<link rel="manifest" href="/manifest.webmanifest" />
+
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link rel="icon" sizes="16x16" href={favicon16} />
+		<link rel="icon" sizes="32x32" href={favicon32} />
+		<link rel="icon" sizes="192x192" href={favicon192} />
+		<link rel="icon" sizes="512x512" href={favicon512} />
+		<link rel="apple-touch-icon" href={faviconapple} />
+		<meta name="theme-color" content="#696680" />
+
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={socialImage} />
+
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:image" content={socialImage} />
+		<meta name="twitter:creator" content="@mishmanners" />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
 	</head>
 
 	<body>
