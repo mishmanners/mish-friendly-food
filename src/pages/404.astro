@@ -1,6 +1,7 @@
 ---
 import CenteredLayout from "../layouts/CenteredLayout.astro";
 import LinkButton from "../components/link-button.astro";
+import SplashImage from "../img/404-not-found-splash.webp";
 
 const meta = {
     title: "Page not found",
@@ -51,7 +52,7 @@ const meta = {
             <img
                 width="100%"
                 height="100%"
-                src="/_files/Images/404 page/404-not-found-splash.webp"
+                src={SplashImage}
                 alt="Page not found"
             />
         </header>
