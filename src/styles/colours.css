@@ -11,6 +11,7 @@
 	--colour_button_pink: #f98c96;
 	--colour_dark_blue: #45d1ff;
 	--colour_dark_grey: var(--colour_grey_light);
+	--colour_purple: #2C2555;
 
 	--colour_red: var(--colour_light_red);
 	--colour_blue: var(--colour_light_blue);
@@ -26,6 +27,6 @@
 		--colour_red: var(--colour_dark_red);
 		--colour_blue: var(--colour_dark_blue);
 		--colour_grey: var(--colour_dark_grey);
-		--background: var(--colour_grey_dark);
+		--background: var(--colour_purple);
 	}
 }

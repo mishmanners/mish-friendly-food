@@ -1,10 +1,17 @@
 ---
+import Layout from "../components/layout.astro";
 import "../styles/global.css";
+
+const meta = {
+    ...Astro.props.meta,
+};
 ---
 
-<div id="centered-layout-container">
-    <slot />
-</div>
+<Layout {meta}>
+    <div id="centered-layout-container">
+        <slot />
+    </div>
+</Layout>
 
 <style>
     #centered-layout-container {
