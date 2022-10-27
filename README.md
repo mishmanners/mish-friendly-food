@@ -3,7 +3,7 @@
 Do you have dietary requirements or allergies? Love to travel? :airplane: Then you'll :heart: this app.
 
 <img src="https://user-images.githubusercontent.com/36594527/195074051-7af2c269-1442-4398-8a8d-470c3cc5c63b.png" height="100">
-<img src="https://github.com/mishmanners/mish-friendly-food/blob/main/Images/Logo/Logo%20FINAL.png" height="100">
+<img src="https://github.com/mishmanners/mish-friendly-food/blob/main/_files/Images/Logo/Logo%20FINAL.png" height="100">
 
 Mish Friendly Food will translate your dietary requirements/allergies into any language. Once you have your translation, you can get it printed on a cute card. Next time you travel to foreign country, you can pull out your physical or digital card and rest assured that your waiter, host, or chef, will know how to cater for you.
 
