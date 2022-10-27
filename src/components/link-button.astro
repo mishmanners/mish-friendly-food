@@ -13,6 +13,14 @@ const { pageUrl, text } = Astro.props;
         border-radius: 20px;
         font-size: 1.4rem;
     }
+
+    @media (min-width: 768px) {
+        a {
+            font-size: 2rem;
+            padding: 20px 15px;
+            border-radius: 30px;
+        }
+    }
 </style>
 
 <a href={pageUrl}>{text}</a>
