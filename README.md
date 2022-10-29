@@ -5,7 +5,7 @@ Do you have dietary requirements or allergies? Do you travel a lot? :airplane: T
 <img src="https://user-images.githubusercontent.com/36594527/195074051-7af2c269-1442-4398-8a8d-470c3cc5c63b.png" height="100">
 <img src="https://github.com/mishmanners/mish-friendly-food/blob/main/_files/Images/Logo/Logo%20FINAL.png" height="100">
 
-Mish Friendly Food will translate your dietary requirements/allergies into any language. Enter your details, and choose the language you want to translate to. Once you have your translation, you can get it printed on a cute card, or text the results to your phone. Next time you travel to foreign country, you can pull out your physical or digital card and rest assured that your waiter, host, or chef, will know how to cater for you.
+Mish Friendly Food will translate your dietary requirements/allergies into any language. Enter your details and choose your desired language. Once you have your translation, you can get it printed on a cute card, or text the results to your phone. Next time you travel to foreign country, you can pull out your physical or digital card and rest assured that your waiter, host, or chef, will know how to cater for you.
 
 **[The website](https://mishfriendlyfood.com/) is now live** thanks to the contributions of this awesome community. You can find the website at [mishfriendlyfood.com](https://mishfriendlyfood.com/). Currently, the website only contains an About Page, and list of Translations. If you'd like to help with phase two of the project (search and retrieve; see [Phase Two](https://mishfriendlyfood.com/) below), then I could very much welcome any help :heart:.
 
