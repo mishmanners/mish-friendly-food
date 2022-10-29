@@ -69,6 +69,7 @@ Thanks to a bunch of contributions, these are the currently supported languages:
 - Danish
 - French
 - Hindi
+- Arabic
 
 This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/_data/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute, please do so.
 
@@ -136,4 +137,3 @@ If you don't give a page any meta info, it'll use the default stuff anyway.
 To EVERYONE who contributed to the project, you're amazing. To all those who've had to put up with my dietary requirements while travelling - you're all life-long friends, and hopefully this will make things better. To those who were with me at NDC in Oslo when we came up with this idea around the breakfast table - Amy, Damo, (and me :wink: )
 
 Thanks to <a href="https://unsplash.com/@wistomsin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tom Barrett</a> via <a href="https://unsplash.com/s/photos/travel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> to the epic photo of the plane that we're using for the social card.
-  
