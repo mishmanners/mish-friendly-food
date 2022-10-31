@@ -1,40 +1,22 @@
 {
   "dietary_restrictions": {
     "vegetarian": [
-      "en": [
-        "meat",
-        "fish"],
-      "ta": [
-        "மாமிசம்",
-        "மீன்"]
+      "meat",
+      "fish"
     ],
     "vegan": [
-      "en": [
-        "meat",
-        "fish",
-        "dairy",
-        "eggs",
-        "honey"],
-      "ta": [
-         "மாமிசம்",
-         "மீன்",
-         "பால் பொருட்கள்",
-         "முட்டை",
-         "தேன்"]
+      "meat",
+      "fish",
+      "dairy",
+      "eggs",
+      "honey"
     ],
     "gluten_free": [
-      "en": [
-        "gluten",
-        "wheat",
-        "barley",
-        "rye",
-        "oats"],
-      "ta": [
-        "பசையம்",
-        "கோதுமை",
-        "வாற்கோதுமை",
-        "புல்லரிசி",
-        "பல்லரிசி"]
+      "gluten",
+      "wheat",
+      "barley",
+      "rye",
+      "oats"
     ],
     "lactose_free": [
       "dairy",
