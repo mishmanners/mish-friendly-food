@@ -29,6 +29,8 @@ All contributions will require a pull request. Please be respectful of everyone,
 
 As for the database itself; categories are being used for when people group multiple things together. `Translation` is used for individual words being translated and includes synonyms. For example, "dairy" is translated to "lactose" in some countries, but not in others. So we need to be able to translate both "dairy" and "lactose" to the same word in the other language. The `dietary_restrictions` section is for the actual dietary restrictions and allergies. This is needed so we can translate the words accurately.
 
+Please DO NOT submit pull requests for changes that only involve a few translations. If you want to help with translation, please add everything you know and not just one word. Ie. if you'd like to add the German translation, don't just add the translation for `vegetarian`. Please add translations for all the data in the database. Thank you :pray:.
+
 ## Project stages
 
 The project will run in a few stages. Any help along the way is appreciated.
