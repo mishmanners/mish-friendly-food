@@ -3,7 +3,6 @@ import DefaultLayout from "../layouts/Default.astro";
 
 import data from "../../_data/database.json";
 import languages from "../../_data/languages.json";
-import { Search } from "../components/client/Search.jsx";
 
 const foods = Object.keys(data.translations)
 	.map((food) => {
@@ -84,7 +83,6 @@ categories.sort((a, b) => {
 
 <DefaultLayout>
 	<h1>Translations</h1>
-	<Search client:load />
 	<p>
 		While the goal is to turn this into an app that generates lists and
 		spits them out for you, for now here's a list of foods/dietary
