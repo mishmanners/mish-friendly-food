@@ -11,7 +11,7 @@ jobs:
       issues: write
     steps:
     - name: contributor-takes-action
-      uses: damovisa/take-action@damovisa/token-update
+      uses: bdougie/take-action@main
       with:
         message: Okay you have taken this issue and it has been assigned to you. Let us know if you have any questions.
         trigger: .take
