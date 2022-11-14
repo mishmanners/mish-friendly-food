@@ -13,6 +13,6 @@ jobs:
     - name: contributor-takes-action
       uses: bdougie/take-action@main
       with:
-        message: Okay you have taken this issue and it has been assigned to you. Let us know if you have any questions.
+        message: Alright you want to take this issue? It is now assigned to you 🙏 Let us know if you have any questions.
         trigger: .take
         token: ${{ secrets.GITHUB_TOKEN }}
