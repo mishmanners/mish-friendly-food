@@ -7,11 +7,12 @@ jobs:
   assign:
     name: Take an issue
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
     - name: contributor-takes-action
-      uses: bdougie/take-action@v1.4
-      env:
-        GITHUB_TOKEN: ${{ TAKE_ACTION }}
+      uses: damovisa/take-action@damovisa/token-update
       with:
         message: Okay you have taken this issue and it has been assigned to you. Let us know if you have any questions.
         trigger: .take
+        token: ${{ secrets.GITHUB_TOKEN }}
