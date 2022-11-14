@@ -11,7 +11,7 @@ jobs:
     - name: contributor-takes-action
       uses: bdougie/take-action@v1.4
       env:
-        GITHUB_TOKEN: ${{ GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ TAKE_ACTION }}
       with:
         message: Okay you have taken this issue and it has been assigned to you. Let us know if you have any questions.
         trigger: .take
