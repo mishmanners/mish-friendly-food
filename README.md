@@ -45,6 +45,8 @@ It will consist of the dietary groups such as "dairy, gluten, vegan, vegetarian"
 
 Once the basic database is built, we need people with authority (ie. people who know the language) to translate it into other languages.
 
+This stage of the project is complete, however feel free to contribute more to the database at any time. A database is never really "complete" 😉.
+
 ### Phase 2 - Translate
 
 Now we'll need to build the app capability to actual translate the database. Users should be able to submit their data in two ways:
@@ -53,6 +55,8 @@ Now we'll need to build the app capability to actual translate the database. Use
 - text dump
 
 Once the user has submitted the data, they should get a result back in their desired language. This can be shown on the screen as text.
+
+We have a lot of translations already which you'll see down below as "supported languages". Please continue to add new languages and translations.
 
 ### Phase 3 - Beautify and export
 
