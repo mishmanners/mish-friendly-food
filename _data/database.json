@@ -340,6 +340,113 @@
         "Uzturs"
       ]
     },
+    "allergies":{
+      "en": [
+        "Allergies", "allergy", "allergic"
+      ],
+      "fr": [
+        "Allergies"
+      ],
+      "de": [
+        "Allergien"
+      ],
+      "es": [
+        "Alergias"
+      ],
+      "it": [
+        "Allergie"
+      ],
+      "nl": [
+        "Allergieën"
+      ],
+      "pt": [
+        "Alergias"
+      ],
+      "sv": [
+        "Allergier"
+      ],
+      "fi": [
+        "Allergiat"
+      ],
+      "da": [
+        "Allergier"
+      ],
+      "nb": [
+        "Allergier"
+      ],
+      "sl": [
+        "Alergije"
+      ],
+      "cs": [
+        "Alergie"
+      ],
+      "sk": [
+        "Alergie"
+      ],
+      "pl": [
+        "Alergie"
+      ],
+      "hu": [
+        "Allergia"
+      ],
+      "el": [
+        "Αλλεργίες"
+      ],
+      "bg": [
+        "Алергии"
+      ],
+      "ru": [
+        "Аллергия"
+      ],
+      "uk": [
+        "Алергія"
+      ],
+      "ro": [
+        "Alergie"
+      ],
+      "ar": [
+        "حساسية"
+      ],
+      "fa": [
+        "حساسیت"
+      ],
+      "th": [
+        "แพ้อาหาร"
+      ],
+      "zh": [
+        "过敏"
+      ],
+      "zh-Hant": [
+        "過敏"
+      ],
+      "ja": [
+        "アレルギー"
+      ],
+      "ko": [
+        "알레르기"
+      ],
+      "tr": [
+        "Alerji"
+      ],
+      "he": [
+        "אלרגיה"
+      ],
+      "id": [
+        "Alergi"
+      ],
+      "vi": [
+        "Dị ứng"
+      ],
+      "ca": [
+        "Alergia"
+      ],
+      "sr": [
+        "Алергија"
+      ],
+      "hr": [
+        "Alergija"
+      ]
+    },
     "vegetarian": {
       "en": [
         "Vegetarian"
