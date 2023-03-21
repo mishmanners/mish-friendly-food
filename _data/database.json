@@ -229,7 +229,7 @@
   "translations": {
     "dietary":{
       "en": [
-        "Dietary"
+        "Dietary", "dietaries", "dietary restrictions"
       ],
       "fr": [
         "Régime alimentaire"
