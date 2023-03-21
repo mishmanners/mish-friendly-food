@@ -227,6 +227,117 @@
     ]
   },
   "translations": {
+    "dietary":{
+      "en": [
+        "Dietary"
+      ],
+      "fr": [
+        "Régime alimentaire"
+      ],
+      "de": [
+        "Ernährung"
+      ],
+      "es": [
+        "Dieta"
+      ],
+      "it": [
+        "Dieta"
+      ],
+      "nl": [
+        "Dieet"
+      ],
+      "pt": [
+        "Dieta"
+      ],
+      "sv": [
+        "Diet"
+      ],
+      "fi": [
+        "Ruokavalio"
+      ],
+      "da": [
+        "Diæt"
+      ],
+      "nb": [
+        "Diett"
+      ],
+      "sl": [
+        "Dietna"
+      ],
+      "cs": [
+        "Strava"
+      ],
+      "sk": [
+        "Strava"
+      ],
+      "pl": [
+        "Dieta"
+      ],
+      "hu": [
+        "Diéta"
+      ],
+      "el": [
+        "Δίαιτα"
+      ],
+      "bg": [
+        "Диета"
+      ],
+      "ru": [
+        "Диета"
+      ],
+      "uk": [
+        "Дієта"
+      ],
+      "ro": [
+        "Dieta"
+      ],
+      "ar": [
+        "النظام الغذائي"
+      ],
+      "fa": [
+        "نظام غذایی"
+      ],
+      "th": [
+        "โภชนาการ"
+      ],
+      "zh": [
+        "饮食"
+      ],
+      "zh-Hant": [
+        "飲食"
+      ],
+      "ja": [
+        "食事"
+      ],
+      "ko": [
+        "식사"
+      ],
+      "tr": [
+        "Diyet"
+      ],
+      "he": [
+        "מזון"
+      ],
+      "id": [
+        "Diet"
+      ],
+      "vi": [
+        "Chế độ ăn"
+      ],
+      "ca": [
+        "Dieta"
+      ],
+      "sr": [
+        "Дијета"
+      ],
+      "hr": [
+        "Dijeta"
+      ],
+      "lt": [
+        "Mityba"
+      ],
+      "lv
+    }
     "vegetarian": {
       "en": [
         "Vegetarian"
