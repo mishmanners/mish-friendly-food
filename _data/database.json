@@ -916,7 +916,7 @@
         "Sans oeuf"
       ],
       "de": [
-        "Eifrei"
+        "ohne Ei"
       ],
       "es": [
         "Sin huevo"
@@ -1007,7 +1007,7 @@
         "Sans arachide"
       ],
       "de": [
-        "Erdnussfrei"
+        "erdnussfrei"
       ],
       "es": [
         "Sin cacahuate"
@@ -1099,7 +1099,8 @@
         "allergie au soja"
       ],
       "de": [
-        "Sojafrei"
+        "Soja frei",
+        "Sojaallergie"
       ],
       "es": [
         "Sin soya"
@@ -1192,7 +1193,8 @@
         "allergie aux noix"
       ],
       "de": [
-        "Nussfrei"
+        "Nussfrei",
+        "Nussallergie"
       ],
       "es": [
         "Sin nuez"
@@ -1282,7 +1284,9 @@
         "Pescatarien"
       ],
       "de": [
-        "Pescatarian"
+        "Pescetarier",
+        "pescetarisch",
+        "Pescetarierin"
       ],
       "es": [
         "Pescatarian"
@@ -1374,6 +1378,7 @@
         "allergie aux crustacés"
       ],
       "de": [
+        "Schalentiere frei",
         "Schalentierallergie"
       ],
       "es": [
@@ -1466,7 +1471,8 @@
         "allergie au poisson"
       ],
       "de": [
-        "Fischfrei"
+        "fischfrei",
+        "Fischallergie"
       ],
       "es": [
         "Sin pescado"
@@ -1562,7 +1568,9 @@
         "viande blanche"
       ],
       "de": [
-        "Huhn"
+        "Huhn",
+        "Hänchen",
+        "das Geflügefleisch"
       ],
       "it": [
         "pollo"
@@ -1611,7 +1619,7 @@
         "veau"
       ],
       "de": [
-        "Rindfleisch"
+        "Rindfleisch",
       ],
       "it": [
         "manzo"
@@ -1660,7 +1668,7 @@
         "viande rouge"
       ],
       "de": [
-        "Lammfleisch"
+        "das Lammfleisch"
       ],
       "it": [
         "agnello"
@@ -1707,7 +1715,8 @@
         "volaille"
       ],
       "de": [
-        "Ente"
+        "Ente",
+        "das Geflügefleisch"
       ],
       "it": [
         "anatra"
@@ -1753,7 +1762,7 @@
         "porc"
       ],
       "de": [
-        "Schweinefleisch"
+        "das Schweinefleisch"
       ],
       "it": [
         "maiale"
@@ -1846,7 +1855,8 @@
         "produit laitier"
       ],
       "de": [
-        "Milch"
+        "Milch",
+        "Milchprodukt"
       ],
       "it": [
         "latte"
@@ -1941,7 +1951,8 @@
         "produit laitier"
       ],
       "de": [
-        "Butter"
+        "Butter",
+        "Milchprodukt"
       ],
       "it": [
         "burro"
@@ -1990,7 +2001,10 @@
         "jaunes d'œuf"
       ],
       "de": [
-        "Ei"
+        "Ei",
+        "Eier",
+        "Eiweiß",
+        "Eigelb"
       ],
       "it": [
         "uovo"
@@ -2046,7 +2060,8 @@
         "petits pains"
       ],
       "de": [
-        "Brot"
+        "Brot",
+        "Brote"
       ],
       "it": [
         "pane"
@@ -2094,7 +2109,8 @@
         "grains de riz"
       ],
       "de": [
-        "Reis"
+        "Reis",
+        "Reiskorn"
       ],
       "it": [
         "riso"
@@ -2138,7 +2154,8 @@
         "pâtes"
       ],
       "de": [
-        "Nudeln"
+        "Nudeln",
+        "Pasta"
       ],
       "it": [
         "pasta"
@@ -2232,7 +2249,8 @@
         "tomate"
       ],
       "de": [
-        "Tomate"
+        "Tomate",
+        "Tomaten"
       ],
       "it": [
         "pomodoro"
@@ -2278,7 +2296,8 @@
         "oignon"
       ],
       "de": [
-        "Zwiebel"
+        "Zwiebel",
+        "Zwiebeln"
       ],
       "it": [
         "cipolla"
@@ -2379,7 +2398,8 @@
         "piments"
       ],
       "de": [
-        "Chili"
+        "Chili",
+        "Chilischoten"
       ],
       "it": [
         "peperoncino"
@@ -2424,7 +2444,8 @@
         "poivre"
       ],
       "de": [
-        "Pfeffer"
+        "Pfeffer",
+        "Paprika"
       ],
       "it": [
         "pepe"
@@ -2904,7 +2925,7 @@
         "ليمون فردوسي"
       ],
       "hi": [
-        "अंगूर"
+        "चकोतरा"
       ],
       "bn": [
         "আঙ্গুর"
@@ -3292,7 +3313,7 @@
         "aubergine"
       ],
       "de": [
-        "Eggplant"
+        "Aubergine"
       ],
       "it": [
         "melanzana"
@@ -3517,7 +3538,7 @@
         "laitue"
       ],
       "de": [
-        "Salat"
+        "Kopfsalat"
       ],
       "it": [
         "lattuga"
