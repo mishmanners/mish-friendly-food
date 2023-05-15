@@ -537,6 +537,9 @@
       ],
       "hi": [
         "शाकाहारी"
+      ],
+      "id": [
+        "Vegetarian"
       ]
     },
     "vegan": {
@@ -628,6 +631,9 @@
       ],
       "ko": [
         "채식주의자"
+      ],
+      "id": [
+        "Vegan"
       ]
     },
     "paleo": {
@@ -716,6 +722,9 @@
         "Paleo"
       ],
       "ko": [
+        "Paleo"
+      ],
+      "id": [
         "Paleo"
       ]
     },
@@ -810,6 +819,9 @@
       ],
       "ko": [
         "글루텐 프리"
+      ],
+      "id": [
+        "Bebas gluten"
       ]
     },
     "dairy_free": {
@@ -903,6 +915,10 @@
       ],
       "ko": [
         "락토스 프리"
+      ],
+      "id": [
+        "Bebas susu",
+        "Bebas produk susu"
       ]
     },
     "egg_allergy": {
@@ -995,6 +1011,10 @@
       ],
       "ko": [
         "달걀 프리"
+      ],
+      "id": [
+        "Alergi telur",
+        "Bebas telur"
       ]
     },
     "peanut_allergy": {
@@ -1086,6 +1106,10 @@
       ],
       "ko": [
         "땅콩 프리"
+      ],
+      "id": [
+        "Alergi kacang tanah",
+        "Bebas kacang tanah"
       ]
     },
     "soy_allergy": {
@@ -1179,6 +1203,10 @@
       ],
       "ko": [
         "대두 프리"
+      ],
+      "id": [
+        "Alergi kedelai",
+        "Bebas kedelai"
       ]
     },
     "nut_allergy": {
@@ -1273,6 +1301,10 @@
       ],
       "ko": [
         "견과류 프리"
+      ],
+      "id": [
+        "Alergi kacang",
+        "Bebas kacang"
       ]
     },
     "pescatarian": {
@@ -1364,6 +1396,9 @@
         "Pescatarian"
       ],
       "ko": [
+        "Pescatarian"
+      ],
+      "id": [
         "Pescatarian"
       ]
     },
@@ -1458,6 +1493,10 @@
       ],
       "ko": [
         "조개 프리"
+      ],
+      "id": [
+        "Bebas kerang",
+        "Alergi kerang"
       ]
     },
     "fish_allergy": {
@@ -1551,6 +1590,10 @@
       ],
       "ko": [
         "생선 프리"
+      ],
+      "id": [
+        "Alergi ikan",
+        "Bebas ikan"
       ]
     },
     "chicken": {
@@ -1601,6 +1644,9 @@
       ],
       "da": [
         "kylling"
+      ],
+      "id": [
+        "ayam"
       ]
     },
     "beef": {
@@ -1651,6 +1697,9 @@
       "da": [
         "oksekød",
         "bøf"
+      ],
+      "id": [
+        "daging sapi"
       ]
     },
     "lamb": {
@@ -1700,6 +1749,9 @@
       "da": [
         "lam",
         "lammekød"
+      ],
+      "id": [
+        "daging domba"
       ]
     },
     "duck": {
@@ -1747,6 +1799,9 @@
       ],
       "da": [
         "and"
+      ],
+      "id": [
+        "bebek"
       ]
     },
     "pork": {
@@ -1794,6 +1849,9 @@
       "da": [
         "svin",
         "svinekød"
+      ],
+      "id": [
+        "daging babi"
       ]
     },
     "cheese": {
@@ -1840,6 +1898,9 @@
       ],
       "da": [
         "ost"
+      ],
+      "id": [
+        "keju"
       ]
     },
     "milk": {
@@ -1887,6 +1948,9 @@
       ],
       "da": [
         "mælk"
+      ],
+      "id": [
+        "susu"
       ]
     },
     "yogurt": {
@@ -1936,6 +2000,9 @@
       ],
       "da": [
         "youghurt"
+      ],
+      "id": [
+        "yogurt"
       ]
     },
     "butter": {
@@ -1983,6 +2050,9 @@
       ],
       "da": [
         "smør"
+      ],
+      "id": [
+        "mentega"
       ]
     },
     "egg": {
@@ -2037,6 +2107,9 @@
       ],
       "da": [
         "æg"
+      ],
+      "id": [
+        "telur"
       ]
     },
     "bread": {
@@ -2092,6 +2165,9 @@
       ],
       "da": [
         "brød"
+      ],
+      "id": [
+        "roti"
       ]
     },
     "rice": {
@@ -2141,6 +2217,9 @@
       ],
       "da": [
         "ris"
+      ],
+      "id": [
+        "nasi"
       ]
     },
     "pasta": {
@@ -2185,6 +2264,9 @@
         "tjestenina"
       ],
       "da": [
+        "pasta"
+      ],
+      "id": [
         "pasta"
       ]
     },
@@ -2235,6 +2317,9 @@
       ],
       "da": [
         "kartoffel"
+      ],
+      "id": [
+        "kentang"
       ]
     },
     "tomato": {
@@ -2282,6 +2367,9 @@
       ],
       "da": [
         "tomat"
+      ],
+      "id": [
+        "tomat"
       ]
     },
     "onion": {
@@ -2328,6 +2416,9 @@
       ],
       "da": [
         "løg"
+      ],
+      "id": [
+        "bawang bombay"
       ]
     },
     "garlic": {
@@ -2376,6 +2467,9 @@
       ],
       "da": [
         "hvidløg"
+      ],
+      "id": [
+        "bawang putih"
       ]
     },
     "chili": {
@@ -2431,6 +2525,9 @@
       ],
       "da": [
         "chili"
+      ],
+      "id": [
+        "cabai"
       ]
     },
     "pepper": {
@@ -2476,6 +2573,10 @@
       ],
       "da": [
         "peber"
+      ],
+      "id": [
+        "lada",
+        "merica"
       ]
     },
     "salt": {
@@ -2520,6 +2621,9 @@
       ],
       "da": [
         "salt"
+      ],
+      "id": [
+        "garam"
       ]
     },
     "sugar": {
@@ -2564,6 +2668,9 @@
       ],
       "da": [
         "sukker"
+      ],
+      "id": [
+        "gula"
       ]
     },
     "oil": {
@@ -2608,6 +2715,9 @@
       ],
       "da": [
         "olie"
+      ],
+      "id": [
+        "minyak"
       ]
     },
     "vinegar": {
@@ -2652,6 +2762,9 @@
       ],
       "da": [
         "eddike"
+      ],
+      "id": [
+        "cuka"
       ]
     },
     "water": {
@@ -2696,6 +2809,9 @@
       ],
       "da": [
         "vand"
+      ],
+      "id": [
+        "air"
       ]
     },
     "banana": {
@@ -2743,6 +2859,9 @@
       ],
       "da": [
         "banan"
+      ],
+      "id": [
+        "pisang"
       ]
     },
     "apple": {
@@ -2789,6 +2908,9 @@
       ],
       "da": [
         "æble"
+      ],
+      "id": [
+        "apel"
       ]
     },
     "orange": {
@@ -2838,6 +2960,9 @@
       ],
       "da": [
         "appelsin"
+      ],
+      "id": [
+        "jeruk"
       ]
     },
     "lemon": {
@@ -2887,6 +3012,9 @@
       ],
       "da": [
         "citron"
+      ],
+      "id": [
+        "lemon"
       ]
     },
     "grapefruit": {
@@ -2935,6 +3063,9 @@
       ],
       "da": [
         "grapefrugt"
+      ],
+      "id": [
+        "jeruk bali"
       ]
     },
     "pineapple": {
@@ -2980,6 +3111,9 @@
       ],
       "da": [
         "ananas"
+      ],
+      "id": [
+        "nanas"
       ]
     },
     "strawberry": {
@@ -3026,6 +3160,9 @@
       ],
       "da": [
         "jordbær"
+      ],
+      "id": [
+        "stroberi"
       ]
     },
     "chick-peas": {
@@ -3072,6 +3209,9 @@
       ],
       "hr": [
         "slanutak"
+      ],
+      "id": [
+        "buncis"
       ]
     },
     "kidney beans": {
@@ -3116,6 +3256,9 @@
       ],
       "hr": [
         "grah"
+      ],
+      "id": [
+        "kacang merah"
       ]
     },
     "pistachios": {
@@ -3161,6 +3304,9 @@
       ],
       "hr": [
         "pistacije"
+      ],
+      "id": [
+        "pistacio"
       ]
     },
     "cashews": {
@@ -3208,6 +3354,9 @@
       ],
       "hr": [
         "indijski oraščići"
+      ],
+      "id": [
+        "kacang mete"
       ]
     },
     "brazil nut": {
@@ -3253,6 +3402,9 @@
       ],
       "hr": [
         "brazilski oraščić"
+      ],
+      "id": [
+        "kacang Brazil"
       ]
     },
     "almonds": {
@@ -3299,6 +3451,9 @@
       ],
       "hr": [
         "bademi"
+      ],
+      "id": [
+        "kacang almond"
       ]
     },
     "eggplant": {
@@ -3344,6 +3499,10 @@
       ],
       "hr": [
         "patlidžan"
+      ],
+      "id": [
+        "terung",
+        "terong"
       ]
     },
     "cabbage": {
@@ -3389,6 +3548,9 @@
       ],
       "hr": [
         "kupus"
+      ],
+      "id": [
+        "kol"
       ]
     },
     "cauliflower": {
@@ -3434,6 +3596,10 @@
       ],
       "hr": [
         "karfiol"
+      ],
+      "id": [
+        "kol bunga",
+        "kol kembang"
       ]
     },
     "broccoli": {
@@ -3481,6 +3647,9 @@
       ],
       "hr": [
         "brokula"
+      ],
+      "id": [
+        "brokoli"
       ]
     },
     "spinach": {
@@ -3525,6 +3694,9 @@
       ],
       "hr": [
         "špinat"
+      ],
+      "id": [
+        "bayam"
       ]
     },
     "lettuce": {
@@ -3569,6 +3741,9 @@
       ],
       "hr": [
         "zelena salata"
+      ],
+      "id": [
+        "selada"
       ]
     },
     "cucumber": {
@@ -3613,6 +3788,9 @@
       ],
       "hr": [
         "krastavac"
+      ],
+      "id": [
+        "timun"
       ]
     },
     "mango": {
@@ -3659,6 +3837,9 @@
       ],
       "hr": [
         "mango"
+      ],
+      "id": [
+        "mangga"
       ]
     },
     "peas": {
@@ -3706,6 +3887,9 @@
       ],
       "hr": [
         "grašak"
+      ],
+      "id": [
+        "kacang polong"
       ]
     },
     "turkey": {
@@ -3750,6 +3934,9 @@
       ],
       "hr": [
         "turska"
+      ],
+      "id": [
+        "kalkun"
       ]
     },
     "carrot": {
@@ -3795,6 +3982,9 @@
       ],
       "hr": [
         "mrkva"
+      ],
+      "id": [
+        "wortel"
       ]
     }  
   }
