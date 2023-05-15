@@ -1,6 +1,6 @@
 # Mish Friendly Food
 
-Do you have dietary requirements or allergies? Do you travel a lot? :train: :airplane: Then you'll :heart: this app.
+Do you have dietary requirements or allergies? Do you travel a lot? :train: 🚌 :airplane: Then you'll :heart: this app.
 
 <img src="https://user-images.githubusercontent.com/36594527/195074051-7af2c269-1442-4398-8a8d-470c3cc5c63b.png" height="100">
 <img src="https://github.com/mishmanners/mish-friendly-food/blob/main/_files/Images/Logo/Logo%20FINAL.png" height="100">
@@ -84,6 +84,7 @@ Thanks to a bunch of contributions, these are the currently supported languages:
 - Arabic
 - Tamil
 - German
+- Indonesian
 
 This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/_data/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute (especially via reviewing the current translations), please do so.
 
