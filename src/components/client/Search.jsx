@@ -54,7 +54,7 @@ export const Search = () => {
         //  Get form data
         const formData = new FormData(e.target.form);
         // Get the search query from the form input
-        const searchQuery = formData.get('wordSearch');
+        const searchQuery = formData.get('wordSearch').toLowerCase();
         // get selected languages
         const fromLanguage = formData.get('fromLanguage');
         const toLanguage = formData.get('toLanguage');
@@ -68,6 +68,7 @@ export const Search = () => {
             // Retrieve translations for the selected languages
             const translationsDictionary = getTranslationsForLanguages(fromLanguage, toLanguage, searchQuery);
             // Display translations to the user as needed
+            console.log(translationsDictionary);
             setTranslationResults(translationsDictionary);
         
         } else {
@@ -104,11 +105,11 @@ export const Search = () => {
             <h3>Translation Results</h3>
             <ul>
                 {Object.entries(translationResults).map(([key, value]) => (
-                    <li key={key}>{key}: {value}</li>
+                    <li key = {key}> {value[1]} </li>
                 ))}
             </ul>
 
-            
+
         </section>
     );
 }
