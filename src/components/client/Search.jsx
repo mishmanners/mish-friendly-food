@@ -1,5 +1,6 @@
 import database from '../../../_data/database.json';
 import languages from '../../../_data/languages.json';
+import React, { useState } from 'react';
 
 import style from './Search.module.css';
 
@@ -14,10 +15,10 @@ import style from './Search.module.css';
 
 const translationsDictionary = database.translations
 const getTranslationsForLanguages = (fromLang, toLang, word) => {
-    // display test
-    console.log('Word:', word);
-    console.log('From Language:', fromLang);
-    console.log('To Language:', toLang);
+    // // display test
+    // console.log('Word:', word);
+    // console.log('From Language:', fromLang);
+    // console.log('To Language:', toLang);
 
     if (translationsDictionary.hasOwnProperty(word)) {
         const translationsCategory = translationsDictionary[word];
@@ -47,6 +48,7 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
 
     }
 export const Search = () => {
+    const [translationResults, setTranslationResults] = useState({});
     const searchForTranslations = (e) => {
         e.preventDefault();
         //  Get form data
@@ -57,16 +59,16 @@ export const Search = () => {
         const fromLanguage = formData.get('fromLanguage');
         const toLanguage = formData.get('toLanguage');
 
-        // display test
-        console.log('Word:', searchQuery);
-        console.log('From Language:', fromLanguage);
-        console.log('To Language:', toLanguage);
+        // // display test
+        // console.log('Word:', searchQuery);
+        // console.log('From Language:', fromLanguage);
+        // console.log('To Language:', toLanguage);
 
         if (fromLanguage && toLanguage) {
             // Retrieve translations for the selected languages
             const translationsDictionary = getTranslationsForLanguages(fromLanguage, toLanguage, searchQuery);
             // Display translations to the user as needed
-            console.log('Relevant Translations:', translationsDictionary);
+            setTranslationResults(translationsDictionary);
         
         } else {
             console.log('Please select both From and To languages.');
@@ -97,6 +99,16 @@ export const Search = () => {
 
                 <button className={style.searchButton} onClick={searchForTranslations}>Translate</button>
             </form>
+
+            {/* Display translation results */}
+            <h3>Translation Results</h3>
+            <ul>
+                {Object.entries(translationResults).map(([key, value]) => (
+                    <li key={key}>{key}: {value}</li>
+                ))}
+            </ul>
+
+            
         </section>
     );
 }
