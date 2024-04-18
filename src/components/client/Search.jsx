@@ -15,6 +15,12 @@ import style from './Search.module.css';
 export const Search = () => {
     const searchForTranslations = (e) => {
         e.preventDefault();
+        //  Get form data
+        const formData = new FormData(e.target.form);
+        // Get the search query from the form input
+        const searchQuery = formData.get('wordSearch');
+        // display on console;
+        console.log("Search query:", searchQuery);
     }
 
     const languageOptions = Object.entries(languages).map(([code, name]) => (
@@ -36,7 +42,7 @@ export const Search = () => {
                         {languageOptions}
                     </select>
                     <label htmlFor="wordSearch">Word</label>
-                    <input id="wordSearch" type="text" placeholder="Translate a word" className={style.translateBox} />
+                    <input id="wordSearch" name= 'wordSearch'type="text" placeholder="Translate a word" className={style.translateBox} />
                 </div>
 
                 <button className={style.searchButton} onClick={searchForTranslations}>Translate</button>
