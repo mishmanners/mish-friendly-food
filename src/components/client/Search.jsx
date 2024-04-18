@@ -1,4 +1,4 @@
-import { translations } from '../../../_data/database.json';
+import database from '../../../_data/database.json';
 import languages from '../../../_data/languages.json';
 
 import style from './Search.module.css';
@@ -12,6 +12,40 @@ import style from './Search.module.css';
 //       is easy for english translations, but not from one language
 //       to another.
 
+const translationsDictionary = database.translations
+const getTranslationsForLanguages = (fromLang, toLang, word) => {
+    // display test
+    console.log('Word:', word);
+    console.log('From Language:', fromLang);
+    console.log('To Language:', toLang);
+
+    if (translationsDictionary.hasOwnProperty(word)) {
+        const translationsCategory = translationsDictionary[word];
+        // Check if translations exist for the selected languages
+        if (translationsCategory.hasOwnProperty(fromLang) &&
+            translationsCategory.hasOwnProperty(toLang))
+            {
+                const translateFrom = translationsCategory[fromLang];
+                const translateTo = translationsCategory[toLang];
+
+                const relevantTranslations = {};
+                Object.keys(translateFrom).forEach((key) => {
+                    if (translateTo.hasOwnProperty(key)){
+                        relevantTranslations[key] = [translateFrom[key], translateTo[key]];
+                    }
+                });
+
+                return relevantTranslations;
+        } else {
+            console.log('Translations not available for selcted language combination');
+            return {}
+        }
+    } else {
+    console.log('Word not found in database. Consider checking for typos or adding it in the repository.')
+    return {};
+    }
+
+    }
 export const Search = () => {
     const searchForTranslations = (e) => {
         e.preventDefault();
@@ -19,9 +53,25 @@ export const Search = () => {
         const formData = new FormData(e.target.form);
         // Get the search query from the form input
         const searchQuery = formData.get('wordSearch');
-        // display on console;
-        console.log("Search query:", searchQuery);
-    }
+        // get selected languages
+        const fromLanguage = formData.get('fromLanguage');
+        const toLanguage = formData.get('toLanguage');
+
+        // display test
+        console.log('Word:', searchQuery);
+        console.log('From Language:', fromLanguage);
+        console.log('To Language:', toLanguage);
+
+        if (fromLanguage && toLanguage) {
+            // Retrieve translations for the selected languages
+            const translationsDictionary = getTranslationsForLanguages(fromLanguage, toLanguage, searchQuery);
+            // Display translations to the user as needed
+            console.log('Relevant Translations:', translationsDictionary);
+        
+        } else {
+            console.log('Please select both From and To languages.');
+        }
+}
 
     const languageOptions = Object.entries(languages).map(([code, name]) => (
         <option key={code} value={code}>{name}</option>
@@ -34,11 +84,11 @@ export const Search = () => {
             <form>
                 <div id={style.translationFormContainer}>
                     <label htmlFor="fromLanguage">From</label>
-                    <select id="fromLanguage" className={style.searchInput}>
+                    <select id="fromLanguage" name= 'fromLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
                     <label htmlFor="toLanguage">To</label>
-                    <select id="toLanguage" className={style.searchInput}>
+                    <select id="toLanguage" name= 'toLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
                     <label htmlFor="wordSearch">Word</label>
