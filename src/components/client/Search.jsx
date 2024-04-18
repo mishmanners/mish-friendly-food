@@ -33,7 +33,7 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
                 return relevantTranslations;
         } else {
             // return an error code and a description of the error
-            return {0:['002', 'Translations not available for selected language combination. Please consider adding it to the GitHub repo!']}
+            return {0:['002', 'Translations not found for selected language combination. Consider adding them to the GitHub repo!']}
         }
 
 
