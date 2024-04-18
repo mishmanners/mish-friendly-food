@@ -3,22 +3,8 @@ import languages from '../../../_data/languages.json';
 import React, { useState } from 'react';
 
 import style from './Search.module.css';
-
-// TODO: Write a service that will restructure the database
-//       and provide the details in the correct format. 
-//       OR
-//       Restructure the database to make it easier to suit
-//       a search. Assumptions made is that we can pick any
-//       source country and translate. The database at the moment
-//       is easy for english translations, but not from one language
-//       to another.
-
 const translationsDictionary = database.translations
 const getTranslationsForLanguages = (fromLang, toLang, word) => {
-    // // display test
-    // console.log('Word:', word);
-    // console.log('From Language:', fromLang);
-    // console.log('To Language:', toLang);
 
     if (translationsDictionary.hasOwnProperty(word)) {
         const translationsCategory = translationsDictionary[word];
@@ -38,17 +24,19 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
 
                 return relevantTranslations;
         } else {
-            console.log('Translations not available for selcted language combination');
-            return {}
+            // return an error code and a description of the error
+            return {0:['001', 'Translations not available for selected language combination. Please consider adding it to the GitHub repo!']}
         }
     } else {
-    console.log('Word not found in database. Consider checking for typos or adding it in the repository.')
-    return {};
+        return {0:['002', 'Word not found in database. Consider checking for typos or adding it in the GitHub repo!']}
+
+
     }
 
     }
 export const Search = () => {
     const [translationResults, setTranslationResults] = useState({});
+    const [error, setError] = useState('');
     const searchForTranslations = (e) => {
         e.preventDefault();
         //  Get form data
@@ -59,11 +47,6 @@ export const Search = () => {
         const fromLanguage = formData.get('fromLanguage');
         const toLanguage = formData.get('toLanguage');
 
-        // // display test
-        // console.log('Word:', searchQuery);
-        // console.log('From Language:', fromLanguage);
-        // console.log('To Language:', toLanguage);
-
         if (fromLanguage && toLanguage) {
             // Retrieve translations for the selected languages
             const translationsDictionary = getTranslationsForLanguages(fromLanguage, toLanguage, searchQuery);
@@ -72,7 +55,8 @@ export const Search = () => {
             setTranslationResults(translationsDictionary);
         
         } else {
-            console.log('Please select both From and To languages.');
+            var error = {0:['003', 'Please select both From and To languages.']}
+            setTranslationResults(error)
         }
 }
 
@@ -102,6 +86,8 @@ export const Search = () => {
             </form>
 
             {/* Display translation results */}
+            {/* Display error message */}
+            {error && <p className={style.errorMessage}>{error}</p>}
             <h3>Translation Results</h3>
             <ul>
                 {Object.entries(translationResults).map(([key, value]) => (
