@@ -3,18 +3,26 @@ import languages from '../../../_data/languages.json';
 import React, { useState } from 'react';
 
 import style from './Search.module.css';
+
+
+// initialise an object to search properties of JSON database
 const translationsDictionary = database.translations
+
+// define a function to search through database
 const getTranslationsForLanguages = (fromLang, toLang, word) => {
 
+    // check if word exists
     if (translationsDictionary.hasOwnProperty(word)) {
         const translationsCategory = translationsDictionary[word];
+
         // Check if translations exist for the selected languages
         if (translationsCategory.hasOwnProperty(fromLang) &&
             translationsCategory.hasOwnProperty(toLang))
             {
                 const translateFrom = translationsCategory[fromLang];
                 const translateTo = translationsCategory[toLang];
-
+                
+                // define a dictionary to return as value
                 const relevantTranslations = {};
                 Object.keys(translateFrom).forEach((key) => {
                     if (translateTo.hasOwnProperty(key)){
@@ -25,24 +33,29 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
                 return relevantTranslations;
         } else {
             // return an error code and a description of the error
-            return {0:['001', 'Translations not available for selected language combination. Please consider adding it to the GitHub repo!']}
+            return {0:['002', 'Translations not available for selected language combination. Please consider adding it to the GitHub repo!']}
         }
+
+
     } else {
-        return {0:['002', 'Word not found in database. Consider checking for typos or adding it in the GitHub repo!']}
-
-
+        // return an error code and a description of the error
+        return {0:['001', 'Word not found in database. Consider checking for typos or adding it in the GitHub repo!']}
     }
 
     }
 export const Search = () => {
+    // use React state variables to return dynamic dictionaries
     const [translationResults, setTranslationResults] = useState({});
-    const [error, setError] = useState('');
+    
     const searchForTranslations = (e) => {
         e.preventDefault();
+
         //  Get form data
         const formData = new FormData(e.target.form);
+
         // Get the search query from the form input
         const searchQuery = formData.get('wordSearch').toLowerCase();
+
         // get selected languages
         const fromLanguage = formData.get('fromLanguage');
         const toLanguage = formData.get('toLanguage');
@@ -50,12 +63,13 @@ export const Search = () => {
         if (fromLanguage && toLanguage) {
             // Retrieve translations for the selected languages
             const translationsDictionary = getTranslationsForLanguages(fromLanguage, toLanguage, searchQuery);
+
             // Display translations to the user as needed
             console.log(translationsDictionary);
             setTranslationResults(translationsDictionary);
         
         } else {
-            var error = {0:['003', 'Please select both From and To languages.']}
+            var error = {0:['000', 'Please select both From and To languages.']}
             setTranslationResults(error)
         }
 }
@@ -86,8 +100,6 @@ export const Search = () => {
             </form>
 
             {/* Display translation results */}
-            {/* Display error message */}
-            {error && <p className={style.errorMessage}>{error}</p>}
             <h3>Translation Results</h3>
             <ul>
                 {Object.entries(translationResults).map(([key, value]) => (
