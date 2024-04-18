@@ -85,50 +85,5 @@ categories.sort((a, b) => {
 <DefaultLayout>
 	<h1>Translations</h1>
 	<Search client:load />
-	<p>
-		While the goal is to turn this into an app that generates lists and
-		spits them out for you, for now here's a list of foods/dietary
-		requirements and the various languages.
-	</p>
-	<p>
-		We've also identified some categories and dietary requirements, so if
-		your requirements fall into that, you can look it up here. Some of the
-		categories may have translations already, others might not.
-	</p>
-	<h2>Categories</h2>
-	<ul class="categories">
-		{
-			categories.map((category) => (
-				<li>
-					<a href={`#${category.name}`}>
-						{category.name.replace("_", " ").replace("-", " - ")}
-					</a>
-				</li>
-			))
-		}
-	</ul>
-	<h2>Translations</h2>
-	<ul class="foods">
-		{
-			foods.map(({ translations, name }) => (
-				<li>
-					<details id={name}>
-						<summary>
-							{name.replace("_", " ").replace("-", " - ")}
-						</summary>
-						<ul>
-							{translations.map(({ lang, code, names }) => (
-								<li>
-									<span>
-										{lang} ({code}) -{" "}
-									</span>
-									{names.join(", ")}
-								</li>
-							))}
-						</ul>
-					</details>
-				</li>
-			))
-		}
-	</ul>
+	
 </DefaultLayout>
