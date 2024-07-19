@@ -58,15 +58,11 @@ Once the user has submitted the data, they should get a result back in their des
 
 We have a lot of translations already which you'll see down below as "supported languages". Please continue to add new languages and translations.
 
-Currently, the website has a drop down for the translate from and to languages and a text box where you can type the word in. However these aren't functional. If you can help with this that would be awesome. All the translations are currently available for users to browse.
+Currently, the website has a drop down for the translate from and to languages and a text box where you can type the word in. However these aren't very functional. We want to be able to add in a paragraph or a list of dietary requirements and have them all be translated in one go. If you can help with this that would be awesome. All the translations are currently available for users to browse.
 
 ### Phase 3 - Beautify and export
 
 People might want to export their translations into cute cards. There should be a blank card, and some basic artistic styles to choose from. Users should be able to change the font colour and size and finally export their image as a .png, .jpeg, .pdf. Thus users will have a digital card they can show when travelling, or print it out for ease of travel.
-
-### Phase 4 - Twilio integration
-
-Not everyone wants to export their translation or dietary into cute cards. Some might want to have it as an SMS. This phase will setup Twilio so users can have their result text messaged to them.
 
 I'll also take any other crazy ideas too; just add them to the [Discussion thread](https://github.com/mishmanners/mish-friendly-food/discussions/65).
 
