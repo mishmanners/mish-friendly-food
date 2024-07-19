@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Do you have a cool idea for the project? Please submit it here.
-title: ':sparkles" FEATURE REQUEST: '
+title: ':sparkles: FEATURE REQUEST: '
 labels: 'feature :sparkles:'
 assignees: ''
 
