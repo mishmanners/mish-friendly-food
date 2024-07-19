@@ -5,12 +5,12 @@ import data from "../../_data/database.json";
 import languages from "../../_data/languages.json";
 import { Search } from "../components/client/Search.jsx";
 
-const foods = Object.keys(data.translations)
-	.map((food) => {
+function processMultipleFoods(foodItems) {
+	return foodItems.map(foodItem => {
 		const translations = [];
 
-		Object.keys(data.translations[food]).forEach((translation) => {
-			const names = data.translations[food][translation];
+		Object.keys(data.translations[foodItem]).forEach(translation => {
+			const names = data.translations[foodItem][translation];
 
 			translations.push({
 				code: translation,
@@ -20,10 +20,22 @@ const foods = Object.keys(data.translations)
 		});
 
 		return {
-			name: food,
+			name: foodItem,
 			translations,
 		};
 	})
+	.sort((a, b) => {
+		if (a.name.toLowerCase() < b.name.toLowerCase()) {
+			return -1;
+		}
+		if (a.name.toLowerCase() > b.name.toLowerCase()) {
+			return 1;
+		}
+		return 0;
+	});
+}
+
+const foods = processMultipleFoods(Object.keys(data.translations));
 	.sort((a, b) => {
 		if (a.name.toLowerCase() < b.name.toLowerCase()) {
 			return -1;
