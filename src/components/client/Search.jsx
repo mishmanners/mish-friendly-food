@@ -21,7 +21,7 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
             {
                 const translateFrom = translationsCategory[fromLang];
                 const translateTo = translationsCategory[toLang];
-                
+
                 // define a dictionary to return as value
                 const relevantTranslations = {};
                 Object.keys(translateFrom).forEach((key) => {
@@ -46,7 +46,7 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
 export const Search = () => {
     // use React state variables to return dynamic dictionaries
     const [translationResults, setTranslationResults] = useState({});
-    
+
     const searchForTranslations = (e) => {
         e.preventDefault();
 
@@ -67,7 +67,7 @@ export const Search = () => {
             // Display translations to the user as needed
             console.log(translationsDictionary);
             setTranslationResults(translationsDictionary);
-        
+
         } else {
             var error = {0:['000', 'Please select both From and To languages.']}
             setTranslationResults(error)
@@ -101,7 +101,7 @@ export const Search = () => {
 
             {/* Display translation results */}
             <h3>Translation Results</h3>
-            <ul>
+            <ul data-testid="translation-results">
                 {Object.entries(translationResults).map(([key, value]) => (
                     <li key = {key}> {value[1]} </li>
                 ))}
