@@ -26,3 +26,16 @@ jobs:
           } catch {
             Write-Error $_
           }
+
+  test_e2e:
+    name: Run playwright tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-verison: 20
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps
+      - run: npm run e2e
