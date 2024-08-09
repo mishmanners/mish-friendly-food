@@ -99,6 +99,25 @@ npm start
 
 Once started the site should be accessible at `http://localhost:3000`, unless the console tells you another port to use.
 
+### Running the integration tests
+
+We have a suite of [Playwright](https://playwright.dev/) tests, which runs the website in a real browser and runs our assertions.
+
+- Install playwright
+```shell
+npx playwright install
+```
+
+- Run the tests
+```shell
+npm run e2e
+```
+
+During development, you may want to see the Playwright UI:
+```shell
+npm run e2e -- --ui
+```
+
 ### Add New Pages
 
 Astro is really great at adding new pages. This site is setup to either take an Astro file (eg. `src/pages/translations.astro`) or a markdown file (eg. `src/pages/about.md`). If it's a simple content page, markdown works fine, if there's a bit more to it or you want to add styles to it then an Astro file is the best option.
