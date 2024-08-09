@@ -32,11 +32,11 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
             return relevantTranslations;
         } else {
             // return an error code and a description of the error
-            return [[word, 'Translations not found for selected language combination. Consider adding them to the GitHub repo!']];
+            return [[word, 'Translations not found for selected language combination. Consider adding them to the GitHub repo.']];
         }
     } else {
         // return an error code and a description of the error
-        return [[word, 'Word not found in database. Consider checking for typos, ensure your words are separated by commas, or add the translation in the GitHub repo!']];
+        return [[word, 'Word not found in database. Consider checking for typos, ensure your words are separated by commas, or add the translation in the GitHub repo.']];
     }
 
 }
