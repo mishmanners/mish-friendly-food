@@ -17,36 +17,33 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
 
         // Check if translations exist for the selected languages
         if (translationsCategory.hasOwnProperty(fromLang) &&
-            translationsCategory.hasOwnProperty(toLang))
-            {
-                const translateFrom = translationsCategory[fromLang];
-                const translateTo = translationsCategory[toLang];
-                
-                // define a dictionary to return as value
-                const relevantTranslations = {};
-                Object.keys(translateFrom).forEach((key) => {
-                    if (translateTo.hasOwnProperty(key)){
-                        relevantTranslations[key] = [translateFrom[key], translateTo[key]];
-                    }
-                });
+            translationsCategory.hasOwnProperty(toLang)) {
+            const translateFrom = translationsCategory[fromLang];
+            const translateTo = translationsCategory[toLang];
 
-                return relevantTranslations;
+            // define a dictionary to return as value
+            const relevantTranslations = [];
+            Object.keys(translateFrom).forEach((key) => {
+                if (translateTo.hasOwnProperty(key)) {
+                    relevantTranslations.push([translateFrom[key], translateTo[key]]);
+                }
+            });
+
+            return relevantTranslations;
         } else {
             // return an error code and a description of the error
-            return {0:['002', 'Translations not found for selected language combination. Consider adding them to the GitHub repo!']}
+            return [[word, 'Translations not found for selected language combination. Consider adding them to the GitHub repo!']];
         }
-
-
     } else {
         // return an error code and a description of the error
-        return {0:['001', 'Word not found in database. Consider checking for typos or adding it in the GitHub repo!']}
+        return [[word, 'Word not found in database. Consider checking for typos, ensure your words are separated by commas, or add the translation in the GitHub repo!']];
     }
 
-    }
+}
 export const Search = () => {
     // use React state variables to return dynamic dictionaries
-    const [translationResults, setTranslationResults] = useState({});
-    
+    const [translationResults, setTranslationResults] = useState([]);
+
     const searchForTranslations = (e) => {
         e.preventDefault();
 
@@ -56,23 +53,40 @@ export const Search = () => {
         // Get the search query from the form input
         const searchQuery = formData.get('wordSearch').toLowerCase();
 
+        // Split the search query on comma
+        const words = searchQuery.split(',');
+
         // get selected languages
         const fromLanguage = formData.get('fromLanguage');
         const toLanguage = formData.get('toLanguage');
 
         if (fromLanguage && toLanguage) {
+            // Initialize an object to store the translation results
+            let translations = [];
+
+            // Iterate over each word and perform translation
+            words.forEach((word) => {
+            // Trim and lowercase the word
+            const trimmedWord = word.trim().toLowerCase();
+
             // Retrieve translations for the selected languages
-            const translationsDictionary = getTranslationsForLanguages(fromLanguage, toLanguage, searchQuery);
+            const translationsArray = getTranslationsForLanguages(fromLanguage, toLanguage, trimmedWord);
+            
+            // Add the translations to the result object
+            translations = translations.concat(translationsArray);
+            });
 
             // Display translations to the user as needed
-            console.log(translationsDictionary);
-            setTranslationResults(translationsDictionary);
+            console.log(translations);
+            setTranslationResults(translations);
         
         } else {
-            var error = {0:['000', 'Please select both From and To languages.']}
+            var error = [['000', 'Please select both From and To languages.']]
             setTranslationResults(error)
         }
-}
+    }
+
+
 
     const languageOptions = Object.entries(languages).map(([code, name]) => (
         <option key={code} value={code}>{name}</option>
@@ -85,15 +99,15 @@ export const Search = () => {
             <form>
                 <div id={style.translationFormContainer}>
                     <label htmlFor="fromLanguage">From</label>
-                    <select id="fromLanguage" name= 'fromLanguage' className={style.searchInput}>
+                    <select id="fromLanguage" name='fromLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
                     <label htmlFor="toLanguage">To</label>
-                    <select id="toLanguage" name= 'toLanguage' className={style.searchInput}>
+                    <select id="toLanguage" name='toLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
                     <label htmlFor="wordSearch">Word</label>
-                    <input id="wordSearch" name= 'wordSearch'type="text" placeholder="Translate a word" className={style.translateBox} />
+                    <input id="wordSearch" name='wordSearch' type="text" placeholder="Translate a word" className={style.translateBox} />
                 </div>
 
                 <button className={style.searchButton} onClick={searchForTranslations}>Translate</button>
@@ -102,9 +116,12 @@ export const Search = () => {
             {/* Display translation results */}
             <h3>Translation Results</h3>
             <ul data-testid="translation-results">
-                {Object.entries(translationResults).map(([key, value]) => (
-                    <li key = {key}> {value[1]} </li>
-                ))}
+                {translationResults.map(([fromWord, toWord]) => (
+                        <li key={fromWord}>
+                            <strong>{fromWord}</strong> {toWord}
+                        </li>
+                    ))
+                }
             </ul>
 
 

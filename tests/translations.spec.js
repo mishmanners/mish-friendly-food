@@ -38,3 +38,17 @@ test("shows an error when there is no translation", async ({ page }) => {
     /Translations not found for selected language combination/
   );
 });
+
+test("translates food dietaries", async ({ page }) => {
+  await page.goto("/translations");
+
+  await page.getByLabel("From").selectOption("English");
+  await page.getByLabel("To").selectOption("French");
+  await page.getByLabel("Word").fill("gluten-free, vegan, dairy-free");
+
+  await page.getByRole("button", { name: "Translate" }).click();
+
+  await expect(
+    page.locator("[data-testid='translation-results'] li")
+  ).toHaveText([/sans gluten/, /végétalien/, /sans produits laitiers/]);
+});

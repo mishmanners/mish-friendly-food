@@ -35,7 +35,7 @@ function processMultipleFoods(foodItems) {
 	});
 }
 
-const foods = processMultipleFoods(Object.keys(data.translations));
+const foods = processMultipleFoods(Object.keys(data.translations))
 	.sort((a, b) => {
 		if (a.name.toLowerCase() < b.name.toLowerCase()) {
 			return -1;
