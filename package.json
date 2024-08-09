@@ -7,7 +7,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "e2e": "npx playwright test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@astrojs/react": "^1.2.2",
+    "@playwright/test": "^1.45.3",
     "postcss-import": "^15.0.0",
     "postcss-nesting": "^10.2.0",
     "react": "^18.2.0",

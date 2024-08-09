@@ -101,7 +101,7 @@ export const Search = () => {
 
             {/* Display translation results */}
             <h3>Translation Results</h3>
-            <ul>
+            <ul data-testid="translation-results">
                 {Object.entries(translationResults).map(([key, value]) => (
                     <li key = {key}> {value[1]} </li>
                 ))}
