@@ -730,7 +730,7 @@
     },
     "gluten_free": {
       "en": [
-        "Gluten-free",
+        "gluten-free",
         "gluten free",
         "GF",
         "gluten friendly"
@@ -826,7 +826,7 @@
     },
     "dairy_free": {
       "en": [
-        "Dairy-free",
+        "dairy-free",
         "dairy free",
         "DF",
         "dairy friendly"
