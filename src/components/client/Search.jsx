@@ -54,19 +54,25 @@ export const Search = () => {
         const fromLanguage = formData.get('fromLanguage');
         const toLanguage = formData.get('toLanguage');
 
-        // Get the search query from the form input
-        const word = formData.get('wordSearch').trim().toLowerCase();
+        // Split the search query on comma
+        const words = formData.get('wordSearch').split(',').map((word) => word.trim().toLowerCase());
 
         if (fromLanguage && toLanguage) {
             // Initialize an object to store the translation results
             let translations = [];
 
-            // Retrieve translations for the selected languages
-            try {
-                translations.push([word, getTranslationsForLanguages(fromLanguage, toLanguage, word)]);
-            } catch(e) {
-                translations.push([word, toError(e)]);
-            }
+            // Iterate over each unique word and perform translation
+            new Set(words).forEach((word) => {
+                // Retrieve translations for the selected languages
+                try {
+                    translations.push([
+                        word,
+                        getTranslationsForLanguages(fromLanguage, toLanguage, word)
+                    ]);
+                } catch(e) {
+                    translations.push([word, toError(e)]);
+                }
+            });
 
             // Display translations to the user as needed
             setTranslationResults(translations);
@@ -104,8 +110,15 @@ export const Search = () => {
             {/* Display translation results */}
             <h3>Translation Results</h3>
             <ul data-testid="translation-results">
-                {translationResults.flatMap(([_query, value]) => value.matches).map((value) => (
-                    <li key={value}>{value}</li>
+                {translationResults.map(([fromWord, result]) => (
+                    <li key={fromWord}>
+                        <strong>{fromWord}</strong>
+                        <ul>
+                            {result.matches.map((word) => (
+                                <li key={word}>{word}</li>
+                            ))}
+                        </ul>
+                    </li>
                 ))}
             </ul>
 
