@@ -9,7 +9,7 @@ Mish Friendly Food will translate your dietary requirements/allergies into any l
 
 Note, the digital card is still coming.
 
-**[The website](https://mishfriendlyfood.com/) is now live** thanks to the contributions of this awesome community. You can find the website at [mishfriendlyfood.com](https://mishfriendlyfood.com/). Currently, the website only contains an About Page, and list of Translations. If you'd like to help with phase two of the project (search the database and retrieve; see [Phase Two](https://mishfriendlyfood.com/) below), then please take a look at the contribution guidelines below and join the project. We'd love the help :heart:.
+**[The website](https://mishfriendlyfood.com/) is now live** thanks to the contributions of this awesome community. You can find the website at [mishfriendlyfood.com](https://mishfriendlyfood.com/). Currently, the website only contains an About Page, and the translation functionality is now available on the home page. If you'd like to help with phase two of the project (search the database and retrieve; see [Phase Two](https://mishfriendlyfood.com/) below), then please take a look at the contribution guidelines below and join the project. We'd love the help :heart:.
 
 ## About
 
