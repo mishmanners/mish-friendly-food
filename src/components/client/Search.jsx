@@ -100,8 +100,8 @@ export const Search = () => {
                     <select id="toLanguage" name= 'toLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
-                    <label htmlFor="wordSearch">Food/s to translate</label>
-                    <textarea id="wordSearch" name= 'wordSearch' placeholder="Translate food/s" className={style.translateBox} />
+                    <label htmlFor="foodSearch">Food/s to translate</label>
+                    <textarea id="foodSearch" name= 'foodSearch' placeholder="Translate food/s" className={style.translateBox} />
                 </div>
 
                 <button className={style.searchButton} onClick={searchForTranslations}>Translate</button>
