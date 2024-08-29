@@ -1,18 +1,18 @@
 import { test, expect } from "@playwright/test";
 
 test("page opens", async ({ page }) => {
-  await page.goto("/translations");
+  await page.goto("/");
   await expect(page).toHaveTitle("Mish Friendly Food");
-  await expect(page.locator("h1")).toHaveText("Translations");
+  await expect(page.locator("h1")).toHaveText("Mish Friendly Food");
 });
 
 test("has a search form", async ({ page }) => {
-  await page.goto("/translations");
+  await page.goto("/");
   await expect(page.locator("form")).toBeVisible();
 });
 
 test("can translate a word", async ({ page }) => {
-  await page.goto("/translations");
+  await page.goto("/");
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("German");
@@ -26,7 +26,7 @@ test("can translate a word", async ({ page }) => {
 });
 
 test("shows an error when there is no translation", async ({ page }) => {
-  await page.goto("/translations");
+  await page.goto("/");
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("Latin");
@@ -40,7 +40,7 @@ test("shows an error when there is no translation", async ({ page }) => {
 });
 
 test("translates food dietaries", async ({ page }) => {
-  await page.goto("/translations");
+  await page.goto("/");
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("French");
@@ -61,7 +61,7 @@ test("translates food dietaries", async ({ page }) => {
 });
 
 test("deduplicates words in search field", async ({ page }) => {
-  await page.goto("/translations");
+  await page.goto("/");
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("German");
