@@ -100,7 +100,7 @@ export const Search = () => {
                     <select id="toLanguage" name= 'toLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
-                    <label htmlFor="foodSearch">Food/s to translate</label>
+                    <label htmlFor="foodSearch">Translate food/s</label>
                     <textarea id="foodSearch" name= 'foodSearch' placeholder="Translate food/s" className={style.translateBox} />
                 </div>
 
