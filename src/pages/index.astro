@@ -1,5 +1,6 @@
 ---
 import DefaultLayout from "../layouts/Default.astro";
+import { Search } from "../components/client/Search.jsx";
 ---
 
 <DefaultLayout>
@@ -15,4 +16,6 @@ import DefaultLayout from "../layouts/Default.astro";
 		pull out your physical or digital card, and rest assured that your
 		waiter, host, or chef, will know how to cater for you.
 	</p>
+
+	<Search client:load />
 </DefaultLayout>
