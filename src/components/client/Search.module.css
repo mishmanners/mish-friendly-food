@@ -7,7 +7,7 @@
 
 .searchInput,
 .translateBox {
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .searchInput {
@@ -15,7 +15,11 @@
 }
 
 .translateBox {
-    padding: 20px;
+    padding: 30px;
+    max-height: 300px;
+    min-height: 100px;
+    height: auto;
+    overflow: auto;
 }
 
 .searchButton {
