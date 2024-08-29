@@ -55,7 +55,7 @@ export const Search = () => {
         const toLanguage = formData.get('toLanguage');
 
         // Split the search query on comma
-        const words = formData.get('wordSearch').split(',').map((word) => word.trim().toLowerCase());
+        const words = formData.get('foodSearch').split(',').map((word) => word.trim().toLowerCase());
 
         if (fromLanguage && toLanguage) {
             // Initialize an object to store the translation results
@@ -100,8 +100,8 @@ export const Search = () => {
                     <select id="toLanguage" name= 'toLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
-                    <label htmlFor="wordSearch">Word</label>
-                    <input id="wordSearch" name= 'wordSearch'type="text" placeholder="Translate a word" className={style.translateBox} />
+                    <label htmlFor="foodSearch">Translate food/s</label>
+                    <textarea id="foodSearch" name= 'foodSearch' placeholder="Translate food/s" className={style.translateBox} />
                 </div>
 
                 <button className={style.searchButton} onClick={searchForTranslations}>Translate</button>

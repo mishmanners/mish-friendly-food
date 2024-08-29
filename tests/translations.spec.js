@@ -16,7 +16,7 @@ test("can translate a word", async ({ page }) => {
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("German");
-  await page.getByLabel("Word").fill("milk");
+  await page.getByLabel("Translate food/s").fill("milk");
 
   await page.getByRole("button", { name: "Translate" }).click();
 
@@ -30,7 +30,7 @@ test("shows an error when there is no translation", async ({ page }) => {
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("Latin");
-  await page.getByLabel("Word").fill("milk");
+  await page.getByLabel("Translate food/s").fill("milk");
 
   await page.getByRole("button", { name: "Translate" }).click();
 
@@ -44,7 +44,7 @@ test("translates food dietaries", async ({ page }) => {
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("French");
-  await page.getByLabel("Word").fill("gluten-free, vegan, dairy-free");
+  await page.getByLabel("Translate food/s").fill("gluten-free, vegan, dairy-free");
 
   await page.getByRole("button", { name: "Translate" }).click();
 
@@ -65,7 +65,7 @@ test("deduplicates words in search field", async ({ page }) => {
 
   await page.getByLabel("From").selectOption("English");
   await page.getByLabel("To").selectOption("German");
-  await page.getByLabel("Word").fill("egg,egg");
+  await page.getByLabel("Translate food/s").fill("egg,egg");
 
   await page.getByRole("button", { name: "Translate" }).click();
 
