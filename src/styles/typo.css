@@ -7,20 +7,20 @@ html {
 body {
 	font-family: 'Open Sans', Arial, sans-serif;
 	color: var(--text);
-	font-size: 1.6rem;
+	font-size: 3rem;
 	;
 	background: var(--background);
-	line-height: 1.25;
+	line-height: 1.5;
 }
 
 @media(min-width: 50em) {
 	body {
-		font-size: 1.8rem;
+		font-size: 2rem;
 	}
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 4rem;
 }
 
 a {
