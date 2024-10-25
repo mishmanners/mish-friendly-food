@@ -88,7 +88,7 @@ export const Search = () => {
 
     return (
         <section>
-            <h2>Search</h2>
+            <h2>Search and Translate</h2>
 
             <form>
                 <div id={style.translationFormContainer}>
