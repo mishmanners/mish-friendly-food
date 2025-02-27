@@ -1,6 +1,6 @@
 import database from '../../../_data/database.json';
 import languages from '../../../_data/languages.json';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import style from './Search.module.css';
 
@@ -43,7 +43,15 @@ const getTranslationsForLanguages = (fromLang, toLang, word) => {
 export const Search = () => {
     // use React state variables to return dynamic dictionaries
     const [translationResults, setTranslationResults] = useState([]);
-    
+    const [defaultFromLanguage, setDefaultFromLanguage] = useState('en');
+
+    useEffect(() => {
+        const browserLanguage = navigator.language.split('-')[0];
+        if (isValidLanguage(browserLanguage)) {
+            setDefaultFromLanguage(browserLanguage);
+        }
+    }, []);
+
     const searchForTranslations = (e) => {
         e.preventDefault();
 
@@ -93,15 +101,15 @@ export const Search = () => {
             <form>
                 <div id={style.translationFormContainer}>
                     <label htmlFor="fromLanguage">From</label>
-                    <select id="fromLanguage" name= 'fromLanguage' className={style.searchInput}>
+                    <select id="fromLanguage" name='fromLanguage' className={style.searchInput} defaultValue={defaultFromLanguage}>
                         {languageOptions}
                     </select>
                     <label htmlFor="toLanguage">To</label>
-                    <select id="toLanguage" name= 'toLanguage' className={style.searchInput}>
+                    <select id="toLanguage" name='toLanguage' className={style.searchInput}>
                         {languageOptions}
                     </select>
                     <label htmlFor="foodSearch">Translate food/s</label>
-                    <textarea id="foodSearch" name= 'foodSearch' placeholder="Translate food/s" className={style.translateBox} />
+                    <textarea id="foodSearch" name='foodSearch' placeholder="Translate food/s" className={style.translateBox} />
                 </div>
 
                 <button className={style.searchButton} onClick={searchForTranslations}>Translate</button>
@@ -121,8 +129,6 @@ export const Search = () => {
                     </li>
                 ))}
             </ul>
-
-
         </section>
     );
 }
