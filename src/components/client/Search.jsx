@@ -92,26 +92,40 @@ export const Search = () => {
         }
     }
 
+    const cardBackgrounds = {
+        cute: '/src/img/cards/cute-card.png',
+        anime: '/src/img/cards/anime-card.png',
+        modern: '/src/img/cards/modern-card.png',
+        corporate: '/src/img/cards/corporate-card.png',
+    };
+
     const exportCard = (style) => {
         const cardElement = document.createElement('div');
         cardElement.style = `
-            width: 500px;
-            height: 300px;
+            width: 350px;
+            height: 200px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: Arial, sans-serif;
             border: 2px solid black;
-            background-color: ${style === 'cute' ? '#FFDDC1' : style === 'anime' ? '#D1C4E9' : style === 'modern' ? '#CFD8DC' : '#FFFFFF'};
+            background-image: url(${cardBackgrounds[style]});
+            background-size: cover;
+            background-position: center;
+            color: black;
+            padding: 10px;
+            box-sizing: border-box;
         `;
         cardElement.innerHTML = `<h3>${style} Card</h3><ul>${translationResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
         document.body.appendChild(cardElement);
 
         html2canvas(cardElement).then((canvas) => {
             const imgData = canvas.toDataURL('image/png');
-            const pdf = new jsPDF();
-            pdf.addImage(imgData, 'PNG', 10, 10);
-            pdf.save(`${style}-card.pdf`);
+            const link = document.createElement('a');
+            link.href = imgData;
+            link.download = `${style}-card.png`;
+            link.click();
             document.body.removeChild(cardElement);
             document.getElementById('export-success-message').style.display = 'block';
         });
