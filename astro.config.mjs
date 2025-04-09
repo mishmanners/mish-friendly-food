@@ -4,5 +4,8 @@ import react from '@astrojs/react';
 
 export default defineConfig({
 	site: 'https://mishfriendfood.github.io',
-	integrations: [react()]
+	integrations: [react()],
+	server: {
+		port: 3000
+	}
 })

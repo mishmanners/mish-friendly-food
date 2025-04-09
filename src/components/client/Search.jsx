@@ -1,6 +1,8 @@
 import database from '../../../_data/database.json';
 import languages from '../../../_data/languages.json';
 import React, { useState, useEffect } from 'react';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 import style from './Search.module.css';
 
@@ -90,6 +92,31 @@ export const Search = () => {
         }
     }
 
+    const exportCard = (style) => {
+        const cardElement = document.createElement('div');
+        cardElement.style = `
+            width: 500px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            border: 2px solid black;
+            background-color: ${style === 'cute' ? '#FFDDC1' : style === 'anime' ? '#D1C4E9' : style === 'modern' ? '#CFD8DC' : '#FFFFFF'};
+        `;
+        cardElement.innerHTML = `<h3>${style} Card</h3><ul>${translationResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
+        document.body.appendChild(cardElement);
+
+        html2canvas(cardElement).then((canvas) => {
+            const imgData = canvas.toDataURL('image/png');
+            const pdf = new jsPDF();
+            pdf.addImage(imgData, 'PNG', 10, 10);
+            pdf.save(`${style}-card.pdf`);
+            document.body.removeChild(cardElement);
+            document.getElementById('export-success-message').style.display = 'block';
+        });
+    };
+
     const languageOptions = Object.entries(languages).map(([code, name]) => (
         <option key={code} value={code}>{name}</option>
     ));
@@ -129,6 +156,15 @@ export const Search = () => {
                     </li>
                 ))}
             </ul>
+
+            <h3>Export Translation as Card</h3>
+            <div>
+                {['cute', 'anime', 'modern', 'corporate'].map((style) => (
+                    <button key={style} class="_searchButton_mlrr6_49" onClick={() => exportCard(style)}>{`Export ${style} Card`}</button>
+                ))}
+            </div>
+
+            <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div>
         </section>
     );
 }
