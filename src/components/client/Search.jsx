@@ -106,19 +106,19 @@ export const Search = () => {
             height: 200px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            justify-content: flex-start; /* Align content to the top */
+            align-items: flex-start; /* Align content to the left */
             font-family: Arial, sans-serif;
             border: 2px solid black;
             background-image: url(${cardBackgrounds[style]});
             background-size: cover;
             background-position: center;
             color: black;
-            padding: 10px 10px 10px 30px; /* Added extra padding to the left */
+            padding: 5px 5px 10px 30px; /* Adjusted padding for better spacing */
             box-sizing: border-box;
         `;
         const filteredResults = translationResults.filter(([_, result]) => result.category !== 'ERROR' || !result.matches.some(match => match.includes('Translations not found for selected language combination. Consider adding them to the GitHub repo!')));
-        cardElement.innerHTML = `<p>Dietaries/allergies:</p><ul>${filteredResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
+        cardElement.innerHTML = `<ul>${filteredResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
         document.body.appendChild(cardElement);
 
         html2canvas(cardElement).then((canvas) => {
