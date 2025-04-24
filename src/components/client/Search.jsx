@@ -93,10 +93,10 @@ export const Search = () => {
     }
 
     const cardBackgrounds = {
-        cute: '/src/img/cards/cute-card.png',
-        anime: '/src/img/cards/anime-card.png',
-        modern: '/src/img/cards/modern-card.png',
-        corporate: '/src/img/cards/corporate-card.png',
+        Cute: '/src/img/cards/cute-card.png',
+        Anime: '/src/img/cards/anime-card.png',
+        Modern: '/src/img/cards/modern-card.png',
+        Corporate: '/src/img/cards/corporate-card.png',
     };
 
     const exportCard = (style) => {
@@ -117,7 +117,7 @@ export const Search = () => {
             padding: 10px;
             box-sizing: border-box;
         `;
-        cardElement.innerHTML = `<h3>${style} Card</h3><ul>${translationResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
+        cardElement.innerHTML = `<p>Dietaries/allergies:</p><ul>${translationResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
         document.body.appendChild(cardElement);
 
         html2canvas(cardElement).then((canvas) => {
@@ -171,10 +171,10 @@ export const Search = () => {
                 ))}
             </ul>
 
-            <h3>Export Translation as Card</h3>
+            <h3>Export Translation on Card</h3>
             <div>
-                {['cute', 'anime', 'modern', 'corporate'].map((style) => (
-                    <button key={style} class="_searchButton_mlrr6_49" onClick={() => exportCard(style)}>{`Export ${style} Card`}</button>
+                {['Cute', 'Anime', 'Modern', 'Corporate'].map((style) => (
+                    <button key={style} class="_searchButton_mlrr6_49" onClick={() => exportCard(style)}>{`${style} card`}</button>
                 ))}
             </div>
 
