@@ -54,7 +54,4 @@ export const Search = ({ testLanguage }) => {
             console.log('Invalid language, using English as default');
         }
     }, [testLanguage]);
-
-    // Rest of the component stays the same
-    // ...
 }
