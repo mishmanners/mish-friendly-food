@@ -2,14 +2,11 @@
 title: About | Mish Friendly Food
 layout: '../layouts/DefaultMarkdown.astro'
 pageTitle: About Mish Friendly Food
-description: Mish Friendly Food will translate your dietary requirements/allergies into any language. Once you have your translation, you can get it printed on a cute card. Next time you travel to foreign country, you can
+description: Mish Friendly Food will translate your dietary requirements/allergies into any language. Once you have your translation, export it to a business-sized card. Next time you travel to foreign country, you can
 ---
 
 Mish Friendly Food will translate your dietary requirements/allergies
-into any language. Once you have your translation, you can get it
-printed on a cute card. Next time you travel to foreign country, you can
-pull out your physical or digital card and rest assured that your
-waiter, host, or chef, will know how to cater for you. Note this card features is still coming.
+into any language. Once you have your translation, you can export it to a business-sized card. Next time you travel to foreign country, you can pull out your physical or digital card and rest assured that your waiter, host, or chef, will know how to cater for you. There are currently four card styles to choose from.
 
 ## Why Mish Friendly Food?
 

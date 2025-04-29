@@ -1,6 +1,8 @@
 import database from '../../../_data/database.json';
 import languages from '../../../_data/languages.json';
 import React, { useState, useEffect } from 'react';
+import html2canvas from 'html2canvas';
+import jsPDF from 'jspdf';
 
 import style from './Search.module.css';
 
@@ -90,6 +92,46 @@ export const Search = () => {
         }
     }
 
+    const cardBackgrounds = {
+        Cute: '/src/img/cards/cute-card.png',
+        Anime: '/src/img/cards/anime-card.png',
+        Modern: '/src/img/cards/modern-card.png',
+        Corporate: '/src/img/cards/corporate-card.png',
+    };
+
+    const exportCard = (style) => {
+        const cardElement = document.createElement('div');
+        cardElement.style = `
+            width: 350px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align content to the top */
+            align-items: flex-start; /* Align content to the left */
+            font-family: Arial, sans-serif;
+            border: 2px solid black;
+            background-image: url(${cardBackgrounds[style]});
+            background-size: cover;
+            background-position: center;
+            color: black;
+            padding: 5px 5px 10px 30px; /* Adjusted padding for better spacing */
+            box-sizing: border-box;
+        `;
+        const filteredResults = translationResults.filter(([_, result]) => result.category !== 'ERROR' || !result.matches.some(match => match.includes('Translations not found for selected language combination. Consider adding them to the GitHub repo!')));
+        cardElement.innerHTML = `<ul>${filteredResults.map(([fromWord, result]) => `<li><strong>${fromWord}</strong>: ${result.matches.join(', ')}</li>`).join('')}</ul>`;
+        document.body.appendChild(cardElement);
+
+        html2canvas(cardElement).then((canvas) => {
+            const imgData = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = imgData;
+            link.download = `${style}-card.png`;
+            link.click();
+            document.body.removeChild(cardElement);
+            document.getElementById('export-success-message').style.display = 'block';
+        });
+    };
+
     const languageOptions = Object.entries(languages).map(([code, name]) => (
         <option key={code} value={code}>{name}</option>
     ));
@@ -129,6 +171,15 @@ export const Search = () => {
                     </li>
                 ))}
             </ul>
+
+            <h3>Export Translation on Card</h3>
+            <div>
+                {['Cute', 'Anime', 'Modern', 'Corporate'].map((style) => (
+                    <button key={style} className="_searchButton_mlrr6_49" onClick={() => exportCard(style)}>{`${style} card`}</button>
+                ))}
+            </div>
+
+            <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div>
         </section>
     );
 }

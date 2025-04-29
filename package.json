@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/mishmanners/mish-friendly-food#readme",
   "dependencies": {
-    "astro": "^1.5.2"
+    "astro": "^5.6.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1"
   },
   "devDependencies": {
     "@astrojs/react": "^1.2.2",
