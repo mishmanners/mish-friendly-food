@@ -175,7 +175,7 @@ export const Search = () => {
             <h3>Export Translation on Card</h3>
             <div>
                 {['Cute', 'Anime', 'Modern', 'Corporate'].map((style) => (
-                    <button key={style} className="_searchButton_mlrr6_49" onClick={() => exportCard(style)}>{`${style} card`}</button>
+                    <button key={style} className="searchButton" onClick={() => exportCard(style)}>{`${style} card`}</button>
                 ))}
             </div>
 
