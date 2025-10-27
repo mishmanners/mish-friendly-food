@@ -1,6 +1,6 @@
 # Mish Friendly Food
 
-Do you have dietary requirements or allergies? Do you travel a lot? :train: 🚌 :airplane: Then you'll :heart: this app.
+Do you have dietary requirements or allergies? Do you travel a lot? Whether by :train: 🚌 :airplane:, then you'll :heart: this app.
 
 <img src="https://user-images.githubusercontent.com/36594527/195074051-7af2c269-1442-4398-8a8d-470c3cc5c63b.png" height="100">
 <img src="https://github.com/mishmanners/mish-friendly-food/blob/main/_files/Images/Logo/Logo%20FINAL.png" height="100">
@@ -9,7 +9,7 @@ Mish Friendly Food will translate your dietary requirements/allergies into any l
 
 Note, the digital card is still coming.
 
-**[The website](https://mishfriendlyfood.com/) is now live** thanks to the contributions of this awesome community. You can find the website at [mishfriendlyfood.com](https://mishfriendlyfood.com/). Currently, the website only contains an About Page, and list of Translations. If you'd like to help with phase two of the project (search the database and retrieve; see [Phase Two](https://mishfriendlyfood.com/) below), then please take a look at the contribution guidelines below and join the project. We'd love the help :heart:.
+**[The website](https://mishfriendlyfood.com/) is now live** thanks to the contributions of this awesome community. You can find the website at [mishfriendlyfood.com](https://mishfriendlyfood.com/). Currently, the website contains an about page and a box where you can translate your dietary reqiurements. If you'd like to help with phase three of the project (exporting your dietarise as cute cards), then please take a look at the contribution guidelines below and join the project. We'd love the help :heart:.
 
 ## About
 
@@ -58,9 +58,9 @@ Now we'll need to build the app capability to actual translate the database. Use
 
 Once the user has submitted the data, they should get a result back in their desired language. This can be shown on the screen as text.
 
-We have a lot of translations already which you'll see down below as "supported languages". Please continue to add new languages and translations.
+We have a lot of translations already which you'll see down below as "supported languages", and there is now a page that shows the languages we support. Please continue to add new languages and translations.
 
-Currently, the website has a drop down for the translate from and to languages and a text box where you can type the word in. However these aren't very functional. We want to be able to add in a paragraph or a list of dietary requirements and have them all be translated in one go. If you can help with this that would be awesome. All the translations are currently available for users to browse.
+Currently, the website has a drop down for the translate from and to languages and a text box where you can type the word in. The website should also detect your browser's language and default to that as the input langauge.
 
 ### Phase 3 - Beautify and export
 
@@ -70,21 +70,9 @@ I'll also take any other crazy ideas too; just add them to the [Discussion threa
 
 ## Supported Languages
 
-Thanks to a bunch of contributions, these are the currently supported languages:
-- English
-- Spanish
-- Portuguese
-- Russian
-- Japansese
-- Danish
-- French
-- Hindi
-- Arabic
-- Tamil
-- German
-- Indonesian
+See the website for the list of supported languages.
 
-This list will be updated as more contributions are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/_data/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute (especially via reviewing the current translations), please do so.
+The webpage will be updated as other languages are added. Other languages that you might see [in the database](https://github.com/mishmanners/mish-friendly-food/blob/main/_data/database.json), have been added by GitHub Copilot, thus they are yet to be reviewed. If you'd like to contribute (especially via reviewing the current translations), please do so.
 
 ## Running the site
 
