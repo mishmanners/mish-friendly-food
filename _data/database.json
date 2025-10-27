@@ -34,7 +34,8 @@
       "walnuts",
       "hazelnuts",
       "macadamia",
-      "pistachios"
+      "pistachios",
+      "brazil nuts"
     ],
     "soy_free": [
       "soy",
@@ -64,6 +65,25 @@
     "pescatarian": [
       "meat"
     ],
+    "sesame_free": [
+      "sesame",
+      "sesame seeds",
+      "sesame oil",
+      "tahini"
+    ],
+    "wheat_free": [
+      "wheat",
+      "wheat flour",
+      "wheat bran",
+      "wheat germ",
+      "bread",
+      "pasta"
+    ],
+    "sulphites_free": [
+      "sulphites",
+      "sulfites",
+      "sulfur dioxide"
+    ],
     "dairy_free": [
       "dairy",
       "milk",
@@ -82,7 +102,8 @@
       "hazelnuts",
       "macademia nuts",
       "pecans",
-      "pistachios"
+      "pistachios",
+      "brazil nuts"
     ],
     "shellfish_allergy": [
       "shellfish",
@@ -91,9 +112,8 @@
       "lobster",
       "shrimp",
       "prawns",
-      "mussels",
-      "oysters",
-      "clams"
+      "crayfish",
+      "langoustine"
     ],
     "egg_allergy": [
       "eggs",
@@ -137,6 +157,80 @@
       "tuna",
       "turbot",
       "whiting"
+    ],
+    "sesame_allergy": [
+      "sesame",
+      "sesame seeds",
+      "sesame oil",
+      "tahini",
+      "sesame paste",
+      "sesamol",
+      "sesamolin"
+    ],
+    "wheat_allergy": [
+      "wheat",
+      "wheat flour",
+      "wheat bran",
+      "wheat germ",
+      "wheat starch",
+      "bread",
+      "pasta",
+      "couscous",
+      "bulgur",
+      "semolina",
+      "spelt",
+      "farro",
+      "kamut"
+    ],
+    "lupin_allergy": [
+      "lupin",
+      "lupini beans",
+      "lupin flour",
+      "lupin protein",
+      "lupine"
+    ],
+    "sulphites_allergy": [
+      "sulphites",
+      "sulfites",
+      "sulfur dioxide",
+      "sodium sulfite",
+      "sodium bisulfite",
+      "potassium bisulfite",
+      "sodium metabisulfite",
+      "potassium metabisulfite"
+    ],
+    "celery_allergy": [
+      "celery",
+      "celery root",
+      "celeriac",
+      "celery seed",
+      "celery salt",
+      "celery leaves"
+    ],
+    "mustard_allergy": [
+      "mustard",
+      "mustard seeds",
+      "mustard powder",
+      "mustard oil",
+      "dijon mustard",
+      "yellow mustard",
+      "brown mustard",
+      "mustard greens"
+    ],
+    "molluscs_allergy": [
+      "molluscs",
+      "mollusks",
+      "mussels",
+      "oysters",
+      "clams",
+      "squid",
+      "octopus",
+      "cuttlefish",
+      "snails",
+      "escargot",
+      "abalone",
+      "whelks",
+      "scallops"
     ]
   },
   "categories": {
