@@ -113,7 +113,10 @@
       "shrimp",
       "prawns",
       "crayfish",
-      "langoustine"
+      "langoustine",
+      "mussels",
+      "oysters",
+      "clams"
     ],
     "egg_allergy": [
       "eggs",
