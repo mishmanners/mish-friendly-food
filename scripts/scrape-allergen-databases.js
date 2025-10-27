@@ -26,7 +26,7 @@ const __dirname = path.dirname(__filename);
 const axiosInstance = axios.create({
   timeout: 30000,
   headers: {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36'
   },
   maxContentLength: 10 * 1024 * 1024, // 10MB limit
   maxBodyLength: 10 * 1024 * 1024 // 10MB limit
@@ -92,13 +92,16 @@ async function scrapeFoodSafetyAU(url) {
     // Extract allergen information from the blog post
     $('h2, h3').each((i, elem) => {
       const heading = $(elem).text().trim();
-      // Look for numbered allergens or specific patterns
-      if (heading.match(/^\d+\./) || heading.toLowerCase().includes('allerg')) {
+      // Look for numbered allergens (e.g., "1. Milk", "2. Eggs")
+      const numberedMatch = heading.match(/^\d+\.\s*(.+)/);
+      
+      if (numberedMatch) {
+        const allergenName = numberedMatch[1];
         const description = $(elem).nextUntil('h2, h3', 'p').first().text().trim();
         
-        if (heading.length > 0 && heading.length < 100) {
+        if (allergenName.length > 0 && allergenName.length < 100) {
           allergens.push({
-            name: heading,
+            name: allergenName,
             description: description.substring(0, 300),
             source: 'Food Safety Australia'
           });

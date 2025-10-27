@@ -50,10 +50,11 @@ Last updated: 2025-10-27
 - **Features:** Comprehensive allergen information database maintained by University of Nebraska-Lincoln
 
 ### 5. AllergenOnline Database
-- **URL:** http://www.allergenonline.org/
+- **URL:** https://www.allergenonline.org/
 - **Description:** Peer-reviewed allergen protein sequence database
 - **Content Type:** Scientific database
 - **Features:** Contains allergen sequences, evaluates potential allergenicity of novel proteins
+- **Note:** Site may use HTTP redirect; HTTPS preferred when available
 
 ### 6. Food Standards Australia & New Zealand - Food Allergen Portal
 - **URL:** https://www.foodstandards.gov.au/consumer/foodallergies/foodallergenportal/Pages/default.aspx
