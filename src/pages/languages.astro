@@ -4,9 +4,9 @@ import languagesData from "../../_data/languages.json";
 import databaseData from "../../_data/database.json";
 
 const meta = {
-	title: "Supported Languages | Mish Friendly Food",
+	title: "Supported Languages for Mish Friendly Food",
 	description:
-		"View the list of languages currently supported by Mish Friendly Food for translating dietary requirements and allergies.",
+		"View the list of languages currently supported by the website for translating dietary requirements and allergies.",
 };
 
 // Get all supported language codes from the database
@@ -68,48 +68,3 @@ const supportedLanguages = Array.from(supportedLangCodes)
 		by native speakers. If you notice any translation errors, please let us know by opening an Issue on GitHub or submit a correction via Pull Request.
 	</p>
 </DefaultLayout>
-
-<style>
-	.languages-list {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-		gap: 0.5rem;
-		margin: 2rem 0;
-		padding-left: 0;
-		list-style-position: inside;
-	}
-
-	.languages-list li {
-		padding: 0.5rem;
-		background-color: #f5f5f5;
-		border-radius: 4px;
-	}
-
-	.note {
-		font-style: italic;
-		color: #666;
-		margin-top: 2rem;
-		padding: 1rem;
-		background-color: #f9f9f9;
-		border-left: 4px solid #ccc;
-		border-radius: 4px;
-	}
-
-	h1, h2 {
-		color: #333;
-	}
-
-	p {
-		line-height: 1.6;
-		margin-bottom: 1rem;
-	}
-
-	a {
-		color: #0066cc;
-		text-decoration: none;
-	}
-
-	a:hover {
-		text-decoration: underline;
-	}
-</style>
