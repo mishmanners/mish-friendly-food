@@ -21,7 +21,7 @@ I have a lot of dietary restrictions (and I mean A LOT), and EVERY time I travel
 
 After talking (mostly constructively complaining) about this issue, I discovered I wasn't alone. So we came up with this idea to help us all while we all travel. I wanted to name it something cool, but everyone said "go with Mish Friendly Food". This stuck, especially since most of my community already call the food I eat "Mish Friendly". At one conference in particular, one of the organisers even thought "Mish Friendly" was actually a dietary type, in the same way "vegan friendly" or "coealic friendly" is (they even tried Googling "Mish Friendly Food" and informed me that they couldn't find what this was). This situation prompted us to have a website to cater to the "Mish friendly" search criteria, but also help those people who—like me—struggle when travelling.
 
-![tea large](https://user-images.githubusercontent.com/36594527/195094366-2ddb3c86-3dac-45fd-aa16-aedcc67b75fb.png)
+![Aniamted tea drinking](https://github.com/user-attachments/assets/56e55fad-256b-4418-a2ec-618f7f790413)
 
 ### Contribution Guidelines
 
@@ -152,7 +152,7 @@ If you don't give a page any meta info, it'll use the default stuff anyway.
 
 ## Thank yous
 
-![LOVE_112px_TWITCH](https://user-images.githubusercontent.com/36594527/197941418-51f34871-5968-4bb2-8813-52e276ed4735.gif)
+![Thank you heart animated emote](https://user-images.githubusercontent.com/36594527/197941418-51f34871-5968-4bb2-8813-52e276ed4735.gif)
 
 To EVERYONE who contributed to the project, you're amazing. To all those who've had to put up with my dietary requirements while travelling - you're all life-long friends, and hopefully this will make things better. To those who were with me at NDC Oslo in 2022 when we came up with this idea around the breakfast table - Amy, Damo, and many others, (and me :wink:)
 
