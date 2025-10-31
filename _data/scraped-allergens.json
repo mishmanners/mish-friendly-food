@@ -1,0 +1,18 @@
+{
+  "scrapedAt": "2025-10-27T08:12:28.630Z",
+  "sources": [
+    {
+      "name": "Healthline Common Food Allergies",
+      "url": "https://www.healthline.com/nutrition/common-food-allergies",
+      "allergensFound": 0,
+      "scrapedAt": "2025-10-27T08:12:28.650Z"
+    },
+    {
+      "name": "Food Safety Australia Top 10 Allergies",
+      "url": "https://www.foodsafety.com.au/blog/top-10-most-common-food-allergies",
+      "allergensFound": 0,
+      "scrapedAt": "2025-10-27T08:12:30.657Z"
+    }
+  ],
+  "allergens": []
+}
