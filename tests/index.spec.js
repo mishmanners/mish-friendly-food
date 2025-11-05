@@ -80,6 +80,7 @@ test("deduplicates words in search field", async ({ page }) => {
   ]);
 });
 
+/* removing tests whilst translation is disabled
 test("exports translation as a cute card", async ({ page }) => {
   await page.goto("/");
 
@@ -163,3 +164,5 @@ test("exports translation as a corporate card", async ({ page }) => {
   // Mock the download behavior by checking for UI changes or other indicators
   await page.waitForSelector("#export-success-message", { state: "visible" });
 });
+
+*/
