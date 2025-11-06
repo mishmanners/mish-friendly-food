@@ -182,5 +182,3 @@ export const Search = () => {
 
             <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div>
         </section> */}
-    );
-}
