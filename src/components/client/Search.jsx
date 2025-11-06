@@ -180,5 +180,7 @@ export const Search = () => {
                 ))}
             </div>
 
-            <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div>
-        </section> */}
+            <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div> */}
+        </section> 
+    );
+}
