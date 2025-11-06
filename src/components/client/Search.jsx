@@ -172,6 +172,7 @@ export const Search = () => {
                 ))}
             </ul>
 
+            {/* Disabling translation for now
             <h3>Export Translation on Card</h3>
             <div>
                 {['Cute', 'Anime', 'Modern', 'Corporate'].map((style) => (
@@ -179,7 +180,7 @@ export const Search = () => {
                 ))}
             </div>
 
-            <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div>
-        </section>
+            <div id="export-success-message" style={{ display: 'none' }}>Export Successful!</div> */}
+        </section> 
     );
 }
