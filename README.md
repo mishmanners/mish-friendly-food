@@ -49,6 +49,23 @@ Once the basic database is built, we need people with authority (ie. people who 
 
 This stage of the project is complete, however feel free to contribute more to the database at any time. A database is never really "complete" 😉.
 
+#### Database Resources
+
+We've compiled a comprehensive list of food allergen databases and resources in [`_data/allergen-database-resources.md`](_data/allergen-database-resources.md). This includes links to:
+- Global Nutrition Report
+- Healthline Common Food Allergies
+- Food Safety Australia allergen information
+- FARRP InformAll Database
+- AllergenOnline Database
+- Food Standards Australia & New Zealand Food Allergen Portal
+- COMPARE Database
+
+A web scraper is available to help collect data from these sources. See the [scripts directory](scripts/README.md) for more information on how to use it:
+
+```bash
+npm run scrape
+```
+
 ### Phase 2 - Translate
 
 Now we'll need to build the app capability to actual translate the database. Users should be able to submit their data in two ways:
