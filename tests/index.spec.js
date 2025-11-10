@@ -166,3 +166,20 @@ test("exports translation as a corporate card", async ({ page }) => {
 });
 
 */
+
+// Test to check if the "Languages" link is shown on the home page and is working
+test("has a Languages link that navigates to the languages page", async ({ page }) => {
+  // Navigate to the home page
+  await page.goto("/");
+  
+  // Check that the Languages link is visible in the navigation
+  const languagesLink = page.getByRole("link", { name: "Languages" });
+  await expect(languagesLink).toBeVisible();
+  
+  // Click the Languages link
+  await languagesLink.click();
+  
+  // Verify that we navigated to the languages page
+  await expect(page).toHaveURL(/\/languages/);
+  await expect(page).toHaveTitle(/Languages/);
+});
